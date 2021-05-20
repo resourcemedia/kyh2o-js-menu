@@ -277,6 +277,19 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       }
 
+      if (level >= 6) {
+      var parent5 = document.getElementById(parent4.id).parentElement;
+      var parent5subString = parent4.id.substring(9);
+      var index = buttonArray.findIndex(x => x.name === parent4subString);
+      buttonArray[index].value = "open";
+      buttonArray[index].display = "block";
+      var parent4Block = document.getElementById(parent5.id);
+      parent4Block.style.display = "block";
+      //document.getElementById(buttonArray[index].name).value = "open";
+      parent4Block.setAttribute('data-buttonValue', 'open');
+
+      }
+
 
       console.log("parent1 " + parent1.id);
       console.log("parent2 " + parent2.id);
