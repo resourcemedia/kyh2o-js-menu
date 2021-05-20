@@ -278,7 +278,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       }
 
 
-      //console.log("parent1 " + parent1.id);
+      console.log("parent1 " + parent1.id);
       console.log("parent2 " + parent2.id);
       console.log("parent3 " + parent3.id);
       console.log("parent4 " + parent4.id);
