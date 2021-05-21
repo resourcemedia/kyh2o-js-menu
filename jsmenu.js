@@ -215,16 +215,22 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     if (level >= 2) {
       // This gets the parent element Id
       var parent1 = document.getElementById(divButtonElement.id).parentElement;
-      console.log("parent1x " + parent1.id);
 
+      // This removes "dropdown-" to get the button id
       var parent1subString = parent1.id.substring(9);
+      // This searches the buttonArray to get the index
       var index = buttonArray.findIndex(x => x.name === parent1subString);
+      // This updates the record in the buttonArray
       buttonArray[index].value = "open";
       buttonArray[index].display = "block";
+
+      // This gets the divButton to
       var parent1Block = document.getElementById(parent1.id);
       parent1Block.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
+
+      console.log("parent1Blockx " + parent1Block.id);
 
       var getDataValue = parent1Block.getAttribute('data-buttonValue');
       console.log("parent1BlockId " + parent1Block.id);
