@@ -334,10 +334,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
 
-      var divBarElementChild = document.getElementById(parentDropdown5subString);
-      divBarElementChild.setAttribute('data-buttonValue', 'open');
-      console.log("divBarElementChildIdXX " + divBarElementChild.id);
-      console.log("ATTRIBUTE " + divBarElementChild.getAttribute('data-buttonValue'));
 
       }
 
