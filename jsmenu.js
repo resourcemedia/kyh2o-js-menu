@@ -196,9 +196,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This lets you know it found one
     console.log("Yes, Found One");
 
-
-
-
     // This gets the div element acting as a button
     var divButtonElement = document.getElementById("div-" + buttonArray[i].name);
     var level = buttonArray[i].level;
@@ -216,7 +213,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
     if (level >= 2) {
+      // This gets the parent element Id
       var parent1 = document.getElementById(divButtonElement.id).parentElement;
+      console.log("parent1x " + parent1.id);
+
       var parent1subString = parent1.id.substring(9);
       var index = buttonArray.findIndex(x => x.name === parent1subString);
       buttonArray[index].value = "open";
