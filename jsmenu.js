@@ -200,15 +200,15 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This gets the button element
     var divButtonElement = document.getElementById(buttonArray[i].name);
     // This gets the dropdown element
-    var divDropdownElement = document.getElementById("div-" + buttonArray[i].name);
-    // This gets the Level array property 
+    var divBarElement = document.getElementById("div-" + buttonArray[i].name);
+    // This gets the Level array property
     var level = buttonArray[i].level;
 
 
     // This makes the menu item bold and underlined - - - - - - - -
 
       // This gets the child elements Array
-        var aElementChildArray = document.getElementById(divButtonElement.id).children;
+        var aElementChildArray = document.getElementById(divBarElement.id).children;
 
         // This gets the second child elements in the array and applies css styles
         aElementChildArray[1].style.fontWeight = "bold";
