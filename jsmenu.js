@@ -287,7 +287,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
   } else {
     console.log("None Found");
-    var urlElement = document.getElementById("div-" + buttonArray[i].name);
+    var urlElement = document.getElementById(buttonArray[i].name);
     console.log("urlElementId " + urlElement.id);
     var dataAttribute = urlElement.getAttribute('data-buttonValue');
     console.log("dataAttribute " + dataAttribute);
