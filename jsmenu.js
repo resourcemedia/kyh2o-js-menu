@@ -217,6 +217,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     if (level = 1) {
       // This updates the data-ButtonValue of the child
     divButtonElement.setAttribute('data-buttonValue', 'close');
+    }
 
 
 
