@@ -129,6 +129,8 @@ function openClose() {
     //localStorage.setItem("buttonArray", buttonArray);
     var dropdown = document.getElementById("dropdown-" + this.id);
     dropdown.style.display= "none";
+
+    console.log("dropdown " + dropdown.id);
   }
   localStorage.setItem("state", "changed");
   localStorage.setItem("buttonArray", JSON.stringify(buttonArray));
