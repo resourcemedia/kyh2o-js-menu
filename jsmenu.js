@@ -343,7 +343,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       var divBarElement6 = document.getElementById(parentDropdown5subString);
       divBarElement6 .setAttribute('data-buttonValue', 'open');
-      console.log("divBarElement6X " + divBarElement6);
+      console.log("divBarElement6X " + divBarElement6.id);
       console.log("ATTRIBUTE6X " + divBarElement6 .getAttribute('data-buttonValue'));
 
 
