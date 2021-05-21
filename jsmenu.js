@@ -316,7 +316,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       buttonArray[index].value = "open";
       buttonArray[index].display = "block";
       var parentDropdown5Div = document.getElementById(parentDropdown5.id);
-      parentDropdown5Divstyle.display = "block";
+      parentDropdown5Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
 
