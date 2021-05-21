@@ -342,9 +342,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       parentDropdown5Div.style.display = "block";
 
       var divBarElement6 = document.getElementById("indoor");
-      //divBarElement6 .setAttribute('data-buttonValue', 'open');
+      divBarElement6 .setAttribute('data-buttonValue', 'open');
       console.log("divBarElement6X " + divBarElement6.id);
-      //console.log("ATTRIBUTE6X " + divBarElement6 .getAttribute('data-buttonValue'));
+      console.log("ATTRIBUTE6X " + divBarElement6 .getAttribute('data-buttonValue'));
 
 
       }
