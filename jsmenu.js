@@ -130,7 +130,7 @@ function openClose() {
     var dropdown = document.getElementById("dropdown-" + this.id);
     dropdown.style.display= "none";
 
-    console.log("dropdown " + dropdown.id);
+
   }
   localStorage.setItem("state", "changed");
   localStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -287,6 +287,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
   } else {
     console.log("None Found");
+    var urlElement = document.getElementById("div-" + buttonArray[i].name);
+    console.log("urlElementId" + urlElement.id);
+
   }
   localStorage.setItem("state", "changed");
   localStorage.setItem("buttonArray", JSON.stringify(buttonArray));
