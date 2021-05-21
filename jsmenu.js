@@ -221,7 +221,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown1 = document.getElementById(divBarElement.id).parentElement;
 
       // This removes "dropdown-" to get the button id
-      var parentDropdown1subString = parent1.id.substring(9);
+      var parentDropdown1subString = parentDropdown1.id.substring(9);
       // This searches the buttonArray to get the index
       var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
       // This updates the record in the buttonArray
@@ -229,9 +229,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       buttonArray[index].display = "block";
 
       // This gets the divButton to
-      var parent1Block = document.getElementById(parent1.id);
-      parent1Block.style.display = "block";
-      console.log("parent1Blockx " + parent1Block.id);
+      var parentDropdown1Div = document.getElementById(parentDropdown1.id);
+      parentDropdown1Div.style.display = "block";
+      console.log("parentDropdown1x " + parentDropdown1Div.id);
 
 
       //document.getElementById(buttonArray[index].name).value = "open";
@@ -239,9 +239,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
 
-      var getDataValue = parent1Block.getAttribute('data-buttonValue');
-      console.log("parent1BlockId " + parent1Block.id);
-      console.log("getDataValue " + getDataValue);
       } // End if
 
       if (level >= 3) {
@@ -296,14 +293,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       }
 
-/*
-      console.log("parent1 " + parent1.id);
-      console.log("parent2 " + parent2.id);
-      console.log("parent3 " + parent3.id);
-      console.log("parent4 " + parent4.id);
-      console.log("parent1subString " + parent1subString);
-      console.log("index " + index);
-  */
+
 
   } else {
     console.log("None Found");
