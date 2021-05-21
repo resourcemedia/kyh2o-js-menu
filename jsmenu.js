@@ -196,22 +196,23 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This lets you know it found one
     console.log("Yes, Found One");
 
-    // This makes the menu item bold and underlined - - - - - - - -
-
-      // This gets the child elements Array
-        var aElementChildArray = document.getElementById(urlElement.id).children;
-
-        // This gets the second child elements in the array and applies css styles
-        aElementChildArray[1].style.fontWeight = "bold";
-        aElementChildArray[1].style.textDecoration = "underline";
 
 
 
     // This gets the div element acting as a button
     var divButtonElement = document.getElementById("div-" + buttonArray[i].name);
-
-
     var level = buttonArray[i].level;
+
+
+    // This makes the menu item bold and underlined - - - - - - - -
+
+      // This gets the child elements Array
+        var aElementChildArray = document.getElementById(divButtonElement.id).children;
+
+        // This gets the second child elements in the array and applies css styles
+        aElementChildArray[1].style.fontWeight = "bold";
+        aElementChildArray[1].style.textDecoration = "underline";
+
 
 
     if (level >= 2) {
