@@ -262,7 +262,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       parent4Block.setAttribute('data-buttonValue', 'open');
 
       }
-/*
+
       if (level >= 6) {
       var parent5 = document.getElementById(parent4.id).parentElement;
       var parent5subString = parent4.id.substring(9);
@@ -275,15 +275,15 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       parent4Block.setAttribute('data-buttonValue', 'open');
 
       }
-      */
 
+/*
       console.log("parent1 " + parent1.id);
       console.log("parent2 " + parent2.id);
       console.log("parent3 " + parent3.id);
       console.log("parent4 " + parent4.id);
       console.log("parent1subString " + parent1subString);
       console.log("index " + index);
-
+  */
 
   } else {
     console.log("None Found");
