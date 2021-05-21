@@ -204,7 +204,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     var level = buttonArray[i].level;
     console.log("Level " + level);
-    console.log("urlElementX " + urlElement);
+    console.log("urlElementX " + urlElement.id);
 
     if (level >= 2) {
       var parent1 = document.getElementById(urlElement.id).parentElement;
