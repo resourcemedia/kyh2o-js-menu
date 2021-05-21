@@ -79,31 +79,15 @@ for (var i = 0; i < buttonArrayLength ; i++) {
   var buttonElement = document.getElementById(buttonArray[i].name);
   //buttonElement.value = buttonArray[i].Value;
 
-
   var buttonElementId = buttonArray[i].name;
 
   var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
 
-  console.log("divDropdownElement.id " + divDropdownElement.id)
-
-
   divDropdownElement.style.display = buttonArray[i].display;
-
 
   document.getElementById(buttonElementId).addEventListener("click", openClose);
 
-  //console.log([i]);
-  //console.log("buttonArray[i].name " + buttonArray[i].name);
-  //console.log("buttonArray[i].value " + buttonArray[i].value);
-  //console.log("divDropdownElement" + divDropdownElement);
-  //console.log("buttonElement " + buttonElement.id)
 }
-
-
-
-//document.getElementById("getInformed").addEventListener("click", openClose);
-
-
 
 
 // END MODULE 2 x x x x x x x x x x x x x x x x x x
