@@ -220,7 +220,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       // This updates the data-ButtonValue of the child
       var divBarElementChild = document.getElementById(divBarElement.id);
-      console.log("divBarElementChild " + divBarElementChild);
+      console.log("divBarElementChildXX " + divBarElementChild.id);
 
       //divBarElementChild.setAttribute('data-buttonValue', 'open');
 
