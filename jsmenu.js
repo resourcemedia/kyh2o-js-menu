@@ -222,7 +222,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var divBarElementChild = document.getElementById(divBarElement.id);
 
       divBarElementChild.setAttribute('data-buttonValue', 'open');
-      console.log("ATTRIBUTE " + getAttribute('data-buttonValue');
+      console.log("ATTRIBUTE " + divBarElementChild.getAttribute('data-buttonValue'));
 
 
       //divBarElementChild.setAttribute('data-buttonValue', 'open');
