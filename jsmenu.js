@@ -220,7 +220,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       // This updates the data-ButtonValue of the child
       var divBarElementChild = document.getElementById(divBarElement.id);
-      divBarElementChild.setAttribute('data-buttonValue', 'open');
+      console.log("divBarElementChild " + divBarElementChild);
+
+      //divBarElementChild.setAttribute('data-buttonValue', 'open');
 
       // This gets the parent element Id
       var parentDropdown1 = document.getElementById(divBarElement.id).parentElement;
@@ -246,9 +248,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       if (level >= 3) {
 
-      // This updates the data-ButtonValue of the child
-      var divBarElementChild = document.getElementById(parentDropdown1subString.id);
-      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
 
       // This gets the parent element Id
       var parentDropdown2 = document.getElementById(parentDropdown1.id).parentElement;
@@ -272,9 +272,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       if (level >= 4) {
 
-      // This updates the data-ButtonValue of the child
-      var divBarElementChild = document.getElementById(parentDropdown2subString.id);
-      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
 
       var parentDropdown3 = document.getElementById(parentDropdown2.id).parentElement;
       var parentDropdown3subString = parentDropdown3.id.substring(9);
@@ -289,9 +287,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       if (level >= 5) {
 
-      // This updates the data-ButtonValue of the child
-      var divBarElementChild = document.getElementById(parentDropdown3subString.id);
-      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
 
 
       var parentDropdown4 = document.getElementById(parentDropdown3.id).parentElement;
@@ -308,9 +304,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       if (level >= 6) {
 
-      // This updates the data-ButtonValue of the child
-      var divBarElementChild = document.getElementById(parentDropdown4subString.id);
-      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
 
       var parentDropdown5 = document.getElementById(parentDropdown4.id).parentElement;
       var parentDropdown5subString = parentDropdown4.id.substring(9);
