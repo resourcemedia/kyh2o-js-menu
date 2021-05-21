@@ -219,10 +219,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     if (level >= 2) {
 
       // This updates the data-ButtonValue of the child
-      var divBarElementChild = document.getElementById(divButtonElement);
-      //divBarElementChild.setAttribute('data-buttonValue', 'open');
-      console.log("divBarElementChildId L1 XX " + divBarElementChild);
-      //console.log("ATTRIBUTE " + divBarElementChild.getAttribute('data-buttonValue'));
+      divButtonElement.setAttribute('data-buttonValue', 'open');
+      console.log("ATTRIBUTE " + divButtonElement.getAttribute('data-buttonValue'));
 
 
       // This gets the parent element Id
