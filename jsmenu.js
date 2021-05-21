@@ -235,7 +235,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       var getDataValue = parent2Block.getAttribute('data-buttonValue');
       console.log("parent2BlockId " + parent2Block.id);
-      console.log("getDataValue " + getDataValue);
+      console.log("If getDataValue " + getDataValue);
       }
 
       if (level >= 4) {
@@ -272,7 +272,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parent4Block = document.getElementById(parent5.id);
       parent4Block.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      parent4Block.setAttribute('data-buttonValue', 'open');
+      parent4Block.setAttribute('Else data-buttonValue', 'open');
 
       }
 
