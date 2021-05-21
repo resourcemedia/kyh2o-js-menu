@@ -288,7 +288,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
   } else {
     console.log("None Found");
     var urlElement = document.getElementById("div-" + buttonArray[i].name);
-    console.log("urlElementId" + urlElement.id);
+    console.log("urlElementId " + urlElement.id);
+    urlElement.getAttribute('data-buttonValue');
 
   }
   localStorage.setItem("state", "changed");
