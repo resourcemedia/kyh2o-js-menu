@@ -218,12 +218,12 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     if (level >= 2) {
       // This gets the parent element Id
-      var parent1 = document.getElementById(divBarElement.id).parentElement;
+      var parentDropdown1 = document.getElementById(divBarElement.id).parentElement;
 
       // This removes "dropdown-" to get the button id
-      var parent1subString = parent1.id.substring(9);
+      var parentDropdown1subString = parent1.id.substring(9);
       // This searches the buttonArray to get the index
-      var index = buttonArray.findIndex(x => x.name === parent1subString);
+      var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
       // This updates the record in the buttonArray
       buttonArray[index].value = "open";
       buttonArray[index].display = "block";
@@ -245,41 +245,39 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       } // End if
 
       if (level >= 3) {
-      var parent2 = document.getElementById(parent1.id).parentElement;
-      var parent2subString = parent2.id.substring(9);
-      var index = buttonArray.findIndex(x => x.name === parent2subString);
+      var parentDropdown2 = document.getElementById(parentDropdown1.id).parentElement;
+      var parentDropdown2subString = parent2.id.substring(9);
+      var index = buttonArray.findIndex(x => x.name === parentDropdown2subString);
       buttonArray[index].value = "open";
       buttonArray[index].display = "block";
-      var parent2Block = document.getElementById(parent2.id);
-      parent2Block.style.display = "block";
+      var parentDropdown2Div = document.getElementById(parentDropdown2.id);
+      parentDropdown2Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
 
-      var getDataValue = parent2Block.getAttribute('data-buttonValue');
-      console.log("parent2BlockId " + parent2Block.id);
-      console.log("getDataValue " + getDataValue);
+
       }
 
       if (level >= 4) {
-      var parent3 = document.getElementById(parent2.id).parentElement;
-      var parent3subString = parent3.id.substring(9);
-      var index = buttonArray.findIndex(x => x.name === parent3subString);
+      var parentDropdown3 = document.getElementById(parentDropdown2.id).parentElement;
+      var parentDropdown3subString = parent3.id.substring(9);
+      var index = buttonArray.findIndex(x => x.name === parentDropdown3subString);
       buttonArray[index].value = "open";
       buttonArray[index].display = "block";
-      var parent3Block = document.getElementById(parent3.id);
-      parent3Block.style.display = "block";
+      var parentDropdown3Div = document.getElementById(parentDropdown3.id);
+      parentDropdown3Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
       }
 
       if (level >= 5) {
-      var parent4 = document.getElementById(parent3.id).parentElement;
-      var parent4subString = parent4.id.substring(9);
-      var index = buttonArray.findIndex(x => x.name === parent4subString);
+      var parentDropdown4 = document.getElementById(parentDropdown3.id).parentElement;
+      var parentDropdown4subString = parent4.id.substring(9);
+      var index = buttonArray.findIndex(x => x.name === parentDropdown4subString);
       buttonArray[index].value = "open";
       buttonArray[index].display = "block";
-      var parent4Block = document.getElementById(parent4.id);
-      parent4Block.style.display = "block";
+      var parentDropdown4Div = document.getElementById(parentDropdown4.id);
+      parentDropdown4Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
 
@@ -291,8 +289,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var index = buttonArray.findIndex(x => x.name === parent4subString);
       buttonArray[index].value = "open";
       buttonArray[index].display = "block";
-      var parent4Block = document.getElementById(parent5.id);
-      parent4Block.style.display = "block";
+      var parentDropdown5Div = document.getElementById(parentDropdown5.id);
+      parentDropdown5Divstyle.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
 
