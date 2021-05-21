@@ -245,9 +245,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
         // This updates the data-ButtonValue of the child
         var divBarElementChild = document.getElementById(parentDropdown1subString);
-        //divBarElementChild.setAttribute('data-buttonValue', 'open');
+        divBarElementChild.setAttribute('data-buttonValue', 'open');
         console.log("divBarElementChildIdXX " + divBarElementChild.id);
-        //console.log("ATTRIBUTE " + divBarElementChild.getAttribute('data-buttonValue'));
+        console.log("ATTRIBUTE " + divBarElementChild.getAttribute('data-buttonValue'));
 
 
 
