@@ -219,7 +219,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       divButtonElement.setAttribute('data-buttonValue', 'closed');
       var level1Dropdown = document.getElementById("dropdown-" + buttonArray[i].name);
       level1Dropdown.style.display = "none";
-      buttonArray[0].value = "close";
+      buttonArray[0].value = "closed";
       buttonArray[0].display = "none";
 
 
