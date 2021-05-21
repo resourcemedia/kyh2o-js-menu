@@ -217,36 +217,51 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
     if (level >= 2) {
+
+      // This updates the data-ButtonValue of the child
+      var divBarElementChild = document.getElementById(divBarElement.id);
+      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
       // This gets the parent element Id
       var parentDropdown1 = document.getElementById(divBarElement.id).parentElement;
 
       // This removes "dropdown-" to get the button id
       var parentDropdown1subString = parentDropdown1.id.substring(9);
+
       // This searches the buttonArray to get the index
       var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
+
       // This updates the record in the buttonArray
       buttonArray[index].value = "open";
       buttonArray[index].display = "block";
 
-      // This gets the divButton to
+      // This opens the parent dropdown div
       var parentDropdown1Div = document.getElementById(parentDropdown1.id);
       parentDropdown1Div.style.display = "block";
-      console.log("parentDropdown1x " + parentDropdown1Div.id);
 
-
-      //document.getElementById(buttonArray[index].name).value = "open";
-      buttonElement.setAttribute('data-buttonValue', 'open');
 
 
 
       } // End if
 
       if (level >= 3) {
+
+      // This updates the data-ButtonValue of the child
+      var divBarElementChild = document.getElementById(parentDropdown1subString.id);
+      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
+      // This gets the parent element Id
       var parentDropdown2 = document.getElementById(parentDropdown1.id).parentElement;
+
+      // This removes "dropdown-" to get the button id
       var parentDropdown2subString = parentDropdown2.id.substring(9);
       var index = buttonArray.findIndex(x => x.name === parentDropdown2subString);
+
+      // This searches the buttonArray to get the index
       buttonArray[index].value = "open";
       buttonArray[index].display = "block";
+
+      // This opens the parent dropdown div
       var parentDropdown2Div = document.getElementById(parentDropdown2.id);
       parentDropdown2Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
@@ -256,6 +271,11 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       }
 
       if (level >= 4) {
+
+      // This updates the data-ButtonValue of the child
+      var divBarElementChild = document.getElementById(parentDropdown2subString.id);
+      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
       var parentDropdown3 = document.getElementById(parentDropdown2.id).parentElement;
       var parentDropdown3subString = parentDropdown3.id.substring(9);
       var index = buttonArray.findIndex(x => x.name === parentDropdown3subString);
@@ -268,6 +288,12 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       }
 
       if (level >= 5) {
+
+      // This updates the data-ButtonValue of the child
+      var divBarElementChild = document.getElementById(parentDropdown3subString.id);
+      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
+
       var parentDropdown4 = document.getElementById(parentDropdown3.id).parentElement;
       var parentDropdown4subString = parentDropdown4.id.substring(9);
       var index = buttonArray.findIndex(x => x.name === parentDropdown4subString);
@@ -281,6 +307,11 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       }
 
       if (level >= 6) {
+
+      // This updates the data-ButtonValue of the child
+      var divBarElementChild = document.getElementById(parentDropdown4subString.id);
+      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
       var parentDropdown5 = document.getElementById(parentDropdown4.id).parentElement;
       var parentDropdown5subString = parentDropdown4.id.substring(9);
       var index = buttonArray.findIndex(x => x.name === parentDropdown5subString);
