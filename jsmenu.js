@@ -190,25 +190,32 @@ function expandMenu () {
 
 // This for loop searches the buttonArray for a stored URL that matches the URL of the loaded page
 for (var i = 0; i < buttonArrayLength1; i++) {
+  // The condition looks for a buttonArray page URL match
   if (buttonArray[i].url === pageURL) {
+
+    // This lets you know it found one
     console.log("Yes, Found One");
-    var urlElement = document.getElementById("div-" + buttonArray[i].name);
+
+    // This makes the menu item bold and underlined - - - - - - - -
+
+      // This gets the child elements Array
+        var aElementChildArray = document.getElementById(urlElement.id).children;
+
+        // This gets the second child elements in the array and applies css styles
+        aElementChildArray[1].style.fontWeight = "bold";
+        aElementChildArray[1].style.textDecoration = "underline";
 
 
-    // This makes the menu item bold and underlined
-    var urlElementChild = document.getElementById(urlElement.id).children;
-    var buttonElement = document.getElementById(buttonArray[i].name);
-    console.log("buttonElementIdz " + buttonElement.id);
 
-    urlElementChild[1].style.fontWeight = "bold";
-    urlElementChild[1].style.textDecoration = "underline";
+    // This gets the div element acting as a button
+    var divButtonElement = document.getElementById("div-" + buttonArray[i].name);
 
 
     var level = buttonArray[i].level;
 
 
     if (level >= 2) {
-      var parent1 = document.getElementById(urlElement.id).parentElement;
+      var parent1 = document.getElementById(divButtonElement.id).parentElement;
       var parent1subString = parent1.id.substring(9);
       var index = buttonArray.findIndex(x => x.name === parent1subString);
       buttonArray[index].value = "open";
@@ -216,7 +223,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parent1Block = document.getElementById(parent1.id);
       parent1Block.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      parent1Block.setAttribute('data-buttonValue', 'open');
+      buttonElement.setAttribute('data-buttonValue', 'open');
 
       var getDataValue = parent1Block.getAttribute('data-buttonValue');
       console.log("parent1BlockId " + parent1Block.id);
@@ -232,7 +239,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parent2Block = document.getElementById(parent2.id);
       parent2Block.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      parent2Block.setAttribute('data-buttonValue', 'open');
+      buttonElement.setAttribute('data-buttonValue', 'open');
 
       var getDataValue = parent2Block.getAttribute('data-buttonValue');
       console.log("parent2BlockId " + parent2Block.id);
@@ -248,7 +255,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parent3Block = document.getElementById(parent3.id);
       parent3Block.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      parent3Block.setAttribute('data-buttonValue', 'open');
+      buttonElement.setAttribute('data-buttonValue', 'open');
       }
 
       if (level >= 5) {
@@ -260,7 +267,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parent4Block = document.getElementById(parent4.id);
       parent4Block.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      parent4Block.setAttribute('data-buttonValue', 'open');
+      buttonElement.setAttribute('data-buttonValue', 'open');
 
       }
 
@@ -273,7 +280,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parent4Block = document.getElementById(parent5.id);
       parent4Block.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      parent4Block.setAttribute('data-buttonValue', 'open');
+      buttonElement.setAttribute('data-buttonValue', 'open');
 
       }
 
