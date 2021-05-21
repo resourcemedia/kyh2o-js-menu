@@ -198,7 +198,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This makes the menu item bold and underlined
     var urlElementChild = document.getElementById(urlElement.id).children;
     var buttonElement = buttonArray[i];
-    console.log("buttonElementz " + buttonElement);
+    console.log("buttonElementIdz " + buttonElement.id);
 
     urlElementChild[1].style.fontWeight = "bold";
     urlElementChild[1].style.textDecoration = "underline";
