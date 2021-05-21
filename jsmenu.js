@@ -216,6 +216,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     if (level = 1) {
       // This updates the data-ButtonValue of the child
+      console.log("divButtonElement.idXX " +  divButtonElement.id)
       divButtonElement.setAttribute('data-buttonValue', 'close');
       var level1Dropdown = document.getElementById("dropdown-" + buttonArray[i].name);
       level1Dropdown.style.display = "none";
