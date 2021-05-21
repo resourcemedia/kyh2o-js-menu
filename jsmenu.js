@@ -196,8 +196,12 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This lets you know it found one
     console.log("Yes, Found One");
 
-    // This gets the div element acting as a button
-    var divButtonElement = document.getElementById("div-" + buttonArray[i].name);
+
+    // This gets the button element
+    var divButtonElement = document.getElementById(buttonArray[i].name);
+    // This gets the dropdown element
+    var divDropdownElement = document.getElementById("div-" + buttonArray[i].name);
+    // This gets the Level array property 
     var level = buttonArray[i].level;
 
 
@@ -214,7 +218,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     if (level >= 2) {
       // This gets the parent element Id
-      var parent1 = document.getElementById(divButtonElement.id).parentElement;
+      var parent1 = document.getElementById(divDropdownElement.id).parentElement;
 
       // This removes "dropdown-" to get the button id
       var parent1subString = parent1.id.substring(9);
@@ -227,10 +231,13 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This gets the divButton to
       var parent1Block = document.getElementById(parent1.id);
       parent1Block.style.display = "block";
+      console.log("parent1Blockx " + parent1Block.id);
+
+
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
 
-      console.log("parent1Blockx " + parent1Block.id);
+
 
       var getDataValue = parent1Block.getAttribute('data-buttonValue');
       console.log("parent1BlockId " + parent1Block.id);
