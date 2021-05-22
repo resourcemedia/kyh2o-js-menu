@@ -220,7 +220,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown1 = document.getElementById(urlElement.id).parentElement;
 
       // This removes "dropdown-" to get the button id
-      var parentDropdown1subString = parent1.id.substring(9);
+      var parentDropdown1subString = parentDropdown1.id.substring(9);
 
       // This searches the buttonArray to get the index
       var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
