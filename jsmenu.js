@@ -216,7 +216,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     if (level >= 2) {
 
-      var urlElement =
 
       // This gets the Parent Bar element
       var parentBarElement = document.getElementById(divBarElement.id).parentElement;
