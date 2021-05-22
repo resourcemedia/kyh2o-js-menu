@@ -214,9 +214,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         aElementChildArray[1].style.textDecoration = "underline";
 
 
-
-
-
     if (level >= 2) {
 
       // This updates the data-ButtonValue of the child
@@ -241,9 +238,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown1Div = document.getElementById(parentDropdown1.id);
       parentDropdown1Div.style.display = "block";
 
-      // This opens the top Indoor L1 level which apples to all situations
-      var divBarElement6 = document.getElementById("indoor");
-      divBarElement6.setAttribute('data-buttonValue', 'open');
 
       } // End if
 
@@ -273,9 +267,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
 
-      // This opens the top Indoor L1 level which apples to all situations
-      var divBarElement6 = document.getElementById("indoor");
-      divBarElement6.setAttribute('data-buttonValue', 'open');
 
       }
 
@@ -296,9 +287,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
 
-      // This opens the top Indoor L1 level which apples to all situations
-      var divBarElement6 = document.getElementById("indoor");
-      divBarElement6 .setAttribute('data-buttonValue', 'open');
       }
 
       if (level >= 5) {
@@ -318,9 +306,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
 
-      // This opens the top Indoor L1 level which apples to all situations
-      var divBarElement6 = document.getElementById("indoor");
-      divBarElement6.setAttribute('data-buttonValue', 'open');
 
       }
 
@@ -348,9 +333,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown5Div = document.getElementById(parentDropdown5.id);
       parentDropdown5Div.style.display = "block";
 
-      // This opens the top Indoor L1 level which apples to all situations
-      var divBarElement6 = document.getElementById("indoor");
-      divBarElement6.setAttribute('data-buttonValue', 'open');
 
       }
       /*
