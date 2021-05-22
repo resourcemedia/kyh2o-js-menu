@@ -222,7 +222,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       console.log("parentBarElement " + parentBarElement.id);
       console.log("parentDropdown1 " + parentDropdown1.id);
-
+/*
       // This removes "dropdown-" to get the button id
       var parentDropdown1subString = parentDropdown1.id.substring(9);
 
@@ -245,7 +245,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
 
-
+*/
 
 
 
