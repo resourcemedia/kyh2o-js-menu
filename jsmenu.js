@@ -250,7 +250,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       // This opens the top Indoor L1 level which apples to all situations
       var divBarElement6 = document.getElementById("indoor");
-      divBarElement6 .setAttribute('data-buttonValue', 'open');
+      divBarElement6.setAttribute('data-buttonValue', 'open');
 
       } // End if
 
@@ -279,7 +279,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       // This opens the top Indoor L1 level which apples to all situations
       var divBarElement6 = document.getElementById("indoor");
-      divBarElement6 .setAttribute('data-buttonValue', 'open');
+      divBarElement6.setAttribute('data-buttonValue', 'open');
 
       }
 
@@ -322,7 +322,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       // This opens the top Indoor L1 level which apples to all situations
       var divBarElement6 = document.getElementById("indoor");
-      divBarElement6 .setAttribute('data-buttonValue', 'open');
+      divBarElement6.setAttribute('data-buttonValue', 'open');
 
       }
 
@@ -351,7 +351,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       // This opens the top Indoor L1 level which apples to all situations
       var divBarElement6 = document.getElementById("indoor");
-      divBarElement6 .setAttribute('data-buttonValue', 'open');
+      divBarElement6.setAttribute('data-buttonValue', 'open');
 
       }
 
