@@ -216,11 +216,13 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     if (level >= 2) {
 
+      var urlElement =
+
       // This gets the Parent Bar element
-      var parentBarElement = document.getElementById(urlElement.id).parentElement;
+      var parentBarElement = document.getElementById(divBarElement.id).parentElement;
       var parentDropdown1 = document.getElementById(parentBarElement.id).parentElement;
 
-      console.log("urlElement.id " + urlElement.id); //div-pMicrobiological
+      console.log("divBarElement.id " + divBarElement.id); //div-pMicrobiological
       console.log("parentBarElement " + parentBarElement.id); //div-pMicrobiological
       console.log("parentDropdown1 " + parentDropdown1.id); //primary contaminants
 
