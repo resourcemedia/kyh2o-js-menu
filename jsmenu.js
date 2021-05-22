@@ -220,6 +220,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     if (level >= 2) {
 
       var buttonElementL2 = document.getElementById(divButtonElement.id);
+      console.log("buttonElementL2 " + buttonElementL2);
 
 
       // This updates the data-ButtonValue of the child
