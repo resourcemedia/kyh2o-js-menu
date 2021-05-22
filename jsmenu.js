@@ -219,6 +219,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the data-ButtonValue of the child
       var divButtonElementL2 = document.getElementById(divButtonElement.id);
       divButtonElementL2.setAttribute('data-buttonValue', 'open');
+      console.log("data-buttonValue X " + divButtonElementL2.getAttribute('data-buttonValue'));
 
 
       // This gets the parent element Id
