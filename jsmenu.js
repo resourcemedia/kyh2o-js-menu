@@ -219,6 +219,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This gets the parent element Id
       var parentDropdown1 = document.getElementById(urlElement.id).parentElement;
 
+      console.log("parentDropdown1 " + parentDropdown1);
+
       // This removes "dropdown-" to get the button id
       var parentDropdown1subString = parentDropdown1.id.substring(9);
 
