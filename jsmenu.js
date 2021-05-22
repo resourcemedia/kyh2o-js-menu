@@ -213,7 +213,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         aElementChildArray[1].style.fontWeight = "bold";
         aElementChildArray[1].style.textDecoration = "underline";
 
-/*
+
     if (level = 1) {
       // This updates the data-ButtonValue of the child
       console.log("divButtonElement.idL1 " +  divButtonElement.id);
@@ -223,7 +223,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       buttonArray[0].value = "open";
       buttonArray[0].display = "display";
       }
-*/
+
 
 
     if (level >= 2) {
