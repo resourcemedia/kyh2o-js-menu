@@ -217,9 +217,12 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     if (level >= 1) {
 
       // This updates the data-ButtonValue of the child
-      divButtonElement.setAttribute('data-buttonValue', 'open');
-      var testXX = document.getElementById("dropdown-" + divButtonElement.id);
-      console.log("testXX " + testXX);
+      var L1Button = document.getElementById(divButtonElement.id);
+      console.log("L1Button  " + L1Button );
+
+      L1Button.setAttribute('data-buttonValue', 'open');
+      var L1Dropdown = document.getElementById("dropdown-" + divButtonElement.id);
+      console.log("L1Dropdown " + L1Dropdown);
       //testXX.style.display = "block";
       divButtonElement.value = "open";
       divButtonElement.display = "block";
