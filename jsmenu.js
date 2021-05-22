@@ -219,6 +219,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     if (level >= 2) {
 
+      var divBarElementChild = document.getElementById(divBarElement.id);
+      divBarElementChild.setAttribute('data-buttonValue', 'open');
+
 
       // This updates the data-ButtonValue of the child
       divButtonElement.setAttribute('data-buttonValue', 'open');
@@ -248,7 +251,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       if (level >= 3) {
 
-      console.log("divButtonElement.idL3 " +  divButtonElement.id);
 
       // This updates the data-ButtonValue of the child
       var divBarElementChild = document.getElementById(parentDropdown1subString);
@@ -279,7 +281,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       if (level >= 4) {
 
-      console.log("divButtonElement.idL4 " +  divButtonElement.id);
 
       // This updates the data-ButtonValue of the child
       var divBarElementChild = document.getElementById(parentDropdown2subString);
@@ -302,7 +303,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       if (level >= 5) {
 
-      console.log("divButtonElement.idL5 " +  divButtonElement.id);
 
       // This updates the data-ButtonValue of the child
       var divBarElementChild = document.getElementById(parentDropdown3subString);
@@ -326,7 +326,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       if (level >= 6) {
 
-      console.log("divButtonElement.idL5 " +  divButtonElement.id);
 
       // This updates the data-ButtonValue of the child
       var divBarElementChild = document.getElementById(parentDropdown4subString);
@@ -355,7 +354,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       }
 
-      if (buttonArray[i].name = "indoor") {
+      if (buttonArray[i].name = "indoor) {
 
         // This updates the data-ButtonValue of the child
         var L1Button = document.getElementById(divButtonElement.id);
