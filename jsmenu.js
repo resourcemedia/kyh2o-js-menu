@@ -224,8 +224,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var L1Dropdown = document.getElementById("dropdown-" + divButtonElement.id);
       console.log("L1Dropdown " + L1Dropdown.id);
       L1Dropdown.style.display = "block";
-      divButtonElement.value = "open";
-      divButtonElement.display = "block";
+      buttonArray[i].name.value = "open";
+      buttonArray[i].name.display = "block";
 
 
       }
