@@ -223,7 +223,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       L1Button.setAttribute('data-buttonValue', 'open');
       var L1Dropdown = document.getElementById("dropdown-" + divButtonElement.id);
       console.log("L1Dropdown " + L1Dropdown.id);
-      //testXX.style.display = "block";
+      L1Dropdown.style.display = "block";
       divButtonElement.value = "open";
       divButtonElement.display = "block";
 
