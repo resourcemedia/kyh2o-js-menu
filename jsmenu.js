@@ -340,7 +340,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
       }
-
+      /*
 
       if (level = 1) {
 
@@ -355,6 +355,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         buttonArray[i].name.value = "open";
         buttonArray[i].name.display = "block";
         }
+        */
 
 
 
