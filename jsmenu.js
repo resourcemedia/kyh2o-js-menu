@@ -216,7 +216,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
 
-
+/*
     if (level >= 2) {
 
       var buttonElementL2 = document.getElementById(divButtonElement.id);
@@ -248,6 +248,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       divBarElement6.setAttribute('data-buttonValue', 'open');
 
       } // End if
+
+      */
 
       if (level >= 3) {
 
