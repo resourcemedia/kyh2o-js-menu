@@ -219,7 +219,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the data-ButtonValue of the child
       divButtonElement.setAttribute('data-buttonValue', 'open');
       var testXX = document.getElementById("dropdown-" + divButtonElement.id);
-      testXX.style.display = "block";
+      console.log("testXX " + testXX);
+      //testXX.style.display = "block";
       divButtonElement.value = "open";
       divButtonElement.display = "block";
 
