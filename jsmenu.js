@@ -214,21 +214,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         aElementChildArray[1].style.textDecoration = "underline";
 
 
-    if (level = 1) {
-
-      // This updates the data-ButtonValue of the child
-      var L1Button = document.getElementById(divButtonElement.id);
-      console.log("L1Button  " + L1Button.id );
-
-      L1Button.setAttribute('data-buttonValue', 'open');
-      var L1Dropdown = document.getElementById("dropdown-" + divButtonElement.id);
-      console.log("L1Dropdown " + L1Dropdown.id);
-      L1Dropdown.style.display = "block";
-      buttonArray[i].name.value = "open";
-      buttonArray[i].name.display = "block";
-
-
-      }
 
 
 
@@ -369,6 +354,21 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       divBarElement6.setAttribute('data-buttonValue', 'open');
 
       }
+
+      if (buttonArray[i].name = "indoor") {
+
+        // This updates the data-ButtonValue of the child
+        var L1Button = document.getElementById(divButtonElement.id);
+        console.log("L1Button  " + L1Button.id );
+
+        L1Button.setAttribute('data-buttonValue', 'open');
+        var L1Dropdown = document.getElementById("dropdown-" + divButtonElement.id);
+        console.log("L1Dropdown " + L1Dropdown.id);
+        L1Dropdown.style.display = "block";
+        buttonArray[i].name.value = "open";
+        buttonArray[i].name.display = "block";
+        }
+
 
 
   } else {
