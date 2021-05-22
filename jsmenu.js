@@ -354,7 +354,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       }
 
-      if (buttonArray[i].name = "indoor) {
+      if (buttonArray[i].name = "indoor") {
 
         // This updates the data-ButtonValue of the child
         var L1Button = document.getElementById(divButtonElement.id);
