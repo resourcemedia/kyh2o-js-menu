@@ -27,8 +27,12 @@ var buttonArray = [
           {level:6, name: "giardia-cryptosporidium", value:"closed", display:"none", url: urlx + "indoor-6/giardia-cryptosporidium"},
           {level:6, name: "viruses",                 value:"closed", display:"none", url: urlx + "indoor-6/viruses"},
           {level:6, name: "waterborne-pathogens",    value:"closed", display:"none", url: urlx + "indoor-6/waterborne-pathogens"}
+
+        {level:5,   name: "pInorganics",             value:"closed", display:"none", url: urlx + "indoor-5/inorganics"},
+          {level:6, name: "antimony",                value:"closed", display:"none", url: urlx + "indoor-6/antimony"},
+          {level:6, name: "arsenic",                value:"closed", display:"none", url: urlx + "indoor-6/arsenic"},
+
         /*
-        {level:4,   name: "pInorganics",             value:"closed", display:"none", url: urlx + "/aluminum.htmlx"},
         {level:4,   name: "vocs",                    value:"closed", display:"none", url: urlx + "/aluminum.html"},
         {level:4,   name: "socs",                    value:"closed", display:"none"},
         {level:4,   name: "disinfectionByProducts",  value:"closed", display:"none"},
