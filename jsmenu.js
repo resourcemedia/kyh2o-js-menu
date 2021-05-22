@@ -220,7 +220,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentBarElement = document.getElementById(urlElement.id).parentElement;
       var parentDropdown1 = document.getElementById(parentBarElement.id).parentElement;
 
-      console.log("urlElement.id " + urlElement.id); 
+      console.log("urlElement.id " + urlElement.id); //div-pMicrobiological
       console.log("parentBarElement " + parentBarElement.id); //div-pMicrobiological
       console.log("parentDropdown1 " + parentDropdown1.id); //primary contaminants
 
@@ -245,8 +245,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       buttonElement.setAttribute('data-buttonValue', 'open');
 
 
-
-*/
 
 
 
