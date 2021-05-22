@@ -220,7 +220,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown1 = document.getElementById(urlElement.id).parentElement;
 
       console.log("parentDropdown1 " + parentDropdown1);
-
+      /*
       // This removes "dropdown-" to get the button id
       var parentDropdown1subString = parentDropdown1.id.substring(9);
 
@@ -237,6 +237,12 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
 
       parent1Block.setAttribute('data-buttonValue', 'open');
+*/
+
+
+
+
+
 
 
       /*
