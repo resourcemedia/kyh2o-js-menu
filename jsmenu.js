@@ -220,9 +220,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentBarElement = document.getElementById(urlElement.id).parentElement;
       var parentDropdown1 = document.getElementById(parentBarElement.id).parentElement;
 
-      console.log("parentBarElement " + parentBarElement.id);
-      console.log("parentDropdown1 " + parentDropdown1.id);
-/*
+      console.log("urlElement.id " + urlElement.id); 
+      console.log("parentBarElement " + parentBarElement.id); //div-pMicrobiological
+      console.log("parentDropdown1 " + parentDropdown1.id); //primary contaminants
+
       // This removes "dropdown-" to get the button id
       var parentDropdown1subString = parentDropdown1.id.substring(9);
 
