@@ -216,9 +216,11 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     if (level >= 2) {
 
-      // This gets the parent element Id
-      var parentDropdown1 = document.getElementById(urlElement.id).parentElement;
+      // This gets the Parent Bar element
+      var parentBarElement = document.getElementById(urlElement.id).parentElement;
+      var parentDropdown1 = document.getElementById(parentBarElement.id).parentElement;
 
+      console.log("parentBarElement " + parentBarElement.id);
       console.log("parentDropdown1 " + parentDropdown1.id);
 
       // This removes "dropdown-" to get the button id
