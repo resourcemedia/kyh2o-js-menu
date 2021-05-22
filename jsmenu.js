@@ -214,7 +214,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         aElementChildArray[1].style.textDecoration = "underline";
 
 
-    if (level >= 1) {
+    if (level = 1) {
 
       // This updates the data-ButtonValue of the child
       var L1Button = document.getElementById(divButtonElement.id);
