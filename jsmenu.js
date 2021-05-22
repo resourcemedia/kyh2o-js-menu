@@ -353,6 +353,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       divBarElement6.setAttribute('data-buttonValue', 'open');
 
       }
+      /*
 
       if (buttonArray[i].name = "indoor") {
 
@@ -367,6 +368,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         buttonArray[i].name.value = "open";
         buttonArray[i].name.display = "block";
         }
+        */
 
 
 
