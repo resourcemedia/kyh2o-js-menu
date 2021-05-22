@@ -232,7 +232,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       buttonArray[index].display = "block";
 
       // This opens the parent dropdown div
-      var parentDropdown1Div = document.getElementById(parent1.id);
+      var parentDropdown1Div = document.getElementById(parentDropdown1.id);
       parentDropdown1Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
 
