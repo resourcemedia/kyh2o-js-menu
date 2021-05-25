@@ -220,7 +220,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     console.log("divBarElement.id x " + divBarElement.id);
 
-    divBarElement.classname = "test";
+    divBarElement.className = "test";
     divBarElement.style.fontWeight = "bold";
     divBarElement.style.textDecoration = "underline";
     divBarElement.style.display = "none";
