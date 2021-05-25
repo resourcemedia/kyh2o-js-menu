@@ -118,32 +118,35 @@ function openClose() {
 
 
     var thisSubString = this.id.substring(4);
-    console.log("thisSubString " + thisSubString);
+
 
     var index = buttonArray.findIndex(x => x.name === thisSubString);
     buttonArray[index].value = "openIF";
     buttonArray[index].display = "block";
 
-    console.log("if index " + index);
 
     //localStorage.setItem("buttonArray", buttonArray);
     var dropdown = document.getElementById("dropdown-" + thisSubString);
+
+    console.log("dropdown " + dropdown);
     dropdown.style.display= "block";
 
   } else {
     this.setAttribute('data-buttonValue', 'closed');
 
     var thisSubString = this.id.substring(4);
-    console.log("thisSubString " + thisSubString);
+
 
     // This finds the index of the name property of the array object using the id
     var index = buttonArray.findIndex(x => x.name === thisSubString);
     buttonArray[index].value = "closedELSE";
     buttonArray[index].display = "none";
-    console.log("else index " + index);
+
 
     //localStorage.setItem("buttonArray", buttonArray);
     var dropdown = document.getElementById("dropdown-" + thisSubString);
+
+    console.log("dropdown " + dropdown);
     dropdown.style.display= "none";
 
 
