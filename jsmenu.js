@@ -127,7 +127,7 @@ function openClose() {
     console.log("if index " + index);
 
     //localStorage.setItem("buttonArray", buttonArray);
-    var dropdown = document.getElementById("dropdown-" + this.id);
+    var dropdown = document.getElementById("dropdown-" + thisSubString);
     dropdown.style.display= "block";
 
   } else {
@@ -143,7 +143,7 @@ function openClose() {
     console.log("else index " + index);
 
     //localStorage.setItem("buttonArray", buttonArray);
-    var dropdown = document.getElementById("dropdown-" + this.id);
+    var dropdown = document.getElementById("dropdown-" + thisSubString);
     dropdown.style.display= "none";
 
 
