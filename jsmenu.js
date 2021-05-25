@@ -138,7 +138,6 @@ function openClose() {
   localStorage.setItem("state", "changed");
   localStorage.setItem("buttonArray", JSON.stringify(buttonArray));
 
-
 }
 
 // END MODULE 3 x x x x x x x x x x x x x x x x x x
@@ -244,6 +243,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
       buttonElement.setAttribute('data-buttonValue', 'open');
+
+      console.log("if L1 data-buttonVallue: " + buttonElement.getAttribute('data-buttonValue'));
 
 
       } // End if
@@ -359,6 +360,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         buttonArray[i].name.display = "block";
         }
         */
+
 
 
 
