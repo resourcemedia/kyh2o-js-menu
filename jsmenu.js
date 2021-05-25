@@ -216,6 +216,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This gets the Level array property
     var level = buttonArray[i].level;
 
+    console.log("divBarElement x " + divBarElement);
 
     divBarElement.style.fontWeight = "bold";
     divBarElement.style.textDecoration = "underline";
