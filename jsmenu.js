@@ -242,10 +242,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
 
       //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
-      buttonElement.setAttribute('data-buttonValue', 'open');
+      buttonElement.setAttribute('data-buttonValue', 'openL2');
 
       // TEST
-      console.log("if L2 data-buttonVallue: " + buttonElement.getAttribute('data-buttonValue'));
+      console.log("if L2 data-buttonValue: " + buttonElement.getAttribute('data-buttonValue'));
 
 
       } // End if
@@ -275,10 +275,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       parentDropdown2Div.style.display = "block";
 
       //document.getElementById(buttonArray[index].name).value = "open";
-      buttonElement.setAttribute('data-buttonValue', 'open');
+      buttonElement.setAttribute('data-buttonValue', 'openL3');
 
       // TEST
-      console.log("if L3 data-buttonVallue: " + buttonElement.getAttribute('data-buttonValue'));
+      console.log("if L3 data-buttonValue: " + buttonElement.getAttribute('data-buttonValue'));
 
 
       }
@@ -298,7 +298,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown3Div = document.getElementById(parentDropdown3.id);
       parentDropdown3Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      buttonElement.setAttribute('data-buttonValue', 'open');
+      buttonElement.setAttribute('data-buttonValue', 'openL4');
 
       }
 
@@ -317,7 +317,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown4Div = document.getElementById(parentDropdown4.id);
       parentDropdown4Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      buttonElement.setAttribute('data-buttonValue', 'open');
+      buttonElement.setAttribute('data-buttonValue', 'openL5');
 
 
       }
@@ -345,6 +345,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This opens the parent dropdown div
       var parentDropdown5Div = document.getElementById(parentDropdown5.id);
       parentDropdown5Div.style.display = "block";
+
+      buttonElement.setAttribute('data-buttonValue', 'openL6');
 
 
       }
