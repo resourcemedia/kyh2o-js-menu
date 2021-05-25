@@ -214,7 +214,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         // This gets the second child elements in the array and applies css styles
         aElementChildArray[1].style.fontWeight = "bold";
         aElementChildArray[1].style.textDecoration = "underline";
-
+        divButtonElement.setAttribute('data-buttonValue', 'openClicked');
 
     if (level >= 2) {
 
