@@ -209,11 +209,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This lets you know it found one
     console.log("Yes, Found One");
 
-
     // This gets the button element
     var divButtonElement = document.getElementById(buttonArray[i].name);
     // This gets the dropdown element
-    var divBarElement = document.getElementById("div-" + buttonArray[i].name);
+    var divBarElement = document.getElementById("bar-" + buttonArray[i].name);
     // This gets the Level array property
     var level = buttonArray[i].level;
 
