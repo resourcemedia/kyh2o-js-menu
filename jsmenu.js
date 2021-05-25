@@ -217,9 +217,13 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     var level = buttonArray[i].level;
 
 
+    divBarElement.style.fontWeight = "bold";
+    divBarElement.style.textDecoration = "underline";
+
+
     // This makes the menu item bold and underlined - - - - - - - -
 
-      // This gets the child elements Array
+      /* This gets the child elements Array
         var aElementChildArray = document.getElementById(divBarElement.id).children;
 
         // This gets the second child elements in the array and applies css styles
@@ -227,6 +231,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         aElementChildArray[1].style.textDecoration = "underline";
         // This sets the clicked divButtonElement to open
         divButtonElement.setAttribute('data-buttonValue', 'open');
+        */
 
     if (level >= 2) {
 
