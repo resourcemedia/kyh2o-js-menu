@@ -91,7 +91,7 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 
   divDropdownElement.style.display = buttonArray[i].display;
   console.log("buttonBarElement.id " + buttonBarElement.id);
-  document.getElementById(buttonBarElement.id).addEventListener("click", openClose);
+  //document.getElementById(buttonBarElement.id).addEventListener("click", openClose);
 
 }
 
