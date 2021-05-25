@@ -242,7 +242,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
 
       //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
-      parentDropdown1Div.setAttribute('data-buttonValue', 'openL2');
+      parentDropdown1Div.setAttribute('data-buttonValue', 'open');
 
       // TEST
       console.log("if L2 data-buttonValue: " + parentDropdown1Div.getAttribute('data-buttonValue'));
@@ -275,7 +275,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       parentDropdown2Div.style.display = "block";
 
       //document.getElementById(buttonArray[index].name).value = "open";
-      parentDropdown2Div.setAttribute('data-buttonValue', 'openL3');
+      parentDropdown2Div.setAttribute('data-buttonValue', 'open');
 
       // TEST
       console.log("if L3 data-buttonValue: " + buttonElement.getAttribute('data-buttonValue'));
@@ -298,7 +298,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown3Div = document.getElementById(parentDropdown3.id);
       parentDropdown3Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      parentDropdown3Div.setAttribute('data-buttonValue', 'openL4');
+      parentDropdown3Div.setAttribute('data-buttonValue', 'open');
 
       }
 
@@ -317,7 +317,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown4Div = document.getElementById(parentDropdown4.id);
       parentDropdown4Div.style.display = "block";
       //document.getElementById(buttonArray[index].name).value = "open";
-      parentDropdown4Div.setAttribute('data-buttonValue', 'openL5');
+      parentDropdown4Div.setAttribute('data-buttonValue', 'open');
 
 
       }
@@ -346,7 +346,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown5Div = document.getElementById(parentDropdown5.id);
       parentDropdown5Div.style.display = "block";
 
-      parentDropdown5Div.setAttribute('data-buttonValue', 'openL5');
+      parentDropdown5Div.setAttribute('data-buttonValue', 'open');
 
 
       }
