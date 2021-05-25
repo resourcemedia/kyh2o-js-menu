@@ -84,15 +84,14 @@ for (var i = 0; i < buttonArrayLength ; i++) {
   var buttonElement = document.getElementById(buttonArray[i].name);
 
 
-  var buttonBar = document.getElementById("div-" + buttonArray[i].name);
+  var buttonBarElement = document.getElementById("div-" + buttonArray[i].name);
 
-  console.log("buttonBar " + buttonBar.id);
 
   var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
 
   divDropdownElement.style.display = buttonArray[i].display;
 
-  document.getElementById(buttonElementId).addEventListener("click", openClose);
+  document.getElementById(buttonBarElement).addEventListener("click", openClose);
 
 }
 
