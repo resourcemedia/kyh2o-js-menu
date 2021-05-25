@@ -108,7 +108,7 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 function openClose() {
 
   var buttonValue = this.getAttribute('data-buttonValue');
-  console.log("this " + this);
+
 
 
   if (buttonValue === "closed") {
@@ -118,6 +118,7 @@ function openClose() {
 
 
     var thisSubString = this.id.substring(4);
+    console.log("thisSubString " + thisSubString);
 
     var index = buttonArray.findIndex(x => x.name === thisSubString);
     buttonArray[index].value = "open";
