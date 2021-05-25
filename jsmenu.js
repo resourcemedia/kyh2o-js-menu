@@ -216,16 +216,11 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This gets the Level array property
     var level = buttonArray[i].level;
 
-    console.log("divBarElement x " + divBarElement);
+    var test = document.getElementById(divBarElement.id);
 
-    console.log("divBarElement.id x " + divBarElement.id);
+    test.style.fontWeight = "bold";
+    test.style.textDecoration = "underline";
 
-    divBarElement.className = "test";
-    divBarElement.style.fontWeight = "bold";
-    divBarElement.style.textDecoration = "underline";
-    divBarElement.style.display = "none";
-    divBarElement.style.height = "300px";
-    divBarElement.style.color = "red";
 
     console.log("divBarElement.style.fontWeight " + divBarElement.style.fontWeight);
     console.log("divBarElement.style.height " + divBarElement.style.height);
