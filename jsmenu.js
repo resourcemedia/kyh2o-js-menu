@@ -74,15 +74,19 @@ var buttonArray = [
 
 
 var buttonArrayLength = buttonArray.length   ;
-console.log("Array Length " + buttonArrayLength);
+
 
 for (var i = 0; i < buttonArrayLength ; i++) {
   // Get array object property name
 
-  var buttonElement = document.getElementById(buttonArray[i].name);
-  //buttonElement.value = buttonArray[i].Value;
-
   var buttonElementId = buttonArray[i].name;
+
+  var buttonElement = document.getElementById(buttonArray[i].name);
+
+
+  var buttonBar = document.getElementById("div-" + buttonArray[i].name);
+
+  console.log("buttonBar " + buttonBar);
 
   var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
 
@@ -180,7 +184,7 @@ BLOCK */
 // The expands the menu when loading a page to the menu item of that page so the visitor can see where they are at in the site heirarchy. Important for useres entering the site externally vs by navigating the menu.
 
 
-
+/*
 function expandMenu () {
   var buttonArrayLength1 = buttonArray.length;
   console.log("buttonArrayLength1 " + buttonArrayLength1);
@@ -351,7 +355,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
       }
-      /*
+
 
       if (level = 1) {
 
@@ -366,7 +370,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         buttonArray[i].name.value = "open";
         buttonArray[i].name.display = "block";
         }
-        */
+
 
 
 
@@ -388,6 +392,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 expandMenu ();
 
-
+*/
 
 // END MODULE 5 x x x x x x x x x x x x x x x x x x
