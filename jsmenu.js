@@ -242,10 +242,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
 
       //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
-      buttonElement.setAttribute('data-buttonValue', 'openL2');
+      parentDropdown1Div.setAttribute('data-buttonValue', 'openL2');
 
       // TEST
-      console.log("if L2 data-buttonValue: " + buttonElement.getAttribute('data-buttonValue'));
+      console.log("if L2 data-buttonValue: " + parentDropdown1Div.getAttribute('data-buttonValue'));
 
 
       } // End if
