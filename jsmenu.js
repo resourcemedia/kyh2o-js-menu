@@ -244,7 +244,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
       buttonElement.setAttribute('data-buttonValue', 'open');
 
-      console.log("if L1 data-buttonVallue: " + buttonElement.getAttribute('data-buttonValue'));
+      // TEST
+      console.log("if L2 data-buttonVallue: " + buttonElement.getAttribute('data-buttonValue'));
 
 
       } // End if
@@ -275,6 +276,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       //document.getElementById(buttonArray[index].name).value = "open";
       buttonElement.setAttribute('data-buttonValue', 'open');
+
+      // TEST
+      console.log("if L3 data-buttonVallue: " + buttonElement.getAttribute('data-buttonValue'));
 
 
       }
