@@ -221,7 +221,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     //divBarElement.style.fontWeight = "bold";
     //divBarElement.style.textDecoration = "underline";
-    //divBarElement.style.color = "red";
+    divBarElement.style.color = "red";
 
 
 
