@@ -218,9 +218,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     var test = document.getElementById(divBarElement.id);
 
-    test.style.fontWeight = "bold";
-    test.style.textDecoration = "underline";
-    test.style.color = "red";
+    test.link.style.fontWeight = "bold";
+    test.link.style.textDecoration = "underline";
+    test.link.style.color = "red";
 
 
 
