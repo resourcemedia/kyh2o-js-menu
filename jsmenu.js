@@ -220,6 +220,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     test.style.fontWeight = "bold";
     test.style.textDecoration = "underline";
+    test.style.color = "red";
+
 
 
     console.log("divBarElement.style.fontWeight " + divBarElement.style.fontWeight);
