@@ -90,7 +90,7 @@ for (var i = 0; i < buttonArrayLength ; i++) {
   var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
 
   divDropdownElement.style.display = buttonArray[i].display;
-  console.log("buttonBarElement.id " + buttonBarElement);
+  console.log("buttonBarElement.id " + buttonBarElement.id);
   //document.getElementById(buttonBarElement.id).addEventListener("click", openClose);
 
 }
