@@ -121,7 +121,7 @@ function openClose() {
     console.log("thisSubString " + thisSubString);
 
     var index = buttonArray.findIndex(x => x.name === thisSubString);
-    buttonArray[index].value = "open";
+    buttonArray[index].value = "openIF";
     buttonArray[index].display = "block";
 
     console.log("if index " + index);
@@ -138,7 +138,7 @@ function openClose() {
 
     // This finds the index of the name property of the array object using the id
     var index = buttonArray.findIndex(x => x.name === thisSubString);
-    buttonArray[index].value = "closed";
+    buttonArray[index].value = "closedELSE";
     buttonArray[index].display = "none";
     console.log("else index " + index);
 
