@@ -214,7 +214,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         // This gets the second child elements in the array and applies css styles
         aElementChildArray[1].style.fontWeight = "bold";
         aElementChildArray[1].style.textDecoration = "underline";
-        divButtonElement.setAttribute('data-buttonValue', 'openClicked');
+        // This sets the clicked divButtonElement to open
+        divButtonElement.setAttribute('data-buttonValue', 'open');
 
     if (level >= 2) {
 
@@ -242,7 +243,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
 
       //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
-      parentDropdown1Div.setAttribute('data-buttonValue', 'openL2');
+      parentDropdown1Div.setAttribute('data-buttonValue', 'open');
 
       // TEST
       console.log("if L2 data-buttonValue: " + parentDropdown1Div.getAttribute('data-buttonValue'));
