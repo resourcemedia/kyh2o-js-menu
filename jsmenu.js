@@ -218,7 +218,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     console.log("divBarElement x " + divBarElement.id);
 
-    divBarElement.style.fontWeight = "bold";
+    a.style.fontWeight = "bold";
     divBarElement.style.textDecoration = "underline";
     divBarElement.style.display = "none";
     divBarElement.style.height = "300px";
