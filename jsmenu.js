@@ -220,14 +220,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     console.log("divBarElement.id x " + divBarElement.id);
 
-    divBarElement.style.fontWeight = "bold";
-    divBarElement.style.textDecoration = "underline";
-    divBarElement.style.display = "none";
-    divBarElement.style.height = "300px";
-    divBarElement.style.color = "red";
+    
 
     console.log("divBarElement.style.fontWeight " + divBarElement.style.fontWeight);
-    console.log("divBarElement.style.fontWeight " + divBarElement.style.height);
+    console.log("divBarElement.style.height " + divBarElement.style.height);
 
 
     // This makes the menu item bold and underlined - - - - - - - -
