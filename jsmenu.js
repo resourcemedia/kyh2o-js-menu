@@ -346,7 +346,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown5Div = document.getElementById(parentDropdown5.id);
       parentDropdown5Div.style.display = "block";
 
-      buttonElement.setAttribute('data-buttonValue', 'openL6');
+      //buttonElement.setAttribute('data-buttonValue', 'openL6');
 
 
       }
