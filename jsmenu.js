@@ -217,11 +217,11 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     var level = buttonArray[i].level;
 
     //var test = document.getElementById(divBarElement.id);
-    //console.log("test " + test.id);
+    console.log("divBarElement " + divBarElement.id);
 
-    divBarElement.style.fontWeight = "bold";
-    divBarElement.style.textDecoration = "underline";
-    divBarElement.style.color = "red";
+    //divBarElement.style.fontWeight = "bold";
+    //divBarElement.style.textDecoration = "underline";
+    //divBarElement.style.color = "red";
 
 
 
