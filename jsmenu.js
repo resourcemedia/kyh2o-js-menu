@@ -192,7 +192,7 @@ BLOCK */
 // The expands the menu when loading a page to the menu item of that page so the visitor can see where they are at in the site heirarchy. Important for useres entering the site externally vs by navigating the menu.
 
 
-/*
+
 function expandMenu () {
   var buttonArrayLength1 = buttonArray.length;
   console.log("buttonArrayLength1 " + buttonArrayLength1);
@@ -400,6 +400,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 expandMenu ();
 
-*/
+
 
 // END MODULE 5 x x x x x x x x x x x x x x x x x x
