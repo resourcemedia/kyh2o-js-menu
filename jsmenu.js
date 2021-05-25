@@ -16,7 +16,7 @@ if (localStorage.getItem("state") === "changed") {
 
 } else {
 var buttonArray = [
-  {level:1,         name: "indoor",                  value:"opens", display:"display", url: urlx + "indoor/indoor"},
+  {level:1,         name: "indoor",                  value:"open", display:"display", url: urlx + "indoor/indoor"},
   {level:2,         name: "get-informed",            value:"closed", display:"none", url: urlx + "indoor-2/get-informed"},
     {level:3,       name: "contaminants",            value:"closed", display:"none", url: urlx + "indoor-3/contaminants"},
       {level:4,     name: "primary-contaminants",    value:"closed",display:"none", url: urlx + "indoor-4/primary-contaminants"},
