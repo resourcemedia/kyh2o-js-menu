@@ -133,8 +133,11 @@ function openClose() {
   } else {
     this.setAttribute('data-buttonValue', 'closed');
 
+    var thisSubString = this.id.substring(4);
+    console.log("thisSubString " + thisSubString);
+
     // This finds the index of the name property of the array object using the id
-    var index = buttonArray.findIndex(x => x.name === this.id);
+    var index = buttonArray.findIndex(x => x.name === thisSubString);
     buttonArray[index].value = "closed";
     buttonArray[index].display = "none";
     console.log("else index " + index);
