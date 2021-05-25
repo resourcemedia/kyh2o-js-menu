@@ -128,7 +128,7 @@ function openClose() {
     //localStorage.setItem("buttonArray", buttonArray);
     var dropdown = document.getElementById("dropdown-" + thisSubString);
 
-    console.log("dropdown " + dropdown);
+    console.log("dropdown " + dropdown.id);
     dropdown.style.display= "block";
 
   } else {
@@ -146,7 +146,7 @@ function openClose() {
     //localStorage.setItem("buttonArray", buttonArray);
     var dropdown = document.getElementById("dropdown-" + thisSubString);
 
-    console.log("dropdown " + dropdown);
+    console.log("dropdown " + dropdown.id);
     dropdown.style.display= "none";
 
 
