@@ -84,7 +84,7 @@ for (var i = 0; i < buttonArrayLength ; i++) {
   var buttonElement = document.getElementById(buttonArray[i].name);
 
 
-  var buttonBarElement = document.getElementById("div-" + buttonArray[i].name);
+  var buttonBarElement = document.getElementById("bar-" + buttonArray[i].name);
 
 
   var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
