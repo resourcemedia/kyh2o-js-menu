@@ -216,17 +216,18 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This gets the Level array property
     var level = buttonArray[i].level;
 
-    var test = document.getElementById(divBarElement.id);
+    //var test = document.getElementById(divBarElement.id);
+    //console.log("test " + test.id);
 
-    test.link.style.fontWeight = "bold";
-    test.link.style.textDecoration = "underline";
-    test.link.style.color = "red";
+    divBarElement.style.fontWeight = "bold";
+    divBarElement.style.textDecoration = "underline";
+    divBarElement.style.color = "red";
 
 
 
-    console.log("divBarElement.style.fontWeight " + divBarElement.style.fontWeight);
-    console.log("divBarElement.style.height " + divBarElement.style.height);
-    console.log("test " + test.id);
+    //console.log("divBarElement.style.fontWeight " + divBarElement.style.fontWeight);
+    //console.log("divBarElement.style.height " + divBarElement.style.height);
+    //console.log("test " + test.id);
 
 
     // This makes the menu item bold and underlined - - - - - - - -
