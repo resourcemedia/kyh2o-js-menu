@@ -118,7 +118,7 @@ function openClose() {
 
 
     var thisSubString = this.id.substring(4);
-
+    console.log("thisSubString" + thisSubString);
 
     var index = buttonArray.findIndex(x => x.name === thisSubString);
     buttonArray[index].value = "open";
@@ -127,8 +127,6 @@ function openClose() {
 
     //localStorage.setItem("buttonArray", buttonArray);
     var dropdown = document.getElementById("dropdown-" + thisSubString);
-
-    console.log("dropdown " + dropdown.id);
     dropdown.style.display= "block";
 
   } else {
@@ -145,8 +143,6 @@ function openClose() {
 
     //localStorage.setItem("buttonArray", buttonArray);
     var dropdown = document.getElementById("dropdown-" + thisSubString);
-
-    console.log("dropdown " + dropdown.id);
     dropdown.style.display= "none";
 
 
