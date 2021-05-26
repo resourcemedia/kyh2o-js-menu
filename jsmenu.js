@@ -1,4 +1,12 @@
 
+// This Removes the corresponding mobile or desk menu so there isn't duplicate code.
+
+
+
+
+
+
+
 // This creates a prefix so the URL in the buttonArray isn't long - can be swapped with different URL when moved
 var urlx = "https://know-your-h2o.webflow.io/";
 
