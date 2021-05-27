@@ -226,10 +226,7 @@ BLOCK */
 
 function expandMenu () {
   var buttonArrayLength1 = buttonArray.length;
-  console.log("buttonArrayLength1 " + buttonArrayLength1);
-
   var pageURL = window.location.href;
-  console.log("pageURL " + pageURL);
 
 
 // This for loop searches the buttonArray for a stored URL that matches the URL of the loaded page
@@ -240,8 +237,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This lets you know it found one
     console.log("Yes, Found One");
 
-
-
     // This gets the button element
     var divButtonElement = document.getElementById(buttonArray[i].name);
     // This gets the dropdown element
@@ -249,32 +244,12 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This gets the Level array property
     var level = buttonArray[i].level;
 
-    //var test = document.getElementById(divBarElement.id);
-    console.log("divBarElement " + divBarElement.id);
 
-    //divBarElement.style.fontWeight = "bold";
-    //divBarElement.style.textDecoration = "underline";
     divBarElement.style.backgroundColor = "red";
     divBarElement.setAttribute('data-buttonValue', 'open');
 
 
 
-    //console.log("divBarElement.style.fontWeight " + divBarElement.style.fontWeight);
-    //console.log("divBarElement.style.height " + divBarElement.style.height);
-    //console.log("test " + test.id);
-
-
-    // This makes the menu item bold and underlined - - - - - - - -
-
-      /* This gets the child elements Array
-        var aElementChildArray = document.getElementById(divBarElement.id).children;
-
-        // This gets the second child elements in the array and applies css styles
-        aElementChildArray[1].style.fontWeight = "bold";
-        aElementChildArray[1].style.textDecoration = "underline";
-        // This sets the clicked divButtonElement to open
-        divButtonElement.setAttribute('data-buttonValue', 'open');
-        */
 
     if (level >= 2) {
 
@@ -282,12 +257,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This gets the Parent Bar element
       var parentDropdown1 = document.getElementById(divBarElement.id).parentElement;
 
-      console.log("parentDropdown1 " + parentDropdown1.id); //primary contaminants
 
       // This removes "dropdown-" to get the button id
       var parentDropdown1subString = parentDropdown1.id.substring(9);
 
-      console.log("parentDropdown1subString " + parentDropdown1subString);
 
       // This searches the buttonArray to get the index
       var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
