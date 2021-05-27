@@ -457,12 +457,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
 
-
-
-
   } else {
     var urlElement = document.getElementById(buttonArray[i].name);
-    var dataAttribute = urlElement.getAttribute('data-buttonValue');
+    
 
   }
   localStorage.setItem("state", "changed");
