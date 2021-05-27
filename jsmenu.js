@@ -35,7 +35,7 @@ var screenWidth = window.innerWidth;
 if (screenWidth >= 768) {
   var mobileRemovedState = sessionStorage.getItem('mobile');
   if (mobileRemovedState === 'included') {
-    reload ();
+    //reload ();
     div_remove_mobile.remove();
     sessionStorage.setItem('mobile', 'removed');
     console.log('screenWidth ' + screenWidth);
@@ -49,7 +49,7 @@ if (screenWidth >= 768) {
 if (screenWidth < 768) {
   var mobileRemovedState = sessionStorage.getItem('desktop');
   if (mobileRemovedState === 'included') {
-    reload ();
+    //reload ();
     div_remove_desktop.remove();
     sessionStorage.setItem('desktop', 'removed');
     console.log('screenWidth ' + screenWidth);
