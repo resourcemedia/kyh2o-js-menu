@@ -281,9 +281,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
         // This changes the data-buttonVlue
         parentBar1Element.setAttribute('data-buttonValue', 'open');
 
+    // This updates the Button Icon
         var parentIcon1Id = parentDropdown1subString;
         var parentIcon1Element = document.getElementById(parentIcon1Id);
-        parentIcon1Element.innerHTML = "-";
+        parentIcon1Element.innerHTML = "–";
 
       } // End if
 
@@ -313,12 +314,17 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       // This gets the bar- Id of the element
       var parentBar2Id = "bar-" + parentDropdown2subString;
-
       // This gets the bar- element
       var parentBar2Element = document.getElementById(parentBar2Id);
-
       // This changes the data-buttonVlue
       parentBar2Element.setAttribute('data-buttonValue', 'open');
+
+      // This updates the Button Icon
+          var parentIcon2Id = parentDropdown2subString;
+          var parentIcon2Element = document.getElementById(parentIcon1Id);
+          parentIcon2Element.innerHTML = "–";
+
+
 
       }
 
@@ -343,12 +349,15 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       // This gets the bar- Id of the element
       var parentBar3Id = "bar-" + parentDropdown3subString;
-
       // This gets the bar- element
       var parentBar3Element = document.getElementById(parentBar3Id);
-
       // This changes the data-buttonVlue
       parentBar3Element.setAttribute('data-buttonValue', 'open');
+
+      // This updates the Button Icon
+          var parentIcon3Id = parentDropdown2subString;
+          var parentIcon3Element = document.getElementById(parentIcon1Id);
+          parentIcon3Element.innerHTML = "–";
 
       }
 
@@ -374,6 +383,11 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentBar4Element = document.getElementById(parentBar4Id);
       // This changes the data-buttonVlue
       parentBar4Element.setAttribute('data-buttonValue', 'open');
+
+      // This updates the Button Icon
+          var parentIcon4Id = parentDropdown4subString;
+          var parentIcon4Element = document.getElementById(parentIcon1Id);
+          parentIcon4Element.innerHTML = "–";
 
 
       }
@@ -404,12 +418,15 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       // This gets the bar- Id of the element
       var parentBar5Id = "bar-" + parentDropdown5subString;
-
       // This gets the bar- element
       var parentBar5Element = document.getElementById(parentBar5Id);
-
       // This changes the data-buttonVlue
       parentBar5Element.setAttribute('data-buttonValue', 'open');
+
+      // This updates the Button Icon
+          var parentIcon5Id = parentDropdown5subString;
+          var parentIcon5Element = document.getElementById(parentIcon1Id);
+          parentIcon5Element.innerHTML = "–";
 
 
       }
