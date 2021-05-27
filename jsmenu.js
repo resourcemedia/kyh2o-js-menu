@@ -20,8 +20,8 @@ function reload () {
 
 //
 
-//var divblock1 = document.getElementById('div_remove_mobile');
-//var divblock2 = document.getElementById('div_remove_desktop');
+var div_remove_mobile = document.getElementById('div_remove_mobile');
+var div_remove_desktop = document.getElementById('div_remove_desktop');
 
 sessionStorage.setItem('mobile', 'included');
 sessionStorage.setItem('desktop','included');
