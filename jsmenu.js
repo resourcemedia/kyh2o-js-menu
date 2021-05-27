@@ -19,8 +19,8 @@ function reload () {
 };
 
 
-var divblock1 = document.getElementById('div_remove_mobile');
-var divblock2 = document.getElementById('div_remove_desktop');
+
+
 
 
 
@@ -30,12 +30,14 @@ var screenWidth = window.innerWidth;
 reload ()
 
 if (screenWidth >= 768) {
+  var divblock1 = document.getElementById('div_remove_mobile');
   div_remove_mobile.remove();
   sessionStorage.setItem('Green', 'Green');
   console.log('screenWidth ' + screenWidth);
 }
 
 if (screenWidth < 768) {
+  var divblock2 = document.getElementById('div_remove_desktop');
   div_remove_desktop.remove();
   sessionStorage.setItem('Red', 'Red');
   console.log('screenWidth ' + screenWidth);
