@@ -59,7 +59,7 @@ var buttonArray = [
           {level:6, name: "viruses",                 value:"closed", display:"none", url: urlx + "indoor-6/viruses"},
           {level:6, name: "waterborne-pathogens",    value:"closed", display:"none", url: urlx + "indoor-6/waterborne-pathogens"},
         {level:5,   name: "pInorganics",             value:"closed", display:"none", url: urlx + "indoor-5/inorganics"},
-          {level:6, name: "antimony",                value:"closed", display:"none", url: urlx + "indoor-6/antimony"},
+          {level:6, name: "antimony",                value:"closed", display:"none", url: urlx + "indoor-6/antimony"}
 /*
 
         {level:4,   name: "vocs",                    value:"closed", display:"none", url: urlx + "/aluminum.html"},
