@@ -248,13 +248,14 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This gets the dropdown element
     var divBarElement = document.getElementById("bar-" + buttonArray[i].name);
     // This gets the Level array property
+    var divLinkElement = document.getElementById("link-" + buttonArray[i].name);
+    // This gets the Level array property
     var level = buttonArray[i].level;
 
 
     divBarElement.setAttribute('data-buttonValue', 'open');
-
     divButtonElement.innerHTML = "–";
-
+    divLinkElement.style.textDecoration = "underline";
 
 
 
