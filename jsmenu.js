@@ -256,7 +256,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
     divBarElement.setAttribute('data-buttonValue', 'open');
     divButtonElement.innerHTML = "–";
-    divLinkElement.style.backgroundColor = "red";
+    divLinkElement.style.textDecoration = "underline";
+    divLinkElement.style.fontWeight = "bold";
 
 
 
