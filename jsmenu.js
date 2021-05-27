@@ -303,11 +303,13 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
 
-      var parentBar1 = "bar-" + parentDropdown1subString;
+      var parentBar1Id = "bar-" + parentDropdown1subString;
+      var parentBar1Element = document.getElementById(parentBar1Id);
 
-      console.log("parentBar1 xx" + parentBar1);
-      parentBar1.setAttribute('data-buttonValue', 'open');
-      console.log("dataButtonValue xx" + getAttribute('data-buttonValue'));
+
+      parentBar1Element.setAttribute('data-buttonValue', 'open');
+
+
 
 
 
