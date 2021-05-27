@@ -302,7 +302,9 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //document.getElementById(buttonArray[index].name).value = "open";
 
       //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
-      parentDropdown1Div.setAttribute('data-buttonValue', 'open');
+
+      var parentBar1 = "bar-" + parentDropdown1subString;
+      parentBar1.setAttribute('data-buttonValue', 'open');
 
 
 
