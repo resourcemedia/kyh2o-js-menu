@@ -282,7 +282,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This gets the Parent Bar element
       var parentDropdown1 = document.getElementById(divBarElement.id).parentElement;
 
-      console.log("parentDropdown1 " + parentDropdown1.id); //primary contaminants
+      console.log("parentDropdown1 XX " + parentDropdown1.id); //primary contaminants
 
       // This removes "dropdown-" to get the button id
       var parentDropdown1subString = parentDropdown1.id.substring(9);
@@ -304,8 +304,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
       parentDropdown1Div.setAttribute('data-buttonValue', 'open');
 
-      // TEST
-      console.log("if L2 data-buttonValue: " + parentDropdown1Div.getAttribute('data-buttonValue'));
+
 
 
       } // End if
