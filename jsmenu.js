@@ -18,6 +18,7 @@ function reload () {
   }
 };
 
+//
 
 var divblock1 = document.getElementById('div_remove_mobile');
 var divblock2 = document.getElementById('div_remove_desktop');
