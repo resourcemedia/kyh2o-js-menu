@@ -59,7 +59,6 @@ var buttonArray = [
           {level:6, name: "viruses",                 value:"closed", display:"none", url: urlx + "indoor-6/viruses"},
           {level:6, name: "waterborne-pathogens",    value:"closed", display:"none", url: urlx + "indoor-6/waterborne-pathogens"},
         {level:5,   name: "pInorganics",             value:"closed", display:"none", url: urlx + "indoor-5/inorganics"},
-          {level:6, name: "pInorganics-introduction",value:"closed", display:"none", url: urlx + "indoor-6/antimony"},
           {level:6, name: "antimony",                value:"closed", display:"none", url: urlx + "indoor-6/antimony"},
           {level:6, name: "arsenic",                 value:"closed", display:"none", url: urlx + "indoor-6/arsenic"}
 /*
@@ -120,6 +119,8 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 
 
   var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
+
+  console.log("divDropdownElement " + divDropdownElement);
 
   divDropdownElement.style.display = buttonArray[i].display;
 
