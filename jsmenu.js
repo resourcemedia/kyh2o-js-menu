@@ -36,7 +36,7 @@ if (screenWidth >= 768) {
   var mobileRemovedState = sessionStorage.getItem('mobile');
   if (mobileRemovedState === 'included') {
     reload ();
-    div_remove_mobile.remove();
+    div_remove_mobilex.remove();
     sessionStorage.setItem('mobile', 'removed');
     console.log('screenWidth ' + screenWidth);
     console.log('MobileRemoved');
