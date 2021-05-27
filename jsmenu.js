@@ -251,7 +251,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
 
-    if (level >= 2) {
+    if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
 
 
       // This gets the Parent Bar element
@@ -273,21 +273,23 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown1Div = document.getElementById(parentDropdown1.id);
       parentDropdown1Div.style.display = "block";
 
-      // This gets the bar- Id of the element
-      var parentBar1Id = "bar-" + parentDropdown1subString;
+      // Update data-buttonValue
+        // This gets the bar- Id of the element
+        var parentBar1Id = "bar-" + parentDropdown1subString;
+        // This gets the bar- element
+        var parentBar1Element = document.getElementById(parentBar1Id);
+        // This changes the data-buttonVlue
+        parentBar1Element.setAttribute('data-buttonValue', 'open');
 
-      // This gets the bar- element
-      var parentBar1Element = document.getElementById(parentBar1Id);
-
-      // This changes the data-buttonVlue
-      parentBar1Element.setAttribute('data-buttonValue', 'open');
-
+        var parentIcon1Id = parentDropdown1subString;
+        var parentIcon1Element = document.getElementById(parentIcon1Id);
+        parentIcon1Element.innerHTML = "-";
 
       } // End if
 
 
 
-      if (level >= 3) {
+      if (level >= 3) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
 
 
       // This updates the data-ButtonValue of the child
@@ -320,7 +322,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       }
 
-      if (level >= 4) {
+      if (level >= 4) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
 
 
       // This updates the data-ButtonValue of the child
@@ -350,7 +352,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       }
 
-      if (level >= 5) {
+      if (level >= 5) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
 
 
       // This updates the data-ButtonValue of the child
@@ -365,20 +367,18 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown4Div = document.getElementById(parentDropdown4.id);
       parentDropdown4Div.style.display = "block";
 
-
+      // Update data-buttonValue
       // This gets the bar- Id of the element
       var parentBar4Id = "bar-" + parentDropdown4subString;
-
       // This gets the bar- element
       var parentBar4Element = document.getElementById(parentBar4Id);
-
       // This changes the data-buttonVlue
       parentBar4Element.setAttribute('data-buttonValue', 'open');
 
 
       }
 
-      if (level >= 6) {
+      if (level >= 6) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
 
 
       // This updates the data-ButtonValue of the child
