@@ -307,6 +307,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
       console.log("parentBar1 xx" + parentBar1);
       parentBar1.setAttribute('data-buttonValue', 'open');
+      console.log("dataButtonValue xx" + getAttribute('data-buttonValue'));
 
 
 
