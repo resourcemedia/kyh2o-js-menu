@@ -251,7 +251,6 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     var level = buttonArray[i].level;
 
 
-    divBarElement.style.backgroundColor = "red";
     divBarElement.setAttribute('data-buttonValue', 'open');
 
     divButtonElement.innerHTML = "–";
