@@ -287,6 +287,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This lets you know it found one
     console.log("Yes, Found One");
 
+
+
     // This gets the button element
     var divButtonElement = document.getElementById(buttonArray[i].name);
     // This gets the dropdown element
@@ -300,6 +302,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     //divBarElement.style.fontWeight = "bold";
     //divBarElement.style.textDecoration = "underline";
     divBarElement.style.backgroundColor = "red";
+    divBarElement.setAttribute('data-buttonValue', 'open');
 
 
 
