@@ -252,6 +252,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This gets the Level array property
     var level = buttonArray[i].level;
 
+    console.log("divLinkElement" + divLinkElement);
 
     divBarElement.setAttribute('data-buttonValue', 'open');
     divButtonElement.innerHTML = "–";
@@ -444,11 +445,10 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
         // This updates the data-ButtonValue of the child
         var L1Button = document.getElementById(divButtonElement.id);
-        console.log("L1Button  " + L1Button.id );
 
         L1Button.setAttribute('data-buttonValue', 'open');
         var L1Dropdown = document.getElementById("dropdown-" + divButtonElement.id);
-        console.log("L1Dropdown " + L1Dropdown.id);
+
         L1Dropdown.style.display = "block";
         buttonArray[i].name.value = "open";
         buttonArray[i].name.display = "block";
