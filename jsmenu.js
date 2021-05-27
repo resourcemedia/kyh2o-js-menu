@@ -163,9 +163,9 @@ function openClose() {
       if (buttonArray[index].drop === "yes") {
         var buttonIconElement = document.getElementById(thisSubString);
         buttonIconElement.innerHTML = "–";
-      else {
+      } else {
         var buttonIconElement = document.getElementById(thisSubString);
-        buttonIconElement.innerHTML = "";
+        buttonIconElement.innerHTML = "–";
       }
 
 
