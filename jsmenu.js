@@ -252,7 +252,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This gets the Level array property
     var level = buttonArray[i].level;
 
-    console.log("divLinkElement" + divLinkElement);
+    console.log("divLinkElement" + divLinkElement.id);
 
     divBarElement.setAttribute('data-buttonValue', 'open');
     divButtonElement.innerHTML = "–";
