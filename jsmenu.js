@@ -1,74 +1,29 @@
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
-
 window.addEventListener('resize', breakpointDisplay);
 
-
-function reload () {
-  if( window.localStorage )
-  {
-    if( !localStorage.getItem('firstLoad') )
-    {
-      localStorage['firstLoad'] = true;
-      window.location.reload();
-    }
-    else
-      localStorage.removeItem('firstLoad');
-  }
-};
-
-//
-
-var div_remove_mobile = document.getElementById('div_remove_mobile');
-var div_remove_desktop = document.getElementById('div_remove_desktop');
-
-sessionStorage.setItem('mobile', 'included');
-sessionStorage.setItem('desktop','included');
-
+var $div_remove_mobile = $('#div_remove_mobile');
+var $div_remove_desktop = $('#div_remove_desktop');
 
 function breakpointDisplay() {
 
 var screenWidth = window.innerWidth;
 
 
-if (screenWidth >= 768) {
-  var mobileRemovedState = sessionStorage.getItem('mobile');
-  if (mobileRemovedState === 'included') {
-    reload ();
-    div_remove_mobile.remove();
-    sessionStorage.setItem('mobile', 'removed');
-    console.log('screenWidth ' + screenWidth);
-    console.log('MobileRemoved');
-    }
-  else if (mobileRemovedState === 'removed') {
-    console.log('Mobile Already Removed');
-  }
-} else if (screenWidth < 768) {
-  var mobileRemovedState = sessionStorage.getItem('desktop');
-  if (mobileRemovedState === 'included') {
-    //reload ();
-    div_remove_desktop.remove();
-    sessionStorage.setItem('desktop', 'removed');
-    console.log('screenWidth ' + screenWidth);
-    console.log('Desktop Removed');
-    }
-  else if (mobileRemovedState === 'removed') {
-    console.log('Desktop Already Removed');
-  }
+if (screenWidth >= 750) {
+  $('#div_remove_mobile').detach()
+  $("#div_nav_menu_desktop").append($div_remove_desktop)
+}
+
+if (screenWidth < 750) {
+  $('#div_remove_desktop').detach()
+  $("#Menu2").append($div_remove_mobile)
+
 }
 }
 
 breakpointDisplay();
-
-
-
-
-
-
-
-
-
 
 
 
