@@ -121,7 +121,7 @@ for (var i = 0; i < buttonArrayLength ; i++) {
   var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
 
   divDropdownElement.style.display = buttonArray[i].display;
-  console.log("buttonBarElement.id " + buttonBarElement.id);
+
   document.getElementById(buttonBarElement.id).addEventListener("click", openClose);
 
 }
@@ -149,7 +149,7 @@ function openClose() {
 
 
     var thisSubString = this.id.substring(4);
-    console.log("thisSubString" + thisSubString);
+
 
     var index = buttonArray.findIndex(x => x.name === thisSubString);
     buttonArray[index].value = "open";
@@ -435,11 +435,8 @@ for (var i = 0; i < buttonArrayLength1; i++) {
 
 
   } else {
-    console.log("None Found");
     var urlElement = document.getElementById(buttonArray[i].name);
-    console.log("urlElementId " + urlElement.id);
     var dataAttribute = urlElement.getAttribute('data-buttonValue');
-    console.log("Else dataAttribute " + dataAttribute);
 
   }
   localStorage.setItem("state", "changed");
