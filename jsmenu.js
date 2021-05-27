@@ -286,7 +286,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This updates the Button Icon
         var parentIcon1Id = parentDropdown1subString;
         var parentIcon1Element = document.getElementById(parentIcon1Id);
-        parentIcon1Element.innerHTML = "–";
+        parentIcon1Element.innerHTML = "Z";
 
       } // End if
 
