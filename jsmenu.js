@@ -299,19 +299,15 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This opens the parent dropdown div
       var parentDropdown1Div = document.getElementById(parentDropdown1.id);
       parentDropdown1Div.style.display = "block";
-      //document.getElementById(buttonArray[index].name).value = "open";
 
-      //parentDropdown1Div.setAttribute('data-buttonValue', 'open');
-
+      // This gets the bar- Id of the element
       var parentBar1Id = "bar-" + parentDropdown1subString;
+
+      // This gets the bar- element
       var parentBar1Element = document.getElementById(parentBar1Id);
 
-
+      // This changes the data-buttonVlue
       parentBar1Element.setAttribute('data-buttonValue', 'open');
-
-
-
-
 
 
       } // End if
@@ -340,12 +336,14 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown2Div = document.getElementById(parentDropdown2.id);
       parentDropdown2Div.style.display = "block";
 
-      //document.getElementById(buttonArray[index].name).value = "open";
-      parentDropdown2Div.setAttribute('data-buttonValue', 'openL3');
+      // This gets the bar- Id of the element
+      var parentBar2Id = "bar-" + parentDropdown2subString;
 
-      // TEST
-      console.log("if L3 data-buttonValue: " + buttonElement.getAttribute('data-buttonValue'));
+      // This gets the bar- element
+      var parentBar2Element = document.getElementById(parentBar2Id);
 
+      // This changes the data-buttonVlue
+      parentBar2Element.setAttribute('data-buttonValue', 'open');
 
       }
 
@@ -363,8 +361,19 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       buttonArray[index].display = "block";
       var parentDropdown3Div = document.getElementById(parentDropdown3.id);
       parentDropdown3Div.style.display = "block";
-      //document.getElementById(buttonArray[index].name).value = "open";
-      parentDropdown3Div.setAttribute('data-buttonValue', 'openL4');
+
+      // This opens the parent dropdown div
+      var parentDropdown3Div = document.getElementById(parentDropdown3.id);
+      parentDropdown2Div.style.display = "block";
+
+      // This gets the bar- Id of the element
+      var parentBar3Id = "bar-" + parentDropdown3subString;
+
+      // This gets the bar- element
+      var parentBar3Element = document.getElementById(parentBar3Id);
+
+      // This changes the data-buttonVlue
+      parentBar3Element.setAttribute('data-buttonValue', 'open');
 
       }
 
@@ -382,8 +391,16 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       buttonArray[index].display = "block";
       var parentDropdown4Div = document.getElementById(parentDropdown4.id);
       parentDropdown4Div.style.display = "block";
-      //document.getElementById(buttonArray[index].name).value = "open";
-      parentDropdown4Div.setAttribute('data-buttonValue', 'openL5');
+
+
+      // This gets the bar- Id of the element
+      var parentBar4Id = "bar-" + parentDropdown4subString;
+
+      // This gets the bar- element
+      var parentBar4Element = document.getElementById(parentBar4Id);
+
+      // This changes the data-buttonVlue
+      parentBar4Element.setAttribute('data-buttonValue', 'open');
 
 
       }
@@ -412,7 +429,14 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       var parentDropdown5Div = document.getElementById(parentDropdown5.id);
       parentDropdown5Div.style.display = "block";
 
-      parentDropdown5Div.setAttribute('data-buttonValue', 'openL3');
+      // This gets the bar- Id of the element
+      var parentBar5Id = "bar-" + parentDropdown5subString;
+
+      // This gets the bar- element
+      var parentBar5Element = document.getElementById(parentBar5Id);
+
+      // This changes the data-buttonVlue
+      parentBar5Element.setAttribute('data-buttonValue', 'open');
 
 
       }
