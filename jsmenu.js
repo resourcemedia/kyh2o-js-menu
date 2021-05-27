@@ -1,6 +1,6 @@
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
-
+/*
 
 window.addEventListener('resize', breakDisplay);
 
@@ -43,7 +43,7 @@ if (screenWidth < 1000) {
 }
 
 breakDisplay();
-
+*/
 
 
 
