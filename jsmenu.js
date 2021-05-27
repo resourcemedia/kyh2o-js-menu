@@ -2,6 +2,73 @@
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
 
+window.addEventListener('resize', breakDisplay);
+
+
+function reload () {
+  if( window.localStorage )
+  {
+    if( !localStorage.getItem('firstLoad') )
+    {
+      localStorage['firstLoad'] = true;
+      window.location.reload();
+    }
+    else
+      localStorage.removeItem('firstLoad');
+  }
+};
+
+
+var divblock1 = document.getElementById('div_remove_mobile');
+var divblock2 = document.getElementById('div_remove_desktop');
+
+
+
+function breakDisplay() {
+
+var screenWidth = window.innerWidth;
+reload ()
+
+if (screenWidth > 1000) {
+  div_remove_mobile.remove();
+  sessionStorage.setItem('Green', 'Green');
+  console.log('screenWidth ' + screenWidth);
+}
+
+if (screenWidth < 1000) {
+  div_remove_desktop.remove();
+  sessionStorage.setItem('Red', 'Red');
+  console.log('screenWidth ' + screenWidth);
+}
+}
+
+breakDisplay();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
