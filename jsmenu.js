@@ -140,25 +140,28 @@ function openClose() {
 
   var buttonValue = this.getAttribute('data-buttonValue');
 
-
-
   if (buttonValue === "closed") {
+
+    // This sets the data-buttonValue of the bar- element
     this.setAttribute('data-buttonValue', 'open');
 
-    // This finds the index of the name property of the array object using the id
-
-
+    // This removes "bar-" prefext to get root name
     var thisSubString = this.id.substring(4);
 
-
+    // This searchs the array for the name
     var index = buttonArray.findIndex(x => x.name === thisSubString);
+
+    // This updates the items properties
     buttonArray[index].value = "open";
     buttonArray[index].display = "block";
 
-
-    //localStorage.setItem("buttonArray", buttonArray);
+    // This opens the dropdown in the DOM
     var dropdown = document.getElementById("dropdown-" + thisSubString);
     dropdown.style.display= "block";
+
+    var buttonIconElement = document.getElementById(thisSubString);
+    buttonIconElement.innerHTML = "-";
+
 
   } else {
     this.setAttribute('data-buttonValue', 'closed');
@@ -175,6 +178,9 @@ function openClose() {
     //localStorage.setItem("buttonArray", buttonArray);
     var dropdown = document.getElementById("dropdown-" + thisSubString);
     dropdown.style.display= "none";
+
+    var buttonIconElement = document.getElementById(thisSubString);
+    buttonIconElement.innerHTML = "+";
 
 
   }
