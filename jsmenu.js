@@ -357,7 +357,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       parentBar3Element.setAttribute('data-buttonValue', 'open');
 
       // This updates the Button Icon
-          var parentIcon3Id = parentDropdown2subString;
+          var parentIcon3Id = parentDropdown3subString;
           var parentIcon3Element = document.getElementById(parentIcon1Id);
           parentIcon3Element.innerHTML = "3";
 
