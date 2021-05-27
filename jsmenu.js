@@ -286,7 +286,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This updates the Button Icon
         var parentIcon1Id = parentDropdown1subString;
         var parentIcon1Element = document.getElementById(parentIcon1Id);
-        parentIcon1Element.innerHTML = "2";
+        parentIcon1Element.innerHTML = "1";
 
       } // End if
 
@@ -324,7 +324,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the Button Icon
           var parentIcon2Id = parentDropdown2subString;
           var parentIcon2Element = document.getElementById(parentIcon1Id);
-          parentIcon2Element.innerHTML = "3";
+          parentIcon2Element.innerHTML = "2";
 
 
 
@@ -359,7 +359,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the Button Icon
           var parentIcon3Id = parentDropdown2subString;
           var parentIcon3Element = document.getElementById(parentIcon1Id);
-          parentIcon3Element.innerHTML = "4";
+          parentIcon3Element.innerHTML = "3";
 
       }
 
@@ -389,7 +389,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the Button Icon
           var parentIcon4Id = parentDropdown4subString;
           var parentIcon4Element = document.getElementById(parentIcon1Id);
-          parentIcon4Element.innerHTML = "5";
+          parentIcon4Element.innerHTML = "4";
 
 
       }
@@ -428,7 +428,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the Button Icon
           var parentIcon5Id = parentDropdown5subString;
           var parentIcon5Element = document.getElementById(parentIcon1Id);
-          parentIcon5Element.innerHTML = "6";
+          parentIcon5Element.innerHTML = "5";
 
 
       }
