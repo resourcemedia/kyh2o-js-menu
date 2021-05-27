@@ -160,7 +160,7 @@ function openClose() {
     dropdown.style.display= "block";
 
     var buttonIconElement = document.getElementById(thisSubString);
-    buttonIconElement.innerHTML = "-";
+    buttonIconElement.innerHTML = "–";
 
 
   } else {
@@ -254,7 +254,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     divBarElement.style.backgroundColor = "red";
     divBarElement.setAttribute('data-buttonValue', 'open');
 
-    divButtonElement.innerHTML = "-";
+    divButtonElement.innerHTML = "–";
 
 
 
@@ -292,7 +292,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     // This updates the Button Icon
         var parentIcon1Id = parentDropdown1subString;
         var parentIcon1Element = document.getElementById(parentIcon1Id);
-        parentIcon1Element.innerHTML = "-";
+        parentIcon1Element.innerHTML = "–";
 
       } // End if
 
@@ -330,7 +330,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the Button Icon
           var parentIcon2Id = parentDropdown2subString;
           var parentIcon2Element = document.getElementById(parentIcon2Id);
-          parentIcon2Element.innerHTML = "-";
+          parentIcon2Element.innerHTML = "–";
 
 
 
@@ -365,7 +365,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the Button Icon
           var parentIcon3Id = parentDropdown3subString;
           var parentIcon3Element = document.getElementById(parentIcon3Id);
-          parentIcon3Element.innerHTML = "-";
+          parentIcon3Element.innerHTML = "–";
 
       }
 
@@ -395,7 +395,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the Button Icon
           var parentIcon4Id = parentDropdown4subString;
           var parentIcon4Element = document.getElementById(parentIcon4Id);
-          parentIcon4Element.innerHTML = "-";
+          parentIcon4Element.innerHTML = "–";
 
 
       }
@@ -434,7 +434,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
       // This updates the Button Icon
           var parentIcon5Id = parentDropdown5subString;
           var parentIcon5Element = document.getElementById(parentIcon5Id);
-          parentIcon5Element.innerHTML = "-";
+          parentIcon5Element.innerHTML = "–";
 
 
       }
