@@ -248,7 +248,7 @@ for (var i = 0; i < buttonArrayLength1; i++) {
     divBarElement.style.backgroundColor = "red";
     divBarElement.setAttribute('data-buttonValue', 'open');
 
-    divButtonElement.innerHTML = "–";
+    divButtonElement.innerHTML = "X";
 
 
 
