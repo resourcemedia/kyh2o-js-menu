@@ -29,13 +29,13 @@ function breakDisplay() {
 var screenWidth = window.innerWidth;
 reload ()
 
-if (screenWidth > 1000) {
+if (screenWidth >= 768) {
   div_remove_mobile.remove();
   sessionStorage.setItem('Green', 'Green');
   console.log('screenWidth ' + screenWidth);
 }
 
-if (screenWidth < 1000) {
+if (screenWidth < 768) {
   div_remove_desktop.remove();
   sessionStorage.setItem('Red', 'Red');
   console.log('screenWidth ' + screenWidth);
