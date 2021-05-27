@@ -1,6 +1,6 @@
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
-
+/*
 
 window.addEventListener('resize', breakpointDisplay);
 
@@ -62,7 +62,7 @@ if (screenWidth < 768) {
 }
 
 breakpointDisplay();
-
+*/
 
 
 
