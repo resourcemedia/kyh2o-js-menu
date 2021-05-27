@@ -20,7 +20,7 @@ function reload () {
 
 //
 
-var divblock1 = document.getElementById('div_remove_mobile');
+var divblock1 = document.getElementById('div_remove_mobilex');
 var divblock2 = document.getElementById('div_remove_desktop');
 
 sessionStorage.setItem('mobile', 'included');
