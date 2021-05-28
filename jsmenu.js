@@ -267,8 +267,9 @@ function expandMenu () {
         var parentIcon1Id = parentDropdown1subString;
         var parentIcon1Element = document.getElementById(parentIcon1Id);
 
-
-        parentIcon1Element.innerHTML = "2";
+        if (buttonArray[i].drop) {
+          parentIcon1Element.innerHTML = "–";
+        }
 
 
       } // End if
@@ -305,7 +306,10 @@ function expandMenu () {
         // This updates the Button Icon
         var parentIcon2Id = parentDropdown2subString;
         var parentIcon2Element = document.getElementById(parentIcon2Id);
+
+        if (buttonArray[i].drop) {
         parentIcon2Element.innerHTML = "–";
+        }
 
       }
 
@@ -338,7 +342,10 @@ function expandMenu () {
         // This updates the Button Icon
         var parentIcon3Id = parentDropdown3subString;
         var parentIcon3Element = document.getElementById(parentIcon3Id);
+
+        if (buttonArray[i].drop) {
         parentIcon3Element.innerHTML = "–";
+        }
 
       }
 
@@ -368,7 +375,10 @@ function expandMenu () {
         // This updates the Button Icon
         var parentIcon4Id = parentDropdown4subString;
         var parentIcon4Element = document.getElementById(parentIcon4Id);
+
+        if (buttonArray[i].drop) {
         parentIcon4Element.innerHTML = "–";
+        }
 
 
       }
@@ -407,7 +417,10 @@ function expandMenu () {
         // This updates the Button Icon
         var parentIcon5Id = parentDropdown5subString;
         var parentIcon5Element = document.getElementById(parentIcon5Id);
+
+        if (buttonArray[i].drop) {
         parentIcon5Element.innerHTML = "–";
+        }
 
       }
 
