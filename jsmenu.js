@@ -47,19 +47,19 @@ if (localStorage.getItem("state") === "changed") {
 
 } else {
 var buttonArray = [
-  {level:1,         name: "indoor",                  value:"open",    display:"display",  drop: yes,  url: urlx + "indoor/indoor"},
-  {level:2,         name: "get-informed",            value:"closed",  display:"none",     drop: yes,  url: urlx + "indoor-2/get-informed"},
-    {level:3,       name: "contaminants",            value:"closed",  display:"none",     drop: yes,  url: urlx + "indoor-3/contaminants"},
-      {level:4,     name: "primary-contaminants",    value:"closed",  display:"none",     drop: yes,  url: urlx + "indoor-4/primary-contaminants"},
-        {level:5,   name: "pMicrobiological",        value:"closed",  display:"none",     drop: yes,  url: urlx + "indoor-5/microbiological"},
-          {level:6, name: "bacteria",                value:"closed",  display:"none",     drop: no,  url: urlx + "indoor-6/bacteria"},
-          {level:6, name: "total-coliform-bacteria", value:"closed",  display:"none",     drop: no,  url: urlx + "indoor-6/total-coliform-bacteria"},
-          {level:6, name: "e-coli",                  value:"closed",  display:"none",     drop: no,  url: urlx + "indoor-6/e-coli"},
-          {level:6, name: "giardia-cryptosporidium", value:"closed",  display:"none",     drop: no,  url: urlx + "indoor-6/giardia-cryptosporidium"},
-          {level:6, name: "viruses",                 value:"closed",  display:"none",     drop: no,  url: urlx + "indoor-6/viruses"},
-          {level:6, name: "waterborne-pathogens",    value:"closed",  display:"none",     drop: no,  url: urlx + "indoor-6/waterborne-pathogens"},
-        {level:5,   name: "pInorganics",             value:"closed",  display:"none",     drop: yes,  url: urlx + "indoor-5/inorganics"},
-          {level:6, name: "antimony",                value:"closed",  display:"none",     drop: no,  url: urlx + "indoor-6/antimony"}
+  {level:1,         name: "indoor",                  value:"open",    display:"display",  drop: "yes",  url: urlx + "indoor/indoor"},
+  {level:2,         name: "get-informed",            value:"closed",  display:"none",     drop: "yes",  url: urlx + "indoor-2/get-informed"},
+    {level:3,       name: "contaminants",            value:"closed",  display:"none",     drop: "yes",  url: urlx + "indoor-3/contaminants"},
+      {level:4,     name: "primary-contaminants",    value:"closed",  display:"none",     drop: "yes",  url: urlx + "indoor-4/primary-contaminants"},
+        {level:5,   name: "pMicrobiological",        value:"closed",  display:"none",     drop: "yes",  url: urlx + "indoor-5/microbiological"},
+          {level:6, name: "bacteria",                value:"closed",  display:"none",     drop: "no",  url: urlx + "indoor-6/bacteria"},
+          {level:6, name: "total-coliform-bacteria", value:"closed",  display:"none",     drop: "no",  url: urlx + "indoor-6/total-coliform-bacteria"},
+          {level:6, name: "e-coli",                  value:"closed",  display:"none",     drop: "no",  url: urlx + "indoor-6/e-coli"},
+          {level:6, name: "giardia-cryptosporidium", value:"closed",  display:"none",     drop: "no",  url: urlx + "indoor-6/giardia-cryptosporidium"},
+          {level:6, name: "viruses",                 value:"closed",  display:"none",     drop: "no",  url: urlx + "indoor-6/viruses"},
+          {level:6, name: "waterborne-pathogens",    value:"closed",  display:"none",     drop: "no",  url: urlx + "indoor-6/waterborne-pathogens"},
+        {level:5,   name: "pInorganics",             value:"closed",  display:"none",     drop: "yes",  url: urlx + "indoor-5/inorganics"},
+          {level:6, name: "antimony",                value:"closed",  display:"none",     drop: "no",  url: urlx + "indoor-6/antimony"}
 /*
 
         {level:4,   name: "vocs",                    value:"closed", display:"none", url: urlx + "/aluminum.html"},
