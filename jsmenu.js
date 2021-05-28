@@ -118,8 +118,9 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 
   divDropdownElement.style.display = buttonArray[i].display;
 
+  if (buttonArray[i].drop === true) {
   document.getElementById(buttonBarElement.id).addEventListener("click", openClose);
-
+  }
 }
 
 
@@ -155,9 +156,8 @@ function openClose() {
 
     var buttonIconElement = document.getElementById(thisSubString);
 
-    if (buttonArray[index].drop === true) {
-      buttonIconElement.innerHTML = "–";
-    }
+    buttonIconElement.innerHTML = "–";
+
 
 
   } else {
@@ -178,9 +178,7 @@ function openClose() {
 
     var buttonIconElement = document.getElementById(thisSubString);
 
-    if (buttonArray[index].drop === true) {
-      buttonIconElement.innerHTML = "+";
-    }
+    buttonIconElement.innerHTML = "+";
 
 
   }
