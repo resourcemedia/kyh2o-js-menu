@@ -227,9 +227,10 @@ function expandMenu () {
       divLinkElement.style.textDecoration = "underline";
       divLinkElement.style.fontWeight = "bold";
 
-      if (buttonArray[index].drop === true){
-        divButtonElement.innerHTML = "1";
-      }
+      console.log("drop " + buttonArray[i].drop);
+
+      divButtonElement.innerHTML = "1";
+
 
 
 
@@ -266,9 +267,9 @@ function expandMenu () {
         var parentIcon1Id = parentDropdown1subString;
         var parentIcon1Element = document.getElementById(parentIcon1Id);
 
-        if (buttonArray[index].drop === true){
-          parentIcon1Element.innerHTML = "2";
-        }
+
+        parentIcon1Element.innerHTML = "2";
+
 
       } // End if
 
