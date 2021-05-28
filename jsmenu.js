@@ -160,13 +160,8 @@ function openClose() {
     var dropdown = document.getElementById("dropdown-" + thisSubString);
     dropdown.style.display= "block";
 
-      if (buttonArray[index].drop === "yes") {
-        var buttonIconElement = document.getElementById(thisSubString);
-        buttonIconElement.innerHTML = "–";
-      } else {
-        var buttonIconElement = document.getElementById(thisSubString);
-        buttonIconElement.innerHTML = "–";
-      }
+    var buttonIconElement = document.getElementById(thisSubString);
+    buttonIconElement.innerHTML = "–";
 
 
   } else {
