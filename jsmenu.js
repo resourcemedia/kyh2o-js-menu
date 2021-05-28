@@ -113,8 +113,9 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 
   var buttonBarElement = document.getElementById("bar-" + buttonArray[i].name);
 
-  var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
-
+    if (buttonArray[i].drop) {
+    var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
+    }
   console.log("divDropdownElement " + divDropdownElement.id);
 
   divDropdownElement.style.display = buttonArray[i].display;
