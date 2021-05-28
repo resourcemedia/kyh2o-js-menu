@@ -155,7 +155,9 @@ function openClose() {
 
     var buttonIconElement = document.getElementById(thisSubString);
 
-    buttonIconElement.innerHTML = "–";
+    if (buttonArray[i].drop) {
+      buttonIconElement.innerHTML = "–";
+    }
 
 
 
@@ -177,7 +179,9 @@ function openClose() {
 
     var buttonIconElement = document.getElementById(thisSubString);
 
+    if (buttonArray[i].drop) {
     buttonIconElement.innerHTML = "+";
+    }
 
 
   }
