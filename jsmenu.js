@@ -221,11 +221,11 @@ function expandMenu () {
       // This gets the dropdown element
       var divBarElement = document.getElementById("bar-" + buttonArray[i].name);
       // This gets the Level array property
-      var divLinkElement = document.getElementById("link-" + buttonArray[i].name);
+      //var divLinkElement = document.getElementById("link-" + buttonArray[i].name);
       // This gets the Level array property
       var level = buttonArray[i].level;
 
-      console.log("divLinkElement" + divLinkElement.id);
+      //console.log("divLinkElement" + divLinkElement.id);
 
       divBarElement.setAttribute('data-buttonValue', 'open');
 
