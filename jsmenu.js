@@ -118,9 +118,8 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 
   divDropdownElement.style.display = buttonArray[i].display;
 
-  if (buttonArray[i].drop === true) {
   document.getElementById(buttonBarElement.id).addEventListener("click", openClose);
-  }
+
 }
 
 
@@ -224,9 +223,13 @@ function expandMenu () {
       console.log("divLinkElement" + divLinkElement.id);
 
       divBarElement.setAttribute('data-buttonValue', 'open');
-      divButtonElement.innerHTML = "–";
+
       divLinkElement.style.textDecoration = "underline";
       divLinkElement.style.fontWeight = "bold";
+
+      if (buttonArray[index].drop === true){
+        divButtonElement.innerHTML = "1";
+      }
 
 
 
@@ -262,7 +265,10 @@ function expandMenu () {
         // This updates the Button Icon
         var parentIcon1Id = parentDropdown1subString;
         var parentIcon1Element = document.getElementById(parentIcon1Id);
-        parentIcon1Element.innerHTML = "–";
+
+        if (buttonArray[index].drop === true){
+          parentIcon1Element.innerHTML = "2";
+        }
 
       } // End if
 
