@@ -227,7 +227,7 @@ function expandMenu () {
       divLinkElement.style.textDecoration = "underline";
       divLinkElement.style.fontWeight = "bold";
 
-      if (!buttonArray[i].drop) {
+      if (buttonArray[i].drop) {
         divButtonElement.innerHTML = "1";
       }
 
