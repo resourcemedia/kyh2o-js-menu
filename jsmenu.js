@@ -113,9 +113,8 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 
   var buttonBarElement = document.getElementById("bar-" + buttonArray[i].name);
 
-    if (buttonArray[i].drop) {
-    var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
-    }
+
+  var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
   console.log("divDropdownElement " + divDropdownElement.id);
 
   divDropdownElement.style.display = buttonArray[i].display;
@@ -233,9 +232,9 @@ function expandMenu () {
       divLinkElement.style.textDecoration = "underline";
       divLinkElement.style.fontWeight = "bold";
 
-      if (buttonArray[i].drop) {
-        divButtonElement.innerHTML = "–";
-      }
+      //if (buttonArray[i].drop) {
+      //  divButtonElement.innerHTML = "–";
+      //}
 
 
 
@@ -273,9 +272,9 @@ function expandMenu () {
         var parentIcon1Id = parentDropdown1subString;
         var parentIcon1Element = document.getElementById(parentIcon1Id);
 
-        if (buttonArray[i].drop) {
-          parentIcon1Element.innerHTML = "–";
-        }
+        //if (buttonArray[i].drop) {
+        //  parentIcon1Element.innerHTML = "–";
+        //}
 
 
       } // End if
@@ -313,9 +312,9 @@ function expandMenu () {
         var parentIcon2Id = parentDropdown2subString;
         var parentIcon2Element = document.getElementById(parentIcon2Id);
 
-        if (buttonArray[i].drop) {
-        parentIcon2Element.innerHTML = "–";
-        }
+        //if (buttonArray[i].drop) {
+        //parentIcon2Element.innerHTML = "–";
+        //}
 
       }
 
@@ -349,9 +348,9 @@ function expandMenu () {
         var parentIcon3Id = parentDropdown3subString;
         var parentIcon3Element = document.getElementById(parentIcon3Id);
 
-        if (buttonArray[i].drop) {
-        parentIcon3Element.innerHTML = "–";
-        }
+        //if (buttonArray[i].drop) {
+        //parentIcon3Element.innerHTML = "–";
+        //}
 
       }
 
@@ -382,9 +381,9 @@ function expandMenu () {
         var parentIcon4Id = parentDropdown4subString;
         var parentIcon4Element = document.getElementById(parentIcon4Id);
 
-        if (buttonArray[i].drop) {
-        parentIcon4Element.innerHTML = "–";
-        }
+        //if (buttonArray[i].drop) {
+        //parentIcon4Element.innerHTML = "–";
+        //}
 
 
       }
@@ -424,9 +423,9 @@ function expandMenu () {
         var parentIcon5Id = parentDropdown5subString;
         var parentIcon5Element = document.getElementById(parentIcon5Id);
 
-        if (buttonArray[i].drop) {
-        parentIcon5Element.innerHTML = "–";
-        }
+        //if (buttonArray[i].drop) {
+        //parentIcon5Element.innerHTML = "–";
+        //}
 
       }
 
