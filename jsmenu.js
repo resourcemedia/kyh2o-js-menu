@@ -177,7 +177,10 @@ function openClose() {
     dropdown.style.display= "none";
 
     var buttonIconElement = document.getElementById(thisSubString);
-    buttonIconElement.innerHTML = "+";
+    
+    if (buttonArray[index].drop === true) {
+      buttonIconElement.innerHTML = "–";
+    }
 
 
   }
