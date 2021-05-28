@@ -48,7 +48,7 @@ else {
   var buttonArray = [
     {level:1,         name: "indoor",                  value:"open",    display:"display",  drop: true,  url: urlx + "indoor/indoor"},
     {level:2,         name: "get-informed",            value:"closed",  display:"none",     drop: false,  url: urlx + "indoor-2/get-informed"},
-      {level:3,       name: "get-informed",            value:"closed",  display:"none",     drop: true,  url: urlx + "indoor-2/get-informed"},
+      {level:3,       name: "get-informed-intro",      value:"closed",  display:"none",     drop: true,  url: urlx + "indoor-2/get-informed"},
       {level:3,       name: "contaminants",            value:"closed",  display:"none",     drop: true,  url: urlx + "indoor-3/contaminants"},
         {level:4,     name: "primary-contaminants",    value:"closed",  display:"none",     drop: true,  url: urlx + "indoor-4/primary-contaminants"},
           {level:5,   name: "pMicrobiological",        value:"closed",  display:"none",     drop: true,  url: urlx + "indoor-5/microbiological"},
