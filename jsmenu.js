@@ -190,12 +190,16 @@ function openClose() {
 var urlx = "https://know-your-h2o.webflow.io";
 
 var linkArray = [
+  {level:3,         name: "get-informed-intro",       url: urlx + "/indoor-2/get-informed"},
+      // Contaminants / Primary / pMicrobiological
       {level:6,     name: "bacteria",                 url: urlx + "/indoor-6/bacteria"},
       {level:6,     name: "total-coliform-bacteria",  url: urlx + "/indoor-6/total-coliform-bacteria"},
       {level:6,     name: "e-coli",                   url: urlx + "/indoor-6/e-coli"},
       {level:6,     name: "giardia-cryptosporidium",  url: urlx + "/indoor-6/giardia-cryptosporidium"},
       {level:6,     name: "viruses",                  url: urlx + "/indoor-6/viruses"},
       {level:6,     name: "waterborne-pathogens",     url: urlx + "/indoor-6/waterborne-pathogens"},
+
+      // Contaminants / Primary / pInorganic
       {level:6,     name: "antimony",                 url: urlx + "/indoor-6/antimony"},
       {level:6,     name: "arsenic",                  url: urlx + "/indoor-6/arsenic"},
       {level:6,     name: "barium",                   url: urlx + "/indoor-6/barium"},
