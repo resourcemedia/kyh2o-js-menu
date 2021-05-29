@@ -221,6 +221,7 @@ function expandMenu () {
 
       var level = buttonArray[i].level;
 
+      console.log("level " +  level);
 
 
       if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
