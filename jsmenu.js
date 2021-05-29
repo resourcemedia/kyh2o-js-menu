@@ -216,6 +216,18 @@ var linkArray = [
       {level:6,     name: "thallium",                 url: urlx + "/indoor-6/thallium"},
       {level:6,     name: "turbidity",                url: urlx + "/indoor-6/turbidity"},
 
+      // Contaminants / Primary / VOCs
+      {level:6,     name: "benzene",                                 url: urlx + "/indoor-6/benzene"},
+      {level:6,     name: "carbon-tetrachloride",                    url: urlx + "/indoor-6/carbon-tetrachloride"},
+      {level:6,     name: "chloroform-and-trichloromethane",         url: urlx + "/indoor-6/chloroform-and-trichloromethane"},
+      {level:6,     name: "ethylbenzene",                            url: urlx + "/indoor-6/ethylbenzene"},
+      {level:6,     name: "methylene-chloride-dichloromethane-dcm",  url: urlx + "/indoor-6/methylene-chloride-dichloromethane-dcm"},
+      {level:6,     name: "mtbe-methyl-tert-butyl-ether",            url: urlx + "/indoor-6/mtbe-methyl-tert-butyl-ether"},
+      {level:6,     name: "tetrachloroethylene",                     url: urlx + "/indoor-6/tetrachloroethylene"},
+      {level:6,     name: "trichloroethylene",                       url: urlx + "/indoor-6/trichloroethylene"},
+      {level:6,     name: "toluene",                                 url: urlx + "/indoor-6/toluene"},
+      {level:6,     name: "xylenes",                                 url: urlx + "/indoor-6/xylenes"},
+
 ]
 
 
