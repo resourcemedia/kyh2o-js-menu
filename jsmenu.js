@@ -45,11 +45,16 @@ if (sessionStorage.getItem("state") === "changed") {
 }
 else {
   var buttonArray = [
-    {level:1,         name: "indoor",               value:"open",   display:"block", state: "A"},
-      {level:2,       name: "get-informed",         value:"closed",  display:"none", state: "B"},
-        {level:3,     name: "contaminants",         value:"closed",  display:"none", state: "C"},
-          {level:4,   name: "primary-contaminants", value:"closed",  display:"none", state: "D"},
-            {level:5, name: "pMicrobiological",     value:"closed",  display:"none", state: "E"}
+      {level:1,       name: "indoor",                   value:"open",   display:"block", state: "–"},
+      {level:2,       name: "get-informed",             value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "contaminants",             value:"closed",  display:"none", state: "–"},
+          {level:4,   name: "primary-contaminants",     value:"closed",  display:"none", state: "–"},
+            {level:5, name: "pMicrobiological",         value:"closed",  display:"none", state: "–"},
+            {level:5, name: "pInorganics",              value:"closed",  display:"none", state: "–"},
+            {level:5, name: "vocs",                     value:"closed",  display:"none", state: "–"},
+            {level:5, name: "socs",                     value:"closed",  display:"none", state: "–"},
+            {level:5, name: "disinfection-by-products", value:"closed",  display:"none", state: "–"},
+            {level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"}
 
 
 
@@ -191,7 +196,14 @@ var linkArray = [
       {level:6,     name: "giardia-cryptosporidium",  url: urlx + "/giardia-cryptosporidium"},
       {level:6,     name: "viruses",                  url: urlx + "/viruses"},
       {level:6,     name: "waterborne-pathogens",     url: urlx + "/waterborne-pathogens"},
-      {level:6,     name: "antimony",                 url: urlx + "/antimony"}
+      {level:6,     name: "antimony",                 url: urlx + "/antimony"},
+      {level:6,     name: "arsenic",                  url: urlx + "/arsenic"},
+      {level:6,     name: "barium",                   url: urlx + "/barium"},
+      {level:6,     name: "cadmium",                  url: urlx + "/cadmium"},
+      {level:6,     name: "chromium",                 url: urlx + "/chromium"},
+      {level:6,     name: "copper",                   url: urlx + "/copper"},
+      {level:6,     name: "cyanide",                  url: urlx + "/cyanide"},
+
 ]
 
 
