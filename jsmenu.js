@@ -207,7 +207,14 @@ var linkArray = [
       {level:6,     name: "cadmium",                  url: urlx + "/indoor-6/cadmium"},
       {level:6,     name: "chromium",                 url: urlx + "/indoor-6/chromium"},
       {level:6,     name: "copper",                   url: urlx + "/indoor-6/copper"},
-      {level:6,     name: "cyanide",                  url: urlx + "/indoor-6/cyanide"}
+      {level:6,     name: "cyanide",                  url: urlx + "/indoor-6/cyanide"},
+      {level:6,     name: "fluoride",                 url: urlx + "/indoor-6/fluoride"},
+      {level:6,     name: "lead",                     url: urlx + "/indoor-6/lead"},
+      {level:6,     name: "mercury",                  url: urlx + "/indoor-6/mercury"},
+      {level:6,     name: "nitrates-nitrites",        url: urlx + "/indoor-6/nitrates-nitrites"},
+      {level:6,     name: "selenium",                 url: urlx + "/indoor-6/selenium"},
+      {level:6,     name: "thallium",                 url: urlx + "/indoor-6/thallium"},
+      {level:6,     name: "turbidity",                url: urlx + "/indoor-6/turbidity"},
 
 ]
 
