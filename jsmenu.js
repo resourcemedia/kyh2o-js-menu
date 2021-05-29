@@ -258,7 +258,7 @@ function expandMenu () {
         var parentIcon1Element = document.getElementById(parentIcon1Id);
 
         parentIcon1Element.innerHTML = "2";
-        buttonArray[index].state = "–";
+        buttonArray[index].state = "3";
 
       } // End if
 
@@ -297,7 +297,7 @@ function expandMenu () {
         var parentIcon2Element = document.getElementById(parentIcon2Id);
 
         parentIcon2Element.innerHTML = "3";
-        buttonArray[index].state = "–";
+        buttonArray[index].state = "3";
       }
 
 
@@ -331,7 +331,7 @@ function expandMenu () {
         var parentIcon3Element = document.getElementById(parentIcon3Id);
 
         parentIcon3Element.innerHTML = "4";
-        buttonArray[index].state = "–";
+        buttonArray[index].state = "4";
       }
 
 
@@ -363,7 +363,7 @@ function expandMenu () {
         var parentIcon4Element = document.getElementById(parentIcon4Id);
 
         parentIcon4Element.innerHTML = "5";
-        buttonArray[index].state = "–";
+        buttonArray[index].state = "5";
       }
 
       if (level >= 6) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
@@ -402,7 +402,7 @@ function expandMenu () {
         var parentIcon5Element = document.getElementById(parentIcon5Id);
 
         parentIcon5Element.innerHTML = "6";
-        buttonArray[index].state = "–";
+        buttonArray[index].state = "6";
 
       }
 
