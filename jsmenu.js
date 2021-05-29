@@ -270,7 +270,7 @@ function expandMenu () {
       console.log("level " +  level);
 
       //window.scrollBy(0, -235);
-      linkElement.scrollIntoView(0, -235);
+      linkElement.scrollIntoView();
 
 
 
