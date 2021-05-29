@@ -371,6 +371,7 @@ function expandMenu () {
         parentIcon4Element.innerHTML = "5";
         buttonArray[index].state = "5";
       }
+      /*
 
       if (level >= 6) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
 
@@ -432,7 +433,7 @@ function expandMenu () {
         L1Icon.innerHTML = "–";
         buttonArray[0].state = "–";
       }
-
+*/
 
 
     } // End Main If
