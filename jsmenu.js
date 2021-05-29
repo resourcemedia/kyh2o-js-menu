@@ -187,12 +187,16 @@ function openClose() {
 
 
 // This creates a prefix so the URL in the buttonArray isn't long - can be swapped with different URL when moved
-var urlx = "https://know-your-h2o.webflow.io/";
+var urlx = "https://know-your-h2o.webflow.io";
 
 var linkArray = [
-  {level:1,         name: "get-tested",    url: urlx + "get-tested.html" },
-    {level:2,       name: "glossary",      url: urlx + "glossary.html"},
-      {level:3,     name: "primary-contaminants",  url: urlx + "primary-contaminants.html"}
+      {level:6,     name: "bacteria",  url: urlx + "/indoor-6/bacteria"},
+      {level:6,     name: "total-coliform-bacteria",  url: urlx + "/indoor-6/total-coliform-bacteria"},
+      {level:6,     name: "e-coli",  url: urlx + "/indoor-6/e-coli"},
+      {level:6,     name: "giardia-cryptosporidium",  url: urlx + "/giardia-cryptosporidium"},
+      {level:6,     name: "viruses",  url: urlx + "/viruses"},
+      {level:6,     name: "waterborne-pathogens",  url: urlx + "/waterborne-pathogens"},
+      {level:6,     name: "antimony",  url: urlx + "/antimony"}
 ]
 
 
