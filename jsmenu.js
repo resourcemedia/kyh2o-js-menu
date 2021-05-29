@@ -347,13 +347,16 @@ function expandMenu () {
 
         var parentDropdown4 = document.getElementById(parentDropdown3.id).parentElement;
         var parentDropdown4subString = parentDropdown4.id.substring(9);
-        var index = buttonArray.findIndex(x => x.name === parentDropdown4subString);
+        var index = buttonArray.findIndex(x => x.name === parentDropdown3subString);
         buttonArray[index].value = "open";
         buttonArray[index].display = "block";
         var parentDropdown4Div = document.getElementById(parentDropdown4.id);
         parentDropdown4Div.style.display = "block";
 
-        // Update data-buttonValue
+        // This opens the parent dropdown div
+        var parentDropdown4Div = document.getElementById(parentDropdown4.id);
+        parentDropdown4Div.style.display = "block";
+
         // This gets the bar- Id of the element
         var parentBar4Id = "bar-" + parentDropdown4subString;
         // This gets the bar- element
