@@ -53,7 +53,7 @@ else {
             {level:5, name: "pInorganics",              value:"closed",  display:"none", state: "–"},
             {level:5, name: "vocs",                     value:"closed",  display:"none", state: "–"},
             {level:5, name: "socs",                     value:"closed",  display:"none", state: "–"},
-            {level:5, name: "disinfection-by-products", value:"closed",  display:"none", state: "–"},
+            {level:5, name: "disinfection-byproducts", value:"closed",  display:"none", state: "–"},
             //{level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"}
 
 
@@ -243,7 +243,7 @@ var linkArray = [
       {level:6,     name: "chlorite",                 url: urlx + "/indoor-6/chlorite"},
       {level:6,     name: "bromate",                  url: urlx + "/indoor-6/bromate"}
 
-]
+];
 
 
 
