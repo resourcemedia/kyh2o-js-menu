@@ -285,10 +285,12 @@ function expandMenu () {
 
       //window.scrollBy(0, -235);
       //linkElement.scrollIntoView();
-      $("#div-menu-overflow").each( function() {
-      var scrollHeight = Math.max(overflow.scrollHeight, overflow.clientHeight);
-      this.scrollMiddle = scrollHeight - overflow.clientHeight;
-      });
+      //$("#div-menu-overflow").each( function() {
+      //  var topPos = document.getElementById('inner-element').offsetTop;
+      //document.getElementById('container').scrollTop = topPos-10;
+
+      var topPos = document.getElementById('linkElement').offsetTop;
+      document.getElementById('div-menu-overflow').scrollTop = topPos-10;
 
 
       if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
