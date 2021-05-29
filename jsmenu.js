@@ -184,13 +184,13 @@ function openClose() {
 var urlx = "https://know-your-h2o.webflow.io";
 
 var linkArray = [
-      {level:6,     name: "bacteria",  url: urlx + "/indoor-6/bacteria"},
+      {level:6,     name: "bacteria",                 url: urlx + "/indoor-6/bacteria"},
       {level:6,     name: "total-coliform-bacteria",  url: urlx + "/indoor-6/total-coliform-bacteria"},
-      {level:6,     name: "e-coli",  url: urlx + "/indoor-6/e-coli"},
+      {level:6,     name: "e-coli",                   url: urlx + "/indoor-6/e-coli"},
       {level:6,     name: "giardia-cryptosporidium",  url: urlx + "/giardia-cryptosporidium"},
-      {level:6,     name: "viruses",  url: urlx + "/viruses"},
-      {level:6,     name: "waterborne-pathogens",  url: urlx + "/waterborne-pathogens"},
-      {level:6,     name: "antimony",  url: urlx + "/antimony"}
+      {level:6,     name: "viruses",                  url: urlx + "/viruses"},
+      {level:6,     name: "waterborne-pathogens",     url: urlx + "/waterborne-pathogens"},
+      {level:6,     name: "antimony",                 url: urlx + "/antimony"}
 ]
 
 
