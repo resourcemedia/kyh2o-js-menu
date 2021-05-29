@@ -1,6 +1,5 @@
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
-console.log("hello");
 
 
 window.addEventListener('resize', breakpointDisplay);
@@ -188,7 +187,7 @@ function openClose() {
 
 
 // This creates a prefix so the URL in the buttonArray isn't long - can be swapped with different URL when moved
-var urlx = "file:///Users/jamesoconnell/Desktop/javascript_experiments/reference-mimo/kyh2o_menu_optimize/";
+var urlx = "https://know-your-h2o.webflow.io/";
 
 var linkArray = [
   {level:1,         name: "get-tested",    url: urlx + "get-tested.html" },
