@@ -221,8 +221,6 @@ function expandMenu () {
       console.log("Yes, Found One");
 
       var linkElement = document.getElementById("link-" + linkArray[i].name);
-      console.log("linkArray[i].name " + linkArray[i].name);
-      console.log("linkElement " + linkElement);
 
       linkElement.style.textDecoration = "underline";
       linkElement.style.fontWeight = "bold";
@@ -235,7 +233,7 @@ function expandMenu () {
 
         // This gets the Parent Bar element
         var parentDropdown1 = document.getElementById(linkElement.id).parentElement;
-
+        console.log("parentDropdown1 " + parentDropdown1);
 
         // This removes "dropdown-" to get the button id
         var parentDropdown1subString = parentDropdown1.id.substring(9);
