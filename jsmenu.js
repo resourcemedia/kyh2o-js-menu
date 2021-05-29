@@ -164,6 +164,7 @@ function openClose() {
     var buttonIconElement = document.getElementById(thisSubString);
 
     buttonIconElement.innerHTML = "+";
+    buttonArray[index].state = "+";
 
   }
   sessionStorage.setItem("state", "changed");
