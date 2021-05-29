@@ -54,8 +54,7 @@ else {
             {level:5, name: "vocs",                     value:"closed",  display:"none", state: "–"},
             {level:5, name: "socs",                     value:"closed",  display:"none", state: "–"},
             {level:5, name: "disinfection-byproducts",  value:"closed",  display:"none", state: "–"},
-            //{level:5, name: "disinfection-byproducts",  value:"closed",  display:"none", state: "–"}
-            //{level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"}
+            {level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"}
 
 
 
@@ -243,7 +242,14 @@ var linkArray = [
       {level:6,     name: "trihalomethanes",          url: urlx + "/indoor-6/trihalomethanes"},
       {level:6,     name: "haloacetic-acids",         url: urlx + "/indoor-6/haloacetic-acids"},
       {level:6,     name: "chlorite",                 url: urlx + "/indoor-6/chlorite"},
-      {level:6,     name: "bromate",                  url: urlx + "/indoor-6/bromate"}
+      {level:6,     name: "bromate",                  url: urlx + "/indoor-6/bromate"},
+
+      // Contaminants / Primary / Radioactive Isotopes
+      {level:6,     name: "gross-alpha",                url: urlx + "/indoor-6/gross-alpha"},
+      {level:6,     name: "beta-particles",             url: urlx + "/indoor-6/beta-particles"},
+      {level:6,     name: "radium-226-and-radium-228",  url: urlx + "/indoor-6/radium-226-and-radium-228"},
+      {level:6,     name: "uranium",                    url: urlx + "/indoor-6/uranium"},
+      {level:6,     name: "radon-220-222",              url: urlx + "/indoor-6/radon-220-222"}
 
 ];
 
