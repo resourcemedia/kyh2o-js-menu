@@ -216,6 +216,9 @@ function expandMenu () {
     // The condition looks for a buttonArray page URL match
     if (linkArray[i].url === pageURL) {
 
+      console.log("pageURL " + pageURL);
+
+
       // This lets you know it found one
       console.log("Yes, Found One");
 
