@@ -236,6 +236,8 @@ function expandMenu () {
         // This searches the buttonArray to get the index
         var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
 
+        console.log("Button Array Index " + index);
+
 
         // This updates the record in the buttonArray
         buttonArray[index].value = "open";
