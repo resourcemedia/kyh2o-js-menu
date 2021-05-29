@@ -216,13 +216,13 @@ function expandMenu () {
     // The condition looks for a buttonArray page URL match
     if (linkArray[i].url === pageURL) {
 
-      console.log("pageURL " + pageURL);
-
 
       // This lets you know it found one
       console.log("Yes, Found One");
 
       var linkElement = document.getElementById("link-" + linkArray[i].name);
+      console.log("linkElement " + linkElement);
+
       linkElement.style.textDecoration = "underline";
       linkElement.style.fontWeight = "bold";
 
