@@ -237,7 +237,7 @@ var linkArray = [
       {level:6,     name: "bis-2-ethylhexyl-phthalate",              url: urlx + "/indoor-6/bis-2-ethylhexyl-phthalate"},
       {level:6,     name: "herbicides-pesticides",                   url: urlx + "/indoor-6/herbicides-pesticides"},
 
-]
+];
 
 
 
