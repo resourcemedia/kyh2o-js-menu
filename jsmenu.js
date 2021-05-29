@@ -219,7 +219,7 @@ function expandMenu () {
       linkElement.style.textDecoration = "underline";
       linkElement.style.fontWeight = "bold";
 
-      var level = buttonArray[i].level;
+      var level = linkArray[i].level;
 
       console.log("level " +  level);
 
