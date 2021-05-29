@@ -191,6 +191,7 @@ var urlx = "https://know-your-h2o.webflow.io";
 
 var linkArray = [
   {level:3,         name: "get-informed-intro",       url: urlx + "/indoor-2/get-informed"},
+  {level:3,         name: "public-private",           url: urlx + "/indoor-3/private-well-water-public-city-water"},
       // Contaminants / Primary / pMicrobiological
       {level:6,     name: "bacteria",                 url: urlx + "/indoor-6/bacteria"},
       {level:6,     name: "total-coliform-bacteria",  url: urlx + "/indoor-6/total-coliform-bacteria"},
