@@ -261,7 +261,7 @@ function expandMenu () {
       console.log("level " +  level);
 
       linkElement.scrollIntoView();
-      window.scrollBy(100, 0);
+      window.scrollBy(0, -100);
 
 
       if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
