@@ -258,7 +258,7 @@ function expandMenu () {
         var parentIcon1Element = document.getElementById(parentIcon1Id);
 
         parentIcon1Element.innerHTML = "2";
-        buttonArray[index].state = "3";
+        buttonArray[index].state = "2";
 
       } // End if
 
