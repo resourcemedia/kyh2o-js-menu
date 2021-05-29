@@ -207,7 +207,7 @@ var linkArray = [
       {level:6,     name: "cadmium",                  url: urlx + "/indoor-6/cadmium"},
       {level:6,     name: "chromium",                 url: urlx + "/indoor-6/chromium"},
       {level:6,     name: "copper",                   url: urlx + "/indoor-6/copper"},
-      {level:6,     name: "cyanide",                  url: urlx + "/indoor-6/cyanide"},
+      {level:6,     name: "cyanide",                  url: urlx + "/indoor-6/cyanide"}
 
 ]
 
