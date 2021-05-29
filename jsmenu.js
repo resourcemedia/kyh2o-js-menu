@@ -233,11 +233,11 @@ function expandMenu () {
 
         // This gets the Parent Bar element
         var parentDropdown1 = document.getElementById(linkElement.id).parentElement;
-        console.log("parentDropdown1 " + parentDropdown1.id);
+
 
         // This removes "dropdown-" to get the button id
         var parentDropdown1subString = parentDropdown1.id.substring(9);
-
+        console.log("parentDropdown1subString " + parentDropdown1subString);
 
         // This searches the buttonArray to get the index
         var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
