@@ -407,9 +407,9 @@ function expandMenu () {
         buttonArray[index].state = "6";
       }
 
-
-      }
 /*
+      }
+
       if (level = 1) { // - - - - - - - - - - - - - - - - - - - - - - - - - -
 
         // This updates the data-ButtonValue of the child
