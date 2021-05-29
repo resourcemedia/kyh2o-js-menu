@@ -257,7 +257,7 @@ function expandMenu () {
         var parentIcon1Id = parentDropdown1subString;
         var parentIcon1Element = document.getElementById(parentIcon1Id);
 
-        parentIcon1Element.innerHTML = "–";
+        parentIcon1Element.innerHTML = "2";
         buttonArray[index].state = "–";
 
       } // End if
@@ -296,7 +296,7 @@ function expandMenu () {
         var parentIcon2Id = parentDropdown2subString;
         var parentIcon2Element = document.getElementById(parentIcon2Id);
 
-        parentIcon2Element.innerHTML = "–";
+        parentIcon2Element.innerHTML = "3";
         buttonArray[index].state = "–";
       }
 
@@ -330,7 +330,7 @@ function expandMenu () {
         var parentIcon3Id = parentDropdown3subString;
         var parentIcon3Element = document.getElementById(parentIcon3Id);
 
-        parentIcon3Element.innerHTML = "–";
+        parentIcon3Element.innerHTML = "4";
         buttonArray[index].state = "–";
       }
 
@@ -362,7 +362,7 @@ function expandMenu () {
         var parentIcon4Id = parentDropdown4subString;
         var parentIcon4Element = document.getElementById(parentIcon4Id);
 
-        parentIcon4Element.innerHTML = "–";
+        parentIcon4Element.innerHTML = "5";
         buttonArray[index].state = "–";
       }
 
@@ -401,7 +401,7 @@ function expandMenu () {
         var parentIcon5Id = parentDropdown5subString;
         var parentIcon5Element = document.getElementById(parentIcon5Id);
 
-        parentIcon5Element.innerHTML = "–";
+        parentIcon5Element.innerHTML = "6";
         buttonArray[index].state = "–";
 
       }
