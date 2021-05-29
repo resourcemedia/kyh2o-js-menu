@@ -371,7 +371,7 @@ function expandMenu () {
         parentIcon4Element.innerHTML = "5";
         buttonArray[index].state = "5";
       }
-      /*
+
 
       if (level >= 6) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
 
@@ -412,7 +412,7 @@ function expandMenu () {
         buttonArray[index].state = "6";
 
       }
-
+/*
       if (level = 1) { // - - - - - - - - - - - - - - - - - - - - - - - - - -
 
         // This updates the data-ButtonValue of the child
