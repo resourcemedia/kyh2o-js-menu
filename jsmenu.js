@@ -52,7 +52,7 @@ else {
             {level:5, name: "pMicrobiological",         value:"closed",  display:"none", state: "–"},
             {level:5, name: "pInorganics",              value:"closed",  display:"none", state: "–"},
             {level:5, name: "vocs",                     value:"closed",  display:"none", state: "–"}
-            //{level:5, name: "socs",                     value:"closed",  display:"none", state: "–"},
+            {level:5, name: "socs",                     value:"closed",  display:"none", state: "–"},
             //{level:5, name: "disinfection-by-products", value:"closed",  display:"none", state: "–"},
             //{level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"}
 
@@ -227,6 +227,15 @@ var linkArray = [
       {level:6,     name: "trichloroethylene",                       url: urlx + "/indoor-6/trichloroethylene"},
       {level:6,     name: "toluene",                                 url: urlx + "/indoor-6/toluene"},
       {level:6,     name: "xylenes",                                 url: urlx + "/indoor-6/xylenes"},
+
+      // Contaminants / Primary / SOCs
+      {level:6,     name: "alachlor",                                url: urlx + "/indoor-6/alachlor"},
+      {level:6,     name: "atrazine",                                url: urlx + "/indoor-6/atrazine"},
+      {level:6,     name: "glyphosate",                              url: urlx + "/indoor-6/glyphosate"},
+      {level:6,     name: "2-4-d",                                   url: urlx + "/indoor-6/2-4-d"},
+      {level:6,     name: "gamma-hexachlorocyclohexane-lindane",     url: urlx + "/indoor-6/gamma-hexachlorocyclohexane-lindane"},
+      {level:6,     name: "bis-2-ethylhexyl-phthalate",              url: urlx + "/indoor-6/bis-2-ethylhexyl-phthalate"},
+      {level:6,     name: "herbicides-pesticides",                   url: urlx + "/indoor-6/herbicides-pesticides"},
 
 ]
 
