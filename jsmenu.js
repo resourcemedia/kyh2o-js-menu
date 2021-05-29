@@ -287,7 +287,7 @@ function expandMenu () {
       //linkElement.scrollIntoView();
       $("#div-menu-overflow").each( function() {
       var scrollHeight = Math.max(overflow.scrollHeight, overflow.clientHeight);
-      this.scrollTop = scrollHeight - overflow.clientHeight;
+      this.scrollMiddle = scrollHeight - overflow.clientHeight;
       });
 
 
