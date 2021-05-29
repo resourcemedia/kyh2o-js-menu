@@ -284,7 +284,10 @@ function expandMenu () {
       console.log("level " +  level);
 
       //window.scrollBy(0, -235);
-      linkElement.scrollIntoView();
+      //linkElement.scrollIntoView();
+      var overflow = document.getElementById("div-menu-overflow");
+      var scrollHeight = Math.max(overflow.scrollHeight, overflow.clientHeight);
+      this.scrollTop = scrollHeight - overflow.clientHeight;
 
 
 
