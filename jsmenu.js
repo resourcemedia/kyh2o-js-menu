@@ -52,8 +52,8 @@ else {
             {level:5, name: "pMicrobiological",         value:"closed",  display:"none", state: "–"},
             {level:5, name: "pInorganics",              value:"closed",  display:"none", state: "–"},
             {level:5, name: "vocs",                     value:"closed",  display:"none", state: "–"},
-            {level:5, name: "socs",                     value:"closed",  display:"none", state: "–"}
-            //{level:5, name: "disinfection-by-products", value:"closed",  display:"none", state: "–"},
+            {level:5, name: "socs",                     value:"closed",  display:"none", state: "–"},
+            {level:5, name: "disinfection-by-products", value:"closed",  display:"none", state: "–"}
             //{level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"}
 
 
@@ -237,7 +237,13 @@ var linkArray = [
       {level:6,     name: "bis-2-ethylhexyl-phthalate",              url: urlx + "/indoor-6/bis-2-ethylhexyl-phthalate"},
       {level:6,     name: "herbicides-pesticides",                   url: urlx + "/indoor-6/herbicides-pesticides"},
 
-]
+      // Contaminants / Primary / Disinfection By-products
+      {level:6,     name: "trihalomethanes",          url: urlx + "/indoor-6/trihalomethanes"},
+      {level:6,     name: "haloacetic-acids",         url: urlx + "/indoor-6/haloacetic-acids"},
+      {level:6,     name: "chlorite",                 url: urlx + "/indoor-6/chlorite"},
+      {level:6,     name: "bromate",                  url: urlx + "/indoor-6/bromate"}
+
+];
 
 
 
