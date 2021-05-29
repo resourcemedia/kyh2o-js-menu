@@ -285,10 +285,10 @@ function expandMenu () {
 
       //window.scrollBy(0, -235);
       //linkElement.scrollIntoView();
-      var overflow = document.getElementById("div-menu-overflow");
+      $("#div-menu-overflow").each( function() {
       var scrollHeight = Math.max(overflow.scrollHeight, overflow.clientHeight);
       this.scrollTop = scrollHeight - overflow.clientHeight;
-
+      });
 
 
       if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
