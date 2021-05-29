@@ -240,7 +240,7 @@ var linkArray = [
 
       // Contaminants / Primary / Disinfection By-products
       //{level:6,     name: "trihalomethanes",          url: urlx + "/indoor-6/trihalomethanes"},
-      {level:6,     name: "haloacetic-acids",         url: urlx + "/indoor-6/haloacetic-acids"},
+      //{level:6,     name: "haloacetic-acids",         url: urlx + "/indoor-6/haloacetic-acids"},
       //{level:6,     name: "chlorite",                 url: urlx + "/indoor-6/chlorite"},
       //{level:6,     name: "bromate",                  url: urlx + "/indoor-6/bromate"}
 
