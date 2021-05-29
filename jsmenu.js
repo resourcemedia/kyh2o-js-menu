@@ -380,18 +380,13 @@ function expandMenu () {
         var divBarElementChild = document.getElementById(parentDropdown4subString);
         divBarElementChild.setAttribute('data-buttonValue', 'open');
 
-        // This gets the parent element Id
         var parentDropdown5 = document.getElementById(parentDropdown4.id).parentElement;
-
-        // This removes "dropdown-" to get the button id
-        var parentDropdown5subString = parentDropdown4.id.substring(9);
-
-        // This searches the buttonArray to get the index
-        var index = buttonArray.findIndex(x => x.name === parentDropdown5subString);
-
-        // This updates the record in the buttonArray
+        var parentDropdown5subString = parentDropdown5.id.substring(9);
+        var index = buttonArray.findIndex(x => x.name === parentDropdown4subString);
         buttonArray[index].value = "open";
         buttonArray[index].display = "block";
+        var parentDropdown5Div = document.getElementById(parentDropdown5.id);
+        parentDropdown5Div.style.display = "block";
 
         // This opens the parent dropdown div
         var parentDropdown5Div = document.getElementById(parentDropdown5.id);
@@ -410,6 +405,8 @@ function expandMenu () {
 
         parentIcon5Element.innerHTML = "6";
         buttonArray[index].state = "6";
+      }
+
 
       }
 /*
