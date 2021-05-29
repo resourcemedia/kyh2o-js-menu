@@ -73,7 +73,8 @@ else {
 //This distributes the buttonArray throughout the HTML File so that when you go to another file the menu state is maintained
 
 
-var buttonArrayLength = buttonArray.length   ;
+var buttonArrayLength = buttonArray.length;
+console.log("buttonArrayLength " + buttonArrayLength);
 
 
 for (var i = 0; i < buttonArrayLength ; i++) {
