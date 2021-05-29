@@ -45,11 +45,11 @@ if (sessionStorage.getItem("state") === "changed") {
 }
 else {
   var buttonArray = [
-    {level:1,         name: "indoor",               value:"open",   display:"block", state: "-"},
-      {level:2,       name: "get-informed",         value:"closed",  display:"none", state: "+"},
-        {level:3,     name: "contaminants",         value:"closed",  display:"none", state: "+"},
-          {level:4,   name: "primary-contaminants", value:"closed",  display:"none", state: "+"},
-            {level:5, name: "pMicrobiological",     value:"closed",  display:"none", state: "+"}
+    {level:1,         name: "indoor",               value:"open",   display:"block", state: "A"},
+      {level:2,       name: "get-informed",         value:"closed",  display:"none", state: "B"},
+        {level:3,     name: "contaminants",         value:"closed",  display:"none", state: "C"},
+          {level:4,   name: "primary-contaminants", value:"closed",  display:"none", state: "D"},
+            {level:5, name: "pMicrobiological",     value:"closed",  display:"none", state: "E"}
 
 
 
@@ -408,7 +408,7 @@ function expandMenu () {
       }
 
 /*
-      }
+
 
       if (level = 1) { // - - - - - - - - - - - - - - - - - - - - - - - - - -
 
