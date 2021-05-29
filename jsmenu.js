@@ -80,7 +80,7 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 
   // Get array object property name
   var buttonElementId = buttonArray[i].name;
-
+  console.log("buttonElementId " + buttonElementId);
 
   var buttonElement = document.getElementById(buttonArray[i].name);
 
