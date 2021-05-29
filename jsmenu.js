@@ -1,5 +1,7 @@
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
+console.log("hello");
+
 
 window.addEventListener('resize', breakpointDisplay);
 
@@ -56,7 +58,7 @@ else {
 
 
 
-        
+
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
