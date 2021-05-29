@@ -222,6 +222,7 @@ function expandMenu () {
 
       var linkElement = document.getElementById("link-" + linkArray[i].name);
       console.log("linkArray[i].name " + linkArray[i].name);
+      console.log("linkElement " + linkElement);
 
       linkElement.style.textDecoration = "underline";
       linkElement.style.fontWeight = "bold";
