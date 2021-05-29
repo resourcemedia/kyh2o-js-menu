@@ -221,7 +221,7 @@ function expandMenu () {
       console.log("Yes, Found One");
 
       var linkElement = document.getElementById("link-" + linkArray[i].name);
-      console.log("linkElement " + linkElement);
+      console.log("linkArray[i].name " + linkArray[i].name);
 
       linkElement.style.textDecoration = "underline";
       linkElement.style.fontWeight = "bold";
