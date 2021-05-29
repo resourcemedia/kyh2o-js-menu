@@ -48,6 +48,16 @@ else {
       {level:2,       name: "get-informed", value:"closed",  display:"none", state: "+"},
         {level:3,     name: "contaminants", value:"closed",  display:"none", state: "+"}
 
+
+
+
+
+
+
+
+
+        
+
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
     //console.log("ButtonArray Test " + buttonArray);
