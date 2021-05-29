@@ -243,7 +243,7 @@ var linkArray = [
       {level:6,     name: "chlorite",                 url: urlx + "/indoor-6/chlorite"},
       {level:6,     name: "bromate",                  url: urlx + "/indoor-6/bromate"}
 
-];
+]
 
 
 
