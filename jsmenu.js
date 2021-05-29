@@ -51,7 +51,7 @@ else {
           {level:4,   name: "primary-contaminants",     value:"closed",  display:"none", state: "–"},
             {level:5, name: "pMicrobiological",         value:"closed",  display:"none", state: "–"},
             {level:5, name: "pInorganics",              value:"closed",  display:"none", state: "–"},
-            {level:5, name: "vocs",                     value:"closed",  display:"none", state: "–"},
+            {level:5, name: "vocs",                     value:"closed",  display:"none", state: "–"}
             //{level:5, name: "socs",                     value:"closed",  display:"none", state: "–"},
             //{level:5, name: "disinfection-by-products", value:"closed",  display:"none", state: "–"},
             //{level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"}
@@ -259,6 +259,8 @@ function expandMenu () {
       var level = linkArray[i].level;
 
       console.log("level " +  level);
+
+      linkElement.scrollIntoView();
 
 
       if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
