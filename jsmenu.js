@@ -1,3 +1,8 @@
+
+if
+
+
+
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
 
@@ -193,6 +198,8 @@ var urlx = "https://know-your-h2o.webflow.io";
 var linkArray = [
   {level:3,         name: "get-informed-intro",       url: urlx + "/indoor-2/get-informed"},
   {level:3,         name: "public-private",           url: urlx + "/indoor-3/private-well-water-public-city-water"},
+    {level:4,       name: "contaminants-intro",       url: urlx + "/indoor-3/contaminants"},
+
       // Contaminants / Primary / pMicrobiological
       {level:6,     name: "bacteria",                 url: urlx + "/indoor-6/bacteria"},
       {level:6,     name: "total-coliform-bacteria",  url: urlx + "/indoor-6/total-coliform-bacteria"},
@@ -289,7 +296,8 @@ function expandMenu () {
       //  var topPos = document.getElementById('inner-element').offsetTop;
       //document.getElementById('container').scrollTop = topPos-10;
 
-      scrollTo(document.getElementById('div-menu-overflow'), 0, 30); 
+      scrollTo(document.getElementById('div-menu-overflow'), 0, 30);
+      $(#id_of_div_with_scroll).scrollTop($("#your_span_id").offset().top);
 
 
       if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
