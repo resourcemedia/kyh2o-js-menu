@@ -308,7 +308,7 @@ var linkArray = [
 
         // Contaminants / No Standards / Microbiological N
         {level:6,     name: "nInorganics-intro",                      url: urlx + "/indoor-5/inorganics-n"},
-        {level:6,     name: "alkalinity",                             url: urlx + "/indoor-6/alkalinity},
+        {level:6,     name: "alkalinity",                             url: urlx + "/indoor-6/alkalinity"},
 
 ];
 
