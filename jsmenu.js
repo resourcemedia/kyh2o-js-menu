@@ -62,6 +62,7 @@ else {
             {level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"},
           {level:4,   name: "secondary-contaminants",   value:"closed",  display:"none", state: "–"},
             {level:5, name: "sInorganics",              value:"closed",  display:"none", state: "–"},
+            {level:5, name: "sConditions",              value:"closed",  display:"none", state: "–"},
 
 
 
@@ -201,6 +202,8 @@ var linkArray = [
   {level:3,         name: "get-informed-intro",           url: urlx + "/indoor-2/get-informed"},
   {level:3,         name: "public-private",               url: urlx + "/indoor-3/private-well-water-public-city-water"},
     {level:4,       name: "contaminants-intro",           url: urlx + "/indoor-3/contaminants"},
+
+      // Contaminants / Primary
       {level:5,       name: "primary-contaminants-intro", url: urlx + "/indoor-4/primary-contaminants"},
 
         // Contaminants / Primary / pMicrobiological
@@ -269,6 +272,8 @@ var linkArray = [
 
       // Contaminants / Secondary
       {level:5,       name: "secondary-contaminants-intro",            url: urlx + "/indoor-4/secondary-contaminants"},
+
+        // Contaminants / Secondary / Inorganics
         {level:6,     name: "sInorganics-intro",                       url: urlx + "/indoor-5/inorganics-s"},
         {level:6,     name: "aluminum",                                url: urlx + "/indoor-6/aluminum"},
         {level:6,     name: "chloride",                                url: urlx + "/indoor-6/chloride"},
@@ -280,6 +285,13 @@ var linkArray = [
         {level:6,     name: "sulfur-hydrogen-sulfide-sulfate-and-sulfate-reducing-bacteria",                                  url: urlx + "/indoor-6/sulfur-hydrogen-sulfide-sulfate-and-sulfate-reducing-bacteria"},
         {level:6,     name: "total-dissolved-solids",                  url: urlx + "/indoor-6/total-dissolved-solids"},
         {level:6,     name: "zinc",                                    url: urlx + "/indoor-6/zinc"}
+
+        // Contaminants / Secondary / Conditions S
+        {level:6,     name: "sConditions-intro",                       url: urlx + "/indoor-5/conditions-s"},
+        {level:6,     name: "corrosivity",                             url: urlx + "/indoor-6/corrosivity"},
+        {level:6,     name: "foaming-agents",                          url: urlx + "/indoor-6/foaming-agents"},
+        {level:6,     name: "ph",                                      url: urlx + "/indoor-6/ph"},
+        {level:6,     name: "color-taste-odor",                        url: urlx + "/indoor-6/color-taste-odor"},
 
 ];
 
