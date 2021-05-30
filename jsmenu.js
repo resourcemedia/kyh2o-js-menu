@@ -70,6 +70,7 @@ else {
             {level:5, name: "gases",                      value:"closed",  display:"none", state: "–"},
             {level:5, name: "nConditions",                value:"closed",  display:"none", state: "–"},
         {level:3,     name: "standards",                  value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "drinking-water-topics",      value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -346,6 +347,11 @@ var linkArray = [
 
   // Glossary
   {level:3,         name: "glossary",           url: urlx + "/indoor-3/glossary"},
+
+    // Standards
+    {level:4,       name: "drinking-water-topics-intro",              url: urlx + "/indoor-3/drinking-water-topics"},
+    {level:4,       name: "groundwater-and-the-water-cycle-pennsylvania-example",
+                    url: urlx + "/indoor-4/groundwater-and-the-water-cycle-pennsylvania-example"},
 
 ];
 
