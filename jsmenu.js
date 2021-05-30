@@ -211,6 +211,7 @@ var linkArray = [
         {level:6,     name: "waterborne-pathogens",     url: urlx + "/indoor-6/waterborne-pathogens"},
 
         // Contaminants / Primary / pInorganic
+        {level:6,     name: "pInorganics-intro",        url: urlx + "/indoor-5/inorganics"},
         {level:6,     name: "antimony",                 url: urlx + "/indoor-6/antimony"},
         {level:6,     name: "arsenic",                  url: urlx + "/indoor-6/arsenic"},
         {level:6,     name: "barium",                   url: urlx + "/indoor-6/barium"},
