@@ -344,6 +344,8 @@ var linkArray = [
     {level:4,       name: "secondary-standards",                      url: urlx + "/indoor-4/secondary-standards"},
     {level:4,       name: "no-standards",                             url: urlx + "/indoor-4/no-standards"},
 
+  // Glossary
+  {level:3,         name: "glossary",           url: urlx + "/indoor-3/glossary"},
 
 ];
 
