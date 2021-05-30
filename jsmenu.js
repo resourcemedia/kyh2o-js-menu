@@ -272,7 +272,7 @@ var linkArray = [
         {level:6,     name: "sInorganics-intro",                       url: urlx + "/indoor-5/inorganics-s"},
         {level:6,     name: "aluminum",                                url: urlx + "/indoor-6/aluminum"},
         {level:6,     name: "chloride",                                url: urlx + "/indoor-6/chloride"},
-        {level:6,     name: "sCopper",                                  url: urlx + "/indoor-6/copper-s"},
+        {level:6,     name: "sCopper",                                 url: urlx + "/indoor-6/copper-s"},
         {level:6,     name: "sFluoride",                               url: urlx + "/indoor-6/fluoride-s"},
         //{level:6,     name: "iron",                                    url: urlx + "/indoor-6/iron"},
         //{level:6,     name: "manganese",                               url: urlx + "/indoor-6/manganese"},
