@@ -267,8 +267,8 @@ var linkArray = [
         {level:6,     name: "radon-220-222",                           url: urlx + "/indoor-6/radon-220-222"},
 
       // Contaminants / Secondary
-      {level:5,       name: "secondary-contaminants-intro",   url: urlx + "/indoor-4/secondary-contaminants"},
-      {level:5,       name: "sInorganics",                    url: urlx + "/indoor-5/inorganics-s"}
+      {level:5,       name: "secondary-contaminants-intro",            url: urlx + "/indoor-4/secondary-contaminants"},
+        {level:6,     name: "sInorganics-intro",                       url: urlx + "/indoor-5/inorganics-s"},
 
 ];
 
