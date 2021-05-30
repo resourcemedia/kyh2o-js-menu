@@ -332,8 +332,11 @@ var linkArray = [
         {level:6,     name: "methane",                                url: urlx + "/indoor-6/methane"},
 
         // Contaminants / No Standards / Conditions
-        {level:6,     name: "nConditions-intro",                            url: urlx + "/indoor-5/conditions-n"},
-        {level:6,     name: "nCorrosivity",                                url: urlx + "/indoor-6/corrosivity-n"},
+        {level:6,     name: "nConditions-intro",                      url: urlx + "/indoor-5/conditions-n"},
+        {level:6,     name: "nCorrosivity",                           url: urlx + "/indoor-6/corrosivity-n"},
+        {level:6,     name: "dissolved-gases",                        url: urlx + "/indoor-6/dissolved-gases"},
+        {level:6,     name: "elevated-chlorine",                      url: urlx + "/indoor-6/elevated-chlorine"},
+        {level:6,     name: "broken-water-line",                      url: urlx + "/indoor-6/broken-water-line"},
 ];
 
 
