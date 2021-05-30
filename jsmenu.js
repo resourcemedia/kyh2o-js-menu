@@ -274,9 +274,9 @@ var linkArray = [
         {level:6,     name: "chloride",                                url: urlx + "/indoor-6/chloride"},
         {level:6,     name: "sCopper",                                 url: urlx + "/indoor-6/copper-s"},
         {level:6,     name: "sFluoride",                               url: urlx + "/indoor-6/fluoride-s"},
-        //{level:6,     name: "iron",                                    url: urlx + "/indoor-6/iron"},
-        //{level:6,     name: "manganese",                               url: urlx + "/indoor-6/manganese"},
-        //{level:6,     name: "silver",                                  url: urlx + "/indoor-6/silver"},
+        {level:6,     name: "iron",                                    url: urlx + "/indoor-6/iron"},
+        {level:6,     name: "manganese",                               url: urlx + "/indoor-6/manganese"},
+        {level:6,     name: "silver",                                  url: urlx + "/indoor-6/silver"},
         //{level:6,     name: "sulfur-hydrogen-sulfide-sulfate-and-sulfate-reducing-bacteria",                                  url: urlx + "/indoor-6/sulfur-hydrogen-sulfide-sulfate-and-sulfate-reducing-bacteria"},
         //{level:6,     name: "total-dissolved-solids",                  url: urlx + "/indoor-6/total-dissolved-solids"},
         //{level:6,     name: "zinc",                                    url: urlx + "/indoor-6/zinc"}
