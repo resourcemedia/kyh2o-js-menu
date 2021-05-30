@@ -66,6 +66,7 @@ else {
           {level:4,   name: "no-standards-contaminants",  value:"closed",  display:"none", state: "–"},
             {level:5, name: "nMicrobiological",           value:"closed",  display:"none", state: "–"},
             {level:5, name: "nInorganics",                value:"closed",  display:"none", state: "–"},
+            {level:5, name: "organics",                   value:"closed",  display:"none", state: "–"},
 
 
   ];
@@ -316,6 +317,13 @@ var linkArray = [
         {level:6,     name: "sodium",                                 url: urlx + "/indoor-6/sodium"},
         {level:6,     name: "strontium",                              url: urlx + "/indoor-6/strontium"},
 
+        // Contaminants / No Standards / Organics
+        {level:6,     name: "organics-intro",                         url: urlx + "/indoor-5/organics"},
+        {level:6,     name: "acetone",                                url: urlx + "/indoor-6/acetone"},
+        {level:6,     name: "glycols",                                url: urlx + "/indoor-6/glycols"},
+        {level:6,     name: "methyl-ethyl-ketone-2-butanone",         url: urlx + "/indoor-6/methyl-ethyl-ketone-2-butanone"},
+        {level:6,     name: "naphthalene",                            url: urlx + "/indoor-6/naphthalene"},
+        {level:6,     name: "perfluorinated-chemicals-pfoa-pfos-pfas-pfcs-forever-chemicals",                                url: urlx + "/indoor-6/perfluorinated-chemicals-pfoa-pfos-pfas-pfcs-forever-chemicals"},
 ];
 
 
