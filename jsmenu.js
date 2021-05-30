@@ -228,6 +228,7 @@ var linkArray = [
         {level:6,     name: "turbidity",                url: urlx + "/indoor-6/turbidity"},
 
         // Contaminants / Primary / VOCs
+        {level:6,     name: "vocs-intro",                              url: urlx + "/indoor-5/vocs"},
         {level:6,     name: "benzene",                                 url: urlx + "/indoor-6/benzene"},
         {level:6,     name: "carbon-tetrachloride",                    url: urlx + "/indoor-6/carbon-tetrachloride"},
         {level:6,     name: "chloroform-and-trichloromethane",         url: urlx + "/indoor-6/chloroform-and-trichloromethane"},
