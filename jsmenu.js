@@ -309,6 +309,12 @@ var linkArray = [
         // Contaminants / No Standards / Microbiological N
         {level:6,     name: "nInorganics-intro",                      url: urlx + "/indoor-5/inorganics-n"},
         {level:6,     name: "alkalinity",                             url: urlx + "/indoor-6/alkalinity"},
+        {level:6,     name: "boron",                                  url: urlx + "/indoor-6/boron"},
+        {level:6,     name: "bromide",                                url: urlx + "/indoor-6/bromide"},
+        {level:6,     name: "hardness",                               url: urlx + "/indoor-6/hardness"},
+        {level:6,     name: "lithium",                                url: urlx + "/indoor-6/lithium"},
+        {level:6,     name: "sodium",                                 url: urlx + "/indoor-6/sodium"},
+        {level:6,     name: "strontium",                              url: urlx + "/indoor-6/strontium"},
 
 ];
 
