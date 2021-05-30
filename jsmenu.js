@@ -65,7 +65,7 @@ else {
             {level:5, name: "sConditions",                value:"closed",  display:"none", state: "–"},
           {level:4,   name: "no-standards-contaminants",  value:"closed",  display:"none", state: "–"},
             {level:5, name: "nMicrobiological",           value:"closed",  display:"none", state: "–"},
-
+            {level:5, name: "nInorganics",                value:"closed",  display:"none", state: "–"},
 
 
   ];
@@ -305,6 +305,10 @@ var linkArray = [
         {level:6,     name: "pink-bacteria",                           url: urlx + "/indoor-6/pink-bacteria"},
         {level:6,     name: "sulfate-reducing-bacteria",               url: urlx + "/indoor-6/sulfate-reducing-bacteria"},
         {level:6,     name: "slime-bacteria",                          url: urlx + "/indoor-6/slime-bacteria"},
+
+        // Contaminants / No Standards / Microbiological N
+        {level:6,     name: "nInorganics-intro",                      url: urlx + "/indoor-5/inorganics-n"},
+        {level:6,     name: "alkalinity",                             url: urlx + "/indoor-6/alkalinity},
 
 ];
 
