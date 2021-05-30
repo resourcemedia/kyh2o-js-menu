@@ -301,6 +301,10 @@ var linkArray = [
         // Contaminants / No Standards / Microbiological N
         {level:6,     name: "nMicrobiological-intro",                  url: urlx + "/indoor-5/microbiological-n"},
         {level:6,     name: "nuisance-bacteria",                       url: urlx + "/indoor-6/nuisance-bacteria"},
+        {level:6,     name: "iron-bacteria",                           url: urlx + "/indoor-6/iron-bacteria"},
+        {level:6,     name: "pink-bacteria",                           url: urlx + "/indoor-6/pink-bacteria"},
+        {level:6,     name: "sulfate-reducing-bacteria",               url: urlx + "/indoor-6/sulfate-reducing-bacteria"},
+        {level:6,     name: "slime-bacteria",                          url: urlx + "/indoor-6/slime-bacteria"},
 
 ];
 
