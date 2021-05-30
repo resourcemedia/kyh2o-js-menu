@@ -271,15 +271,15 @@ var linkArray = [
       {level:5,       name: "secondary-contaminants-intro",            url: urlx + "/indoor-4/secondary-contaminants"},
         {level:6,     name: "sInorganics-intro",                       url: urlx + "/indoor-5/inorganics-s"},
         {level:6,     name: "aluminum",                                url: urlx + "/indoor-6/aluminum"},
-        {level:6,     name: "chloride",                                url: urlx + "/indoor-6/chloride"},
-        {level:6,     name: "copper",                                  url: urlx + "/indoor-6/copper"},
-        {level:6,     name: "fluoride",                                url: urlx + "/indoor-6/fluoride"},
-        {level:6,     name: "iron",                                    url: urlx + "/indoor-6/iron"},
-        {level:6,     name: "manganese",                               url: urlx + "/indoor-6/manganese"},
-        {level:6,     name: "silver",                                  url: urlx + "/indoor-6/silver"},
-        {level:6,     name: "sulfur-hydrogen-sulfide-sulfate-and-sulfate-reducing-bacteria",                                  url: urlx + "/indoor-6/sulfur-hydrogen-sulfide-sulfate-and-sulfate-reducing-bacteria"},
-        {level:6,     name: "total-dissolved-solids",                  url: urlx + "/indoor-6/total-dissolved-solids"},
-        {level:6,     name: "zinc",                                    url: urlx + "/indoor-6/zinc"},
+        //{level:6,     name: "chloride",                                url: urlx + "/indoor-6/chloride"},
+        //{level:6,     name: "copper",                                  url: urlx + "/indoor-6/copper"},
+        //{level:6,     name: "fluoride",                                url: urlx + "/indoor-6/fluoride"},
+        //{level:6,     name: "iron",                                    url: urlx + "/indoor-6/iron"},
+        //{level:6,     name: "manganese",                               url: urlx + "/indoor-6/manganese"},
+        //{level:6,     name: "silver",                                  url: urlx + "/indoor-6/silver"},
+        //{level:6,     name: "sulfur-hydrogen-sulfide-sulfate-and-sulfate-reducing-bacteria",                                  url: urlx + "/indoor-6/sulfur-hydrogen-sulfide-sulfate-and-sulfate-reducing-bacteria"},
+        //{level:6,     name: "total-dissolved-solids",                  url: urlx + "/indoor-6/total-dissolved-solids"},
+        //{level:6,     name: "zinc",                                    url: urlx + "/indoor-6/zinc"}
 
 ];
 
