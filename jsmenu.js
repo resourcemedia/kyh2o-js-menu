@@ -196,67 +196,68 @@ function openClose() {
 var urlx = "https://know-your-h2o.webflow.io";
 
 var linkArray = [
-  {level:3,         name: "get-informed-intro",       url: urlx + "/indoor-2/get-informed"},
-  {level:3,         name: "public-private",           url: urlx + "/indoor-3/private-well-water-public-city-water"},
-    {level:4,       name: "contaminants-intro",       url: urlx + "/indoor-3/contaminants"},
+  {level:3,         name: "get-informed-intro",           url: urlx + "/indoor-2/get-informed"},
+  {level:3,         name: "public-private",               url: urlx + "/indoor-3/private-well-water-public-city-water"},
+    {level:4,       name: "contaminants-intro",           url: urlx + "/indoor-3/contaminants"},
+      {level:5,       name: "primary-contaminants-intro", url: urlx + "/indoor-4/primary-contaminants"},
 
-      // Contaminants / Primary / pMicrobiological
-      {level:6,     name: "bacteria",                 url: urlx + "/indoor-6/bacteria"},
-      {level:6,     name: "total-coliform-bacteria",  url: urlx + "/indoor-6/total-coliform-bacteria"},
-      {level:6,     name: "e-coli",                   url: urlx + "/indoor-6/e-coli"},
-      {level:6,     name: "giardia-cryptosporidium",  url: urlx + "/indoor-6/giardia-cryptosporidium"},
-      {level:6,     name: "viruses",                  url: urlx + "/indoor-6/viruses"},
-      {level:6,     name: "waterborne-pathogens",     url: urlx + "/indoor-6/waterborne-pathogens"},
+        // Contaminants / Primary / pMicrobiological
+        {level:6,     name: "bacteria",                 url: urlx + "/indoor-6/bacteria"},
+        {level:6,     name: "total-coliform-bacteria",  url: urlx + "/indoor-6/total-coliform-bacteria"},
+        {level:6,     name: "e-coli",                   url: urlx + "/indoor-6/e-coli"},
+        {level:6,     name: "giardia-cryptosporidium",  url: urlx + "/indoor-6/giardia-cryptosporidium"},
+        {level:6,     name: "viruses",                  url: urlx + "/indoor-6/viruses"},
+        {level:6,     name: "waterborne-pathogens",     url: urlx + "/indoor-6/waterborne-pathogens"},
 
-      // Contaminants / Primary / pInorganic
-      {level:6,     name: "antimony",                 url: urlx + "/indoor-6/antimony"},
-      {level:6,     name: "arsenic",                  url: urlx + "/indoor-6/arsenic"},
-      {level:6,     name: "barium",                   url: urlx + "/indoor-6/barium"},
-      {level:6,     name: "cadmium",                  url: urlx + "/indoor-6/cadmium"},
-      {level:6,     name: "chromium",                 url: urlx + "/indoor-6/chromium"},
-      {level:6,     name: "copper",                   url: urlx + "/indoor-6/copper"},
-      {level:6,     name: "cyanide",                  url: urlx + "/indoor-6/cyanide"},
-      {level:6,     name: "fluoride",                 url: urlx + "/indoor-6/fluoride"},
-      {level:6,     name: "lead",                     url: urlx + "/indoor-6/lead"},
-      {level:6,     name: "mercury",                  url: urlx + "/indoor-6/mercury"},
-      {level:6,     name: "nitrates-nitrites",        url: urlx + "/indoor-6/nitrates-nitrites"},
-      {level:6,     name: "selenium",                 url: urlx + "/indoor-6/selenium"},
-      {level:6,     name: "thallium",                 url: urlx + "/indoor-6/thallium"},
-      {level:6,     name: "turbidity",                url: urlx + "/indoor-6/turbidity"},
+        // Contaminants / Primary / pInorganic
+        {level:6,     name: "antimony",                 url: urlx + "/indoor-6/antimony"},
+        {level:6,     name: "arsenic",                  url: urlx + "/indoor-6/arsenic"},
+        {level:6,     name: "barium",                   url: urlx + "/indoor-6/barium"},
+        {level:6,     name: "cadmium",                  url: urlx + "/indoor-6/cadmium"},
+        {level:6,     name: "chromium",                 url: urlx + "/indoor-6/chromium"},
+        {level:6,     name: "copper",                   url: urlx + "/indoor-6/copper"},
+        {level:6,     name: "cyanide",                  url: urlx + "/indoor-6/cyanide"},
+        {level:6,     name: "fluoride",                 url: urlx + "/indoor-6/fluoride"},
+        {level:6,     name: "lead",                     url: urlx + "/indoor-6/lead"},
+        {level:6,     name: "mercury",                  url: urlx + "/indoor-6/mercury"},
+        {level:6,     name: "nitrates-nitrites",        url: urlx + "/indoor-6/nitrates-nitrites"},
+        {level:6,     name: "selenium",                 url: urlx + "/indoor-6/selenium"},
+        {level:6,     name: "thallium",                 url: urlx + "/indoor-6/thallium"},
+        {level:6,     name: "turbidity",                url: urlx + "/indoor-6/turbidity"},
 
-      // Contaminants / Primary / VOCs
-      {level:6,     name: "benzene",                                 url: urlx + "/indoor-6/benzene"},
-      {level:6,     name: "carbon-tetrachloride",                    url: urlx + "/indoor-6/carbon-tetrachloride"},
-      {level:6,     name: "chloroform-and-trichloromethane",         url: urlx + "/indoor-6/chloroform-and-trichloromethane"},
-      {level:6,     name: "ethylbenzene",                            url: urlx + "/indoor-6/ethylbenzene"},
-      {level:6,     name: "methylene-chloride-dichloromethane-dcm",  url: urlx + "/indoor-6/methylene-chloride-dichloromethane-dcm"},
-      {level:6,     name: "mtbe-methyl-tert-butyl-ether",            url: urlx + "/indoor-6/mtbe-methyl-tert-butyl-ether"},
-      {level:6,     name: "tetrachloroethylene",                     url: urlx + "/indoor-6/tetrachloroethylene"},
-      {level:6,     name: "trichloroethylene",                       url: urlx + "/indoor-6/trichloroethylene"},
-      {level:6,     name: "toluene",                                 url: urlx + "/indoor-6/toluene"},
-      {level:6,     name: "xylenes",                                 url: urlx + "/indoor-6/xylenes"},
+        // Contaminants / Primary / VOCs
+        {level:6,     name: "benzene",                                 url: urlx + "/indoor-6/benzene"},
+        {level:6,     name: "carbon-tetrachloride",                    url: urlx + "/indoor-6/carbon-tetrachloride"},
+        {level:6,     name: "chloroform-and-trichloromethane",         url: urlx + "/indoor-6/chloroform-and-trichloromethane"},
+        {level:6,     name: "ethylbenzene",                            url: urlx + "/indoor-6/ethylbenzene"},
+        {level:6,     name: "methylene-chloride-dichloromethane-dcm",  url: urlx + "/indoor-6/methylene-chloride-dichloromethane-dcm"},
+        {level:6,     name: "mtbe-methyl-tert-butyl-ether",            url: urlx + "/indoor-6/mtbe-methyl-tert-butyl-ether"},
+        {level:6,     name: "tetrachloroethylene",                     url: urlx + "/indoor-6/tetrachloroethylene"},
+        {level:6,     name: "trichloroethylene",                       url: urlx + "/indoor-6/trichloroethylene"},
+        {level:6,     name: "toluene",                                 url: urlx + "/indoor-6/toluene"},
+        {level:6,     name: "xylenes",                                 url: urlx + "/indoor-6/xylenes"},
 
-      // Contaminants / Primary / SOCs
-      {level:6,     name: "alachlor",                                url: urlx + "/indoor-6/alachlor"},
-      {level:6,     name: "atrazine",                                url: urlx + "/indoor-6/atrazine"},
-      {level:6,     name: "glyphosate",                              url: urlx + "/indoor-6/glyphosate"},
-      {level:6,     name: "2-4-d",                                   url: urlx + "/indoor-6/2-4-d"},
-      {level:6,     name: "gamma-hexachlorocyclohexane-lindane",     url: urlx + "/indoor-6/gamma-hexachlorocyclohexane-lindane"},
-      {level:6,     name: "bis-2-ethylhexyl-phthalate",              url: urlx + "/indoor-6/bis-2-ethylhexyl-phthalate"},
-      {level:6,     name: "herbicides-pesticides",                   url: urlx + "/indoor-6/herbicides-pesticides"},
+        // Contaminants / Primary / SOCs
+        {level:6,     name: "alachlor",                                url: urlx + "/indoor-6/alachlor"},
+        {level:6,     name: "atrazine",                                url: urlx + "/indoor-6/atrazine"},
+        {level:6,     name: "glyphosate",                              url: urlx + "/indoor-6/glyphosate"},
+        {level:6,     name: "2-4-d",                                   url: urlx + "/indoor-6/2-4-d"},
+        {level:6,     name: "gamma-hexachlorocyclohexane-lindane",     url: urlx + "/indoor-6/gamma-hexachlorocyclohexane-lindane"},
+        {level:6,     name: "bis-2-ethylhexyl-phthalate",              url: urlx + "/indoor-6/bis-2-ethylhexyl-phthalate"},
+        {level:6,     name: "herbicides-pesticides",                   url: urlx + "/indoor-6/herbicides-pesticides"},
 
-      // Contaminants / Primary / Disinfection By-products
-      {level:6,     name: "trihalomethanes",          url: urlx + "/indoor-6/trihalomethanes"},
-      {level:6,     name: "haloacetic-acids",         url: urlx + "/indoor-6/haloacetic-acids"},
-      {level:6,     name: "chlorite",                 url: urlx + "/indoor-6/chlorite"},
-      {level:6,     name: "bromate",                  url: urlx + "/indoor-6/bromate"},
+        // Contaminants / Primary / Disinfection By-products
+        {level:6,     name: "trihalomethanes",          url: urlx + "/indoor-6/trihalomethanes"},
+        {level:6,     name: "haloacetic-acids",         url: urlx + "/indoor-6/haloacetic-acids"},
+        {level:6,     name: "chlorite",                 url: urlx + "/indoor-6/chlorite"},
+        {level:6,     name: "bromate",                  url: urlx + "/indoor-6/bromate"},
 
-      // Contaminants / Primary / Radioactive Isotopes
-      {level:6,     name: "gross-alpha",                url: urlx + "/indoor-6/gross-alpha"},
-      {level:6,     name: "beta-particles",             url: urlx + "/indoor-6/beta-particles"},
-      {level:6,     name: "radium-226-and-radium-228",  url: urlx + "/indoor-6/radium-226-and-radium-228"},
-      {level:6,     name: "uranium",                    url: urlx + "/indoor-6/uranium"},
-      {level:6,     name: "radon-220-222",              url: urlx + "/indoor-6/radon-220-222"}
+        // Contaminants / Primary / Radioactive Isotopes
+        {level:6,     name: "gross-alpha",                url: urlx + "/indoor-6/gross-alpha"},
+        {level:6,     name: "beta-particles",             url: urlx + "/indoor-6/beta-particles"},
+        {level:6,     name: "radium-226-and-radium-228",  url: urlx + "/indoor-6/radium-226-and-radium-228"},
+        {level:6,     name: "uranium",                    url: urlx + "/indoor-6/uranium"},
+        {level:6,     name: "radon-220-222",              url: urlx + "/indoor-6/radon-220-222"}
 
 ];
 
