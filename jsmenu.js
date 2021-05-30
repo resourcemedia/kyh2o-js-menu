@@ -241,7 +241,7 @@ var linkArray = [
         {level:6,     name: "xylenes",                                 url: urlx + "/indoor-6/xylenes"},
 
         // Contaminants / Primary / SOCs
-        {level:6,     name: "socs-intro",                              url: urlx + "/indoor-6/socs"},
+        {level:6,     name: "socs-intro",                              url: urlx + "/indoor-5/socs"},
         {level:6,     name: "alachlor",                                url: urlx + "/indoor-6/alachlor"},
         {level:6,     name: "atrazine",                                url: urlx + "/indoor-6/atrazine"},
         {level:6,     name: "glyphosate",                              url: urlx + "/indoor-6/glyphosate"},
