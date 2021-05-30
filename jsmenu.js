@@ -339,6 +339,7 @@ var linkArray = [
         {level:6,     name: "broken-water-line",                      url: urlx + "/indoor-6/broken-water-line"},
 
     // Standards
+    {level:4,       name: "standards-intro",                          url: urlx + "/indoor-3/standards"},
     {level:4,       name: "primary-standards",                        url: urlx + "/indoor-4/primary-standards"},
     {level:4,       name: "secondary-standards",                      url: urlx + "/indoor-4/secondary-standards"},
     {level:4,       name: "no-standards",                             url: urlx + "/indoor-4/no-standards"},
