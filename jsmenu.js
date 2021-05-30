@@ -59,8 +59,8 @@ else {
             {level:5, name: "vocs",                     value:"closed",  display:"none", state: "–"},
             {level:5, name: "socs",                     value:"closed",  display:"none", state: "–"},
             {level:5, name: "disinfection-byproducts",  value:"closed",  display:"none", state: "–"},
-            {level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"}
-          {level:4,   name: "secondary-contaminants",   value:"closed",  display:"none", state: "–"},
+            {level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"},
+          {level:4,   name: "secondary-contaminants",   value:"closed",  display:"none", state: "–"}
 
 
 
@@ -265,6 +265,10 @@ var linkArray = [
         {level:6,     name: "radium-226-and-radium-228",               url: urlx + "/indoor-6/radium-226-and-radium-228"},
         {level:6,     name: "uranium",                                 url: urlx + "/indoor-6/uranium"},
         {level:6,     name: "radon-220-222",                           url: urlx + "/indoor-6/radon-220-222"}
+
+      // Contaminants / Secondary
+      {level:5,       name: "secondary-contaminants-intro",   url: urlx + "/indoor-4/secondary-contaminants"},
+      {level:5,       name: "sInorganics",                    url: urlx + "/indoor-5/inorganics-s"}
 
 ];
 
