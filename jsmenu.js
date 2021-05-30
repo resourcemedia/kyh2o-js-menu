@@ -60,7 +60,8 @@ else {
             {level:5, name: "socs",                     value:"closed",  display:"none", state: "–"},
             {level:5, name: "disinfection-byproducts",  value:"closed",  display:"none", state: "–"},
             {level:5, name: "radioactive-isotopes",     value:"closed",  display:"none", state: "–"},
-          {level:4,   name: "secondary-contaminants",   value:"closed",  display:"none", state: "–"}
+          {level:4,   name: "secondary-contaminants",   value:"closed",  display:"none", state: "–"},
+            {level:5, name: "sInorganics",              value:"closed",  display:"none", state: "–"},
 
 
 
