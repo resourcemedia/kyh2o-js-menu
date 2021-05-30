@@ -296,8 +296,8 @@ function expandMenu () {
       //  var topPos = document.getElementById('inner-element').offsetTop;
       //document.getElementById('container').scrollTop = topPos-10;
 
-      scrollTo(document.getElementById('div-menu-overflow'), 0, 30);
-      $(#id_of_div_with_scroll).scrollTop($("#your_span_id").offset().top);
+      //scrollTo(document.getElementById('div-menu-overflow'), 0, 30);
+      //$(#id_of_div_with_scroll).scrollTop($("#your_span_id").offset().top);
 
 
       if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
