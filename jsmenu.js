@@ -264,7 +264,7 @@ var linkArray = [
         {level:6,     name: "beta-particles",                          url: urlx + "/indoor-6/beta-particles"},
         {level:6,     name: "radium-226-and-radium-228",               url: urlx + "/indoor-6/radium-226-and-radium-228"},
         {level:6,     name: "uranium",                                 url: urlx + "/indoor-6/uranium"},
-        {level:6,     name: "radon-220-222",                           url: urlx + "/indoor-6/radon-220-222"}
+        {level:6,     name: "radon-220-222",                           url: urlx + "/indoor-6/radon-220-222"},
 
       // Contaminants / Secondary
       {level:5,       name: "secondary-contaminants-intro",   url: urlx + "/indoor-4/secondary-contaminants"},
