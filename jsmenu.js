@@ -69,7 +69,7 @@ else {
             {level:5, name: "organics",                   value:"closed",  display:"none", state: "–"},
             {level:5, name: "gases",                      value:"closed",  display:"none", state: "–"},
             {level:5, name: "nConditions",                value:"closed",  display:"none", state: "–"},
-
+        {level:3,     name: "standards",                  value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -337,6 +337,13 @@ var linkArray = [
         {level:6,     name: "dissolved-gases",                        url: urlx + "/indoor-6/dissolved-gases"},
         {level:6,     name: "elevated-chlorine",                      url: urlx + "/indoor-6/elevated-chlorine"},
         {level:6,     name: "broken-water-line",                      url: urlx + "/indoor-6/broken-water-line"},
+
+    // Standards
+    {level:4,       name: "primary-standards",                        url: urlx + "/indoor-3/primary-standards"},
+    {level:4,       name: "secondary-standards",                      url: urlx + "/indoor-3/secondary-standards"},
+    {level:4,       name: "no-standards",                             url: urlx + "/indoor-3/no-standards"},
+
+
 ];
 
 
