@@ -70,6 +70,7 @@ else {
             {level:5, name: "gases",                      value:"closed",  display:"none", state: "–"},
             {level:5, name: "nConditions",                value:"closed",  display:"none", state: "–"},
         {level:3,     name: "standards",                  value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "water-science-basics",       value:"closed",  display:"none", state: "–"},
         {level:3,     name: "drinking-water-topics",      value:"closed",  display:"none", state: "–"},
 
   ];
@@ -345,10 +346,17 @@ var linkArray = [
     {level:4,       name: "secondary-standards",                      url: urlx + "/indoor-4/secondary-standards"},
     {level:4,       name: "no-standards",                             url: urlx + "/indoor-4/no-standards"},
 
+    // Water Science Basics
+    {level:4,       name: "water-science-basics-intro",               url: urlx + "/indoor-3/water-science-basics"},
+    {level:4,       name: "physics",                                  url: urlx + "/indoor-4/physics"},
+    {level:4,       name: "inorganic-chemistry",                      url: urlx + "/indoor-4/inorganic-chemistry"},
+    {level:4,       name: "organic-chemistry",                        url: urlx + "/indoor-4/organic-chemistry"},
+    {level:4,       name: "biology",                                  url: urlx + "/indoor-4/biology"},
+
   // Glossary
   {level:3,         name: "glossary",           url: urlx + "/indoor-3/glossary"},
 
-    // Standards
+    // Drinking Water Topics
     {level:4,       name: "drinking-water-topics-intro",              url: urlx + "/indoor-3/drinking-water-topics"},
     {level:4,       name: "groundwater-and-the-water-cycle-pennsylvania-example",
                     url: urlx + "/indoor-4/groundwater-and-the-water-cycle-pennsylvania-example"},
