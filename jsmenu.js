@@ -436,6 +436,7 @@ var linkArray = [
 
   // Get Treatment
   {level:3,       name: "get-treatment-intro",        url: urlx + "/indoor-2/get-treatment"},
+  {level:3,       name: "treatment-types-intro",      url: urlx + "/indoor-3/treatment-types"},
   {level:3,       name: "aeration",                   url: urlx + "/indoor-3/aeration"},
 
 ];
