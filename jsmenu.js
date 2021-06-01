@@ -436,10 +436,30 @@ var linkArray = [
   {level:3,       name: "level-4-baseline-testing",   url: urlx + "/indoor-3/level-4-baseline-testing"},
 
   // Get Treatment
-  {level:3,       name: "get-treatment-intro",        url: urlx + "/indoor-2/get-treatment"},
-  {level:3,       name: "treatment-types-intro",      url: urlx + "/indoor-3/treatment-types"},
-  {level:3,       name: "aeration",                   url: urlx + "/indoor-3/aeration"},
-
+  {level:3,       name: "get-treatment-intro",                      url: urlx + "/indoor-2/get-treatment"},
+  {level:3,       name: "treatment-types-intro",                    url: urlx + "/indoor-3/treatment-types"},
+  {level:3,       name: "aeration",                                 url: urlx + "/indoor-3/aeration"},
+  /*
+  {level:3,       name: "arsenic-treatment-systems",                url: urlx + "/indoor-3/arsenic-treatment-systems"},
+  {level:3,       name: "carbon-filtration",                        url: urlx + "/indoor-3/carbon-filtration"},
+  {level:3,       name: "chemical-disinfection-chlorination-ozone", url: urlx + "/indoor-3/chemical-disinfection-chlorination-ozone"},
+  {level:3,       name: "commercial-water-treatment-systems",       url: urlx + "/indoor-3/commercial-water-treatment-systems"},
+  {level:3,       name: "countertop-pou-point-of-use-units",        url: urlx + "/indoor-3/countertop-pou-point-of-use-units"},
+  {level:3,       name: "distillation-systems",                     url: urlx + "/indoor-3/distillation-systems"},
+  {level:3,       name: "ion-exchange",                             url: urlx + "/indoor-3/ion-exchange"},
+  {level:3,       name: "iron-and-manganese-control-and-nuisance-reduction", url: urlx + "/indoor-3/iron-and-manganese-control-and-nuisance-reduction"},
+  {level:3,       name: "neutralizing-systems",                     url: urlx + "/indoor-3/neutralizing-systems"},
+  {level:3,       name: "nitrate-and-nitrate-removal",              url: urlx + "/indoor-3/nitrate-and-nitrate-removal"},
+  {level:3,       name: "oxidation",                                url: urlx + "/indoor-3/oxidation"},
+  {level:3,       name: "particle-filtration",                      url: urlx + "/indoor-3/particle-filtration"},
+  {level:3,       name: "reverse-osmosis",                          url: urlx + "/indoor-3/reverse-osmosis"},
+  {level:3,       name: "shower-filters",                           url: urlx + "/indoor-3/shower-filters"},
+  {level:3,       name: "sulfur-treatment-and-control",             url: urlx + "/indoor-3/sulfur-treatment-and-control"},
+  {level:3,       name: "ultraviolet-disinfection",                 url: urlx + "/indoor-3/ultraviolet-disinfection"},
+  {level:3,       name: "under-the-counter-units",                  url: urlx + "/indoor-3/under-the-counter-units"},
+  {level:3,       name: "water-cooler-systems",                     url: urlx + "/indoor-3/water-cooler-systems"},
+  {level:3,       name: "water-softeners",                          url: urlx + "/indoor-3/water-softeners"},
+  */
 ];
 
 
