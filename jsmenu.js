@@ -74,6 +74,7 @@ else {
         {level:3,     name: "drinking-water-topics",            value:"closed",  display:"none", state: "–"},
         {level:3,     name: "case-studies",                     value:"closed",  display:"none", state: "–"},
           {level:4,   name: "common-drinking-water-problems",   value:"closed",  display:"none", state: "–"},
+          {level:4,   name: "commercial",                       value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -391,7 +392,6 @@ var linkArray = [
 
       // Case Studies / Common Drinking Water Problems
       {level:5,   name: "common-drinking-water-problems-intro",       url: urlx + "/indoor-4/common-drinking-water-problems"},
-
       {level:5,   name: "case-study-1-natural-gas-region-water-discoloration",
                   url: urlx + "/indoor-5/case-study-1-natural-gas-region-water-discoloration"},
       {level:5,   name: "case-study-2-natural-gas-region-water-contamination-of-a-private-well",
@@ -414,6 +414,11 @@ var linkArray = [
                   url: urlx + "/indoor-5/case-study-10-natural-gas-region-frac-sand-in-my-well-gray-white-sticky-material"},
       {level:5,   name: "case-study-11-natural-gas-region-black-water-sulfur-smell",
                   url: urlx + "/indoor-5/case-study-11-natural-gas-region-black-water-sulfur-smell"},
+
+      // Case Studies / Commercial
+
+      {level:5,   name: "commercial-intro",       url: urlx + "/indoor-4/commercial-intro"},
+      {level:5,   name: "smith-paint-products",       url: urlx + "/indoor-5/smith-paint-products"},
 
 ];
 
