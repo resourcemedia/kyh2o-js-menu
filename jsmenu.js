@@ -75,7 +75,8 @@ else {
         {level:3,     name: "case-studies",                     value:"closed",  display:"none", state: "–"},
           {level:4,   name: "common-drinking-water-problems",   value:"closed",  display:"none", state: "–"},
           {level:4,   name: "commercial",                       value:"closed",  display:"none", state: "–"},
-      {level:2,       name: "get-tested",                     value:"closed",  display:"none", state: "–"},
+      {level:2,       name: "get-tested",                       value:"closed",  display:"none", state: "–"},
+      {level:2,       name: "get-treatment",                    value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -431,7 +432,11 @@ var linkArray = [
   {level:3,       name: "level-2-testing",            url: urlx + "/indoor-3/level-2-testing"},
   {level:3,       name: "level-3-testing",            url: urlx + "/indoor-3/level-3-testing"},
   {level:3,       name: "level-4-testing",            url: urlx + "/indoor-3/level-4-testing"},
-  {level:3,       name: "level-4-baseline-testing",            url: urlx + "/indoor-3/level-4-baseline-testing"},
+  {level:3,       name: "level-4-baseline-testing",   url: urlx + "/indoor-3/level-4-baseline-testing"},
+
+  // Get Treatment
+  {level:3,       name: "get-treatment-intro",        url: urlx + "/indoor-2/get-treatment"},
+  {level:3,       name: "aeration",                   url: urlx + "/indoor-3/aeration"},
 
 ];
 
