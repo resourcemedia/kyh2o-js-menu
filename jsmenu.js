@@ -417,8 +417,12 @@ var linkArray = [
 
       // Case Studies / Commercial
 
-      {level:5,   name: "commercial-intro",       url: urlx + "/indoor-4/commercial-intro"},
+      {level:5,   name: "commercial-intro",           url: urlx + "/indoor-4/commercial-intro"},
       {level:5,   name: "smith-paint-products",       url: urlx + "/indoor-5/smith-paint-products"},
+      {level:5,   name: "arsenic-research-project",   url: urlx + "/indoor-5/arsenic-research-project"},
+
+  // Glossary
+  {level:3,       name: "library",                    url: urlx + "/indoor-3/;library"},
 
 ];
 
