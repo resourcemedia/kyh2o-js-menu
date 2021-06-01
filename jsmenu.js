@@ -391,7 +391,30 @@ var linkArray = [
 
       // Case Studies / Common Drinking Water Problems
       {level:5,   name: "common-drinking-water-problems-intro",       url: urlx + "/indoor-4/common-drinking-water-problems"},
-      
+
+      {level:5,   name: "case-study-1-natural-gas-region-water-discoloration",
+                  url: urlx + "/indoor-4/case-study-1-natural-gas-region-water-discoloration"},
+      {level:5,   name: "case-study-2-natural-gas-region-water-contamination-of-a-private-well",
+                  url: urlx + "/indoor-4/case-study-2-natural-gas-region-water-contamination-of-a-private-well"},
+      {level:5,   name: "case-study-2-natural-gas-region-water-contamination-of-a-private-well",
+                  url: urlx + "/indoor-4/case-study-2-natural-gas-region-water-contamination-of-a-private-well"},
+      {level:5,   name: "case-study-4-natural-gas-region-water-is-fizzy",
+                  url: urlx + "/indoor-4/case-study-4-natural-gas-region-water-is-fizzy"},
+      {level:5,   name: "case-study-5-water-is-green-alkaline-metallic-taste-odor-problem-with-the-hot-water",
+                  url: urlx + "/indoor-4/case-study-5-water-is-green-alkaline-metallic-taste-odor-problem-with-the-hot-water"},
+      {level:5,   name: "case-study-6-repeated-hot-water-heater-failures",
+                  url: urlx + "/indoor-4/case-study-6-repeated-hot-water-heater-failures"},
+      {level:5,   name: "case-study-7-natural-gas-region-green-particles-in-my-water",
+                  url: urlx + "/indoor-4/case-study-7-natural-gas-region-green-particles-in-my-water"},
+      {level:5,   name: "case-study-7-natural-gas-region-green-particles-in-my-water",
+                  url: urlx + "/indoor-4/case-study-7-natural-gas-region-green-particles-in-my-water"},
+      {level:5,   name: "case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors",
+                  url: urlx + "/indoor-4/case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors"},
+      {level:5,   name: "case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors",
+                  url: urlx + "/indoor-4/case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors"},
+      {level:5,   name: "case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors",
+                  url: urlx + "/indoor-4/case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors"},
+
 ];
 
 
