@@ -50,28 +50,30 @@ if (sessionStorage.getItem("state") === "changed") {
 }
 else {
   var buttonArray = [
-      {level:1,       name: "indoor",                     value:"open",   display:"block", state: "–"},
-      {level:2,       name: "get-informed",               value:"closed",  display:"none", state: "–"},
-        {level:3,     name: "contaminants",               value:"closed",  display:"none", state: "–"},
-          {level:4,   name: "primary-contaminants",       value:"closed",  display:"none", state: "–"},
-            {level:5, name: "pMicrobiological",           value:"closed",  display:"none", state: "–"},
-            {level:5, name: "pInorganics",                value:"closed",  display:"none", state: "–"},
-            {level:5, name: "vocs",                       value:"closed",  display:"none", state: "–"},
-            {level:5, name: "socs",                       value:"closed",  display:"none", state: "–"},
-            {level:5, name: "disinfection-byproducts",    value:"closed",  display:"none", state: "–"},
-            {level:5, name: "radioactive-isotopes",       value:"closed",  display:"none", state: "–"},
-          {level:4,   name: "secondary-contaminants",     value:"closed",  display:"none", state: "–"},
-            {level:5, name: "sInorganics",                value:"closed",  display:"none", state: "–"},
-            {level:5, name: "sConditions",                value:"closed",  display:"none", state: "–"},
-          {level:4,   name: "no-standards-contaminants",  value:"closed",  display:"none", state: "–"},
-            {level:5, name: "nMicrobiological",           value:"closed",  display:"none", state: "–"},
-            {level:5, name: "nInorganics",                value:"closed",  display:"none", state: "–"},
-            {level:5, name: "organics",                   value:"closed",  display:"none", state: "–"},
-            {level:5, name: "gases",                      value:"closed",  display:"none", state: "–"},
-            {level:5, name: "nConditions",                value:"closed",  display:"none", state: "–"},
-        {level:3,     name: "standards",                  value:"closed",  display:"none", state: "–"},
-        {level:3,     name: "water-science-basics",       value:"closed",  display:"none", state: "–"},
-        {level:3,     name: "drinking-water-topics",      value:"closed",  display:"none", state: "–"},
+      {level:1,       name: "indoor",                           value:"open",   display:"block", state: "–"},
+      {level:2,       name: "get-informed",                     value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "contaminants",                     value:"closed",  display:"none", state: "–"},
+          {level:4,   name: "primary-contaminants",             value:"closed",  display:"none", state: "–"},
+            {level:5, name: "pMicrobiological",                 value:"closed",  display:"none", state: "–"},
+            {level:5, name: "pInorganics",                      value:"closed",  display:"none", state: "–"},
+            {level:5, name: "vocs",                             value:"closed",  display:"none", state: "–"},
+            {level:5, name: "socs",                             value:"closed",  display:"none", state: "–"},
+            {level:5, name: "disinfection-byproducts",          value:"closed",  display:"none", state: "–"},
+            {level:5, name: "radioactive-isotopes",             value:"closed",  display:"none", state: "–"},
+          {level:4,   name: "secondary-contaminants",           value:"closed",  display:"none", state: "–"},
+            {level:5, name: "sInorganics",                      value:"closed",  display:"none", state: "–"},
+            {level:5, name: "sConditions",                      value:"closed",  display:"none", state: "–"},
+          {level:4,   name: "no-standards-contaminants",        value:"closed",  display:"none", state: "–"},
+            {level:5, name: "nMicrobiological",                 value:"closed",  display:"none", state: "–"},
+            {level:5, name: "nInorganics",                      value:"closed",  display:"none", state: "–"},
+            {level:5, name: "organics",                         value:"closed",  display:"none", state: "–"},
+            {level:5, name: "gases",                            value:"closed",  display:"none", state: "–"},
+            {level:5, name: "nConditions",                      value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "standards",                        value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "water-science-basics",             value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "drinking-water-topics",            value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "case-studies",                     value:"closed",  display:"none", state: "–"},
+          {level:4,   name: "common-drinking-water-problems",   value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -357,7 +359,8 @@ var linkArray = [
   {level:3,         name: "glossary",           url: urlx + "/indoor-3/glossary"},
 
     // Drinking Water Topics
-    {level:4,       name: "drinking-water-topics-intro",              url: urlx + "/indoor-3/drinking-water-topics"},
+    {level:4,       name: "drinking-water-topics-intro",
+                    url: urlx + "/indoor-3/drinking-water-topics"},
     {level:4,       name: "groundwater-and-the-water-cycle-pennsylvania-example",
                     url: urlx + "/indoor-4/groundwater-and-the-water-cycle-pennsylvania-example"},
     {level:4,       name: "groundwater-under-the-influence",
@@ -383,6 +386,12 @@ var linkArray = [
     {level:4,       name: "hot-water-heater-hydrogen-sulfide-odor",
                     url: urlx + "/indoor-4/hot-water-heater-hydrogen-sulfide-odor"},
 
+    // Case Studies
+    {level:4,       name: "case-studies-intro",                       url: urlx + "/indoor-3/case-studies"},
+
+      // Case Studies / Common Drinking Water Problems
+      {level:5,   name: "common-drinking-water-problems-intro",       url: urlx + "/indoor-4/common-drinking-water-problems"},
+      
 ];
 
 
