@@ -77,6 +77,7 @@ else {
           {level:4,   name: "commercial",                       value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-tested",                       value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-treatment",                    value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "treatment-types",                  value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
