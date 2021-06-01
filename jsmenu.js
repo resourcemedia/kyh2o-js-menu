@@ -75,6 +75,7 @@ else {
         {level:3,     name: "case-studies",                     value:"closed",  display:"none", state: "–"},
           {level:4,   name: "common-drinking-water-problems",   value:"closed",  display:"none", state: "–"},
           {level:4,   name: "commercial",                       value:"closed",  display:"none", state: "–"},
+      {level:2,       name: "get-tested",                     value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -423,6 +424,9 @@ var linkArray = [
 
   // Glossary
   {level:3,       name: "library",                    url: urlx + "/indoor-3/;library"},
+
+  // Get Tested
+  {level:3,       name: "get-tested-intro",           url: urlx + "/indoor-2/get-tested"},
 
 ];
 
