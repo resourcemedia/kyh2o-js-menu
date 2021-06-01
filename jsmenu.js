@@ -410,10 +410,10 @@ var linkArray = [
                   url: urlx + "/indoor-5/case-study-8-black-particles-in-the-water"},
       {level:5,   name: "case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors",
                   url: urlx + "/indoor-5/case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors"},
-      {level:5,   name: "case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors",
-                  url: urlx + "/indoor-5/case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors"},
-      {level:5,   name: "case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors",
-                  url: urlx + "/indoor-5/case-study-9-dirty-discolored-water-bacteria-iron-staining-and-odors"},
+      {level:5,   name: "case-study-10-natural-gas-region-frac-sand-in-my-well-gray-white-sticky-material",
+                  url: urlx + "/indoor-5/case-study-10-natural-gas-region-frac-sand-in-my-well-gray-white-sticky-material"},
+      {level:5,   name: "case-study-11-natural-gas-region-black-water-sulfur-smell",
+                  url: urlx + "/indoor-5/case-study-11-natural-gas-region-black-water-sulfur-smell"},
 
 ];
 
