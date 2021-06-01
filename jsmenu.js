@@ -427,6 +427,11 @@ var linkArray = [
 
   // Get Tested
   {level:3,       name: "get-tested-intro",           url: urlx + "/indoor-2/get-tested"},
+  {level:3,       name: "level-1-testing",            url: urlx + "/indoor-3/level-1-testing"},
+  {level:3,       name: "level-2-testing",            url: urlx + "/indoor-3/level-2-testing"},
+  {level:3,       name: "level-3-testing",            url: urlx + "/indoor-3/level-3-testing"},
+  {level:3,       name: "level-4-testing",            url: urlx + "/indoor-3/level-4-testing"},
+  {level:3,       name: "level-4-baseline-testing",            url: urlx + "/indoor-3/level-4-baseline-testing"},
 
 ];
 
