@@ -479,8 +479,6 @@ var linkArray = [
     {level:3,       name: "self-test-web-app",                    url: urlx + "/indoor-3/self-test-web-app"},
     {level:3,       name: "water-quality-index-calculator-for-drinking-water",
                     url: urlx + "/indoor-3/water-quality-index-calculator-for-drinking-water"},
-    {level:3,       name: "water-quality-index-calculator-for-drinking-water",
-                    url: urlx + "/indoor-3/water-quality-index-calculator-for-drinking-water"},
     {level:3,       name: "global-drinking-water-quality-database-map",
                     url: urlx + "/indoor-3/global-drinking-water-quality-database-map"},
     {level:3,       name: "neighborhood-environmental-reports",
