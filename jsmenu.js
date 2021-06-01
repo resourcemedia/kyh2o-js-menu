@@ -474,9 +474,29 @@ var linkArray = [
                       url: urlx + "/indoor-4/water-filtration-plant-performance-evaluations"},
       {level:3,       name: "uv-disinfection",                          url: urlx + "/indoor-4/uv-disinfection"},
 
-  // Get Treatment
+  // Get Tools
   {level:3,         name: "get-tools-intro",                      url: urlx + "/indoor-2/get-tools"},
     {level:3,       name: "self-test-web-app",                    url: urlx + "/indoor-3/self-test-web-app"},
+    {level:3,       name: "water-quality-index-calculator-for-drinking-water",
+                    url: urlx + "/indoor-3/water-quality-index-calculator-for-drinking-water"},
+    {level:3,       name: "water-quality-index-calculator-for-drinking-water",
+                    url: urlx + "/indoor-3/water-quality-index-calculator-for-drinking-water"},
+    {level:3,       name: "global-drinking-water-quality-database-map",
+                    url: urlx + "/indoor-3/global-drinking-water-quality-database-map"},
+    {level:3,       name: "neighborhood-environmental-reports",
+                    url: urlx + "/indoor-3/neighborhood-environmental-reports"},
+    {level:3,       name: "edr-radius-map-with-geocheck",
+                    url: urlx + "/indoor-3/edr-radius-map-with-geocheck"},
+    {level:3,       name: "drinking-water-guide-for-well-water-and-city-water",
+                    url: urlx + "/indoor-3/drinking-water-guide-for-well-water-and-city-water"},
+    {level:3,       name: "radon-state-county-zones",
+                    url: urlx + "/indoor-3/radon-state-county-zones"},
+    {level:3,       name: "wellbore-calculator",
+                    url: urlx + "/indoor-3/wellbore-calculator"},
+    {level:3,       name: "chlorine-contact-calculators",
+                    url: urlx + "/indoor-3/chlorine-contact-calculators"},
+    {level:3,       name: "epa-widgets",
+                    url: urlx + "/indoor-3/epa-widgets"},
 
 ];
 
