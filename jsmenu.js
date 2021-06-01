@@ -80,6 +80,7 @@ else {
         {level:3,     name: "treatment-types",                  value:"closed",  display:"none", state: "–"},
         {level:3,     name: "treatment-topics",                 value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-tools",                        value:"closed",  display:"none", state: "–"},
+      {level:2,       name: "get-training",                     value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -495,6 +496,13 @@ var linkArray = [
                     url: urlx + "/indoor-3/chlorine-contact-calculators"},
     {level:3,       name: "epa-widgets",
                     url: urlx + "/indoor-3/epa-widgets"},
+
+    // Get Tools
+    {level:3,         name: "get-training-intro",                      url: urlx + "/indoor-2/get-training"},
+      {level:3,       name: "curriculum-for-educators-students",       url: urlx + "/indoor-3/curriculum-for-educators-students"},
+      {level:3,       name: "citizen-monitoring-and-training",         url: urlx + "/indoor-3/citizen-monitoring-and-training"},
+      {level:3,       name: "classroom-and-field-training",            url: urlx + "/indoor-3/classroom-and-field-training"},
+      {level:3,       name: "online-education-resources",              url: urlx + "/indoor-3/online-education-resources"},
 
 ];
 
