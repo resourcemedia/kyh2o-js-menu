@@ -78,6 +78,7 @@ else {
       {level:2,       name: "get-tested",                       value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-treatment",                    value:"closed",  display:"none", state: "–"},
         {level:3,     name: "treatment-types",                  value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "treatment-topics",                 value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -460,6 +461,17 @@ var linkArray = [
   {level:3,       name: "under-the-counter-units",                  url: urlx + "/indoor-4/under-the-counter-units"},
   {level:3,       name: "water-cooler-systems",                     url: urlx + "/indoor-4/water-cooler-systems"},
   {level:3,       name: "water-softeners",                          url: urlx + "/indoor-4/water-softeners"},
+
+  // Get Treatment / Treatment Types
+  {level:3,       name: "treatment-topics-intro",                    url: urlx + "/indoor-3/treatment-topics"},
+  {level:3,       name: "shock-well-disinfection",                   url: urlx + "/indoor-4/shock-well-disinfection"},
+  {level:3,       name: "ozonation-in-water-treatment",              url: urlx + "/indoor-4/ozonation-in-water-treatment"},
+  {level:3,       name: "chlorine-disinfection-contact-time-basic",  url: urlx + "/indoor-4/chlorine-disinfection-contact-time-basic"},
+  {level:3,       name: "chlorine-disinfection-contact-time-and-inactivation-calculations-advanced",
+                  url: urlx + "/indoor-4/chlorine-disinfection-contact-time-and-inactivation-calculations-advanced"},
+  {level:3,       name: "water-filtration-plant-performance-evaluations",
+                  url: urlx + "/indoor-4/water-filtration-plant-performance-evaluations"},
+  {level:3,       name: "uv-disinfection",                          url: urlx + "/indoor-4/uv-disinfection"},
 
 ];
 
