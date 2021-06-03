@@ -51,7 +51,7 @@ if (sessionStorage.getItem("state") === "changed") {
 }
 else {
   var buttonArray = [
-      {level:1,       name: "indoor",                           value:"open",   display:"block", state: "–"},
+    {level:1,         name: "indoor",                           value:"open",   display:"block", state: "–"},
       {level:2,       name: "get-informed",                     value:"closed",  display:"none", state: "–"},
         {level:3,     name: "contaminants",                     value:"closed",  display:"none", state: "–"},
           {level:4,   name: "primary-contaminants",             value:"closed",  display:"none", state: "–"},
@@ -83,7 +83,8 @@ else {
       {level:2,       name: "get-tools",                        value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-training",                     value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-involved",                     value:"closed",  display:"none", state: "–"},
-      {level:1,       name: "outdoor",                          value:"open",   display:"block", state: "–"},
+    {level:1,         name: "outdoor",                           value:"open",   display:"block", state: "–"},
+      {level:2,       name: "get-involved-out",                  value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
