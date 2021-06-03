@@ -521,7 +521,7 @@ var linkArray = [
   {level:3,         name: "get-informed-out-intro",               url: urlx + "/outdoor-2/get-informed"},
     {level:3,       name: "watershed-intro",                      url: urlx + "/outdoor-3/watershed"},
       {level:3,     name: "the-hydrological-cycle",               url: urlx + "/outdoor-4/the-hydrological-cycle"},
-      {level:3,     name: "the-hydrological-cycle-water-budgets", url: urlx + "/outdoor-4/get-the-hydrological-cycle-water-budgets"},
+      {level:3,     name: "the-hydrological-cycle-water-budgets", url: urlx + "/outdoor-4/the-hydrological-cycle-water-budgets"},
       {level:3,     name: "stream-water-quality",                 url: urlx + "/outdoor-4/stream-water-quality"},
 
 ];
