@@ -83,8 +83,8 @@ else {
       {level:2,       name: "get-tools",                        value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-training",                     value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-involved",                     value:"closed",  display:"none", state: "–"},
-    {level:1,         name: "outdoor",                           value:"open",   display:"block", state: "–"},
-      {level:2,       name: "get-involved-out",                  value:"closed",  display:"none", state: "–"},
+    {level:1,         name: "outdoor",                          value:"open",   display:"block", state: "–"},
+      {level:2,       name: "get-informed-out",                 value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
