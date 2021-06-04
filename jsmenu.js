@@ -89,6 +89,7 @@ else {
         {level:3,     name: "case-studies-out",                 value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-tools-out",                    value:"closed",  display:"none", state: "–"},
       {level:2,       name: "get-training-out",                 value:"closed",  display:"none", state: "–"},
+      {level:2,       name: "get-involved-out",                 value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -599,18 +600,20 @@ var linkArray = [
 
         {level:4,     name: "curriculum-for-educators-students-out",
                       url: urlx + "/outdoor-3/curriculum-for-educators-students"},
-
         {level:4,     name: "citizen-monitoring-and-training-out",
                       url: urlx + "/outdoor-3/citizen-monitoring-and-training"},
-
         {level:4,     name: "classroom-and-field-training-out",
                       url: urlx + "/outdoor-3/classroom-and-field-training"},
-
         {level:4,     name: "classroom-and-field-training-out",
                       url: urlx + "/outdoor-3/classroom-and-field-training"},
-
         {level:4,     name: "online-education-resources-out",
                       url: urlx + "/outdoor-3/online-education-resources"},
+
+    // Outdoor | Get Involved
+      {level:3,       name: "get-involved-out-intro",                 url: urlx + "/outdoor-2/get-involved"},
+
+        {level:4,     name: "become-a-citizen-scientist",
+                      url: urlx + "/outdoor-3/become-a-citizen-scientist"},
 
 ];
 
