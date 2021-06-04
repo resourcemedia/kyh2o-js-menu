@@ -621,6 +621,9 @@ var linkArray = [
         {level:4,     name: "host-a-workshop-out",
                       url: urlx + "/outdoor-3/host-a-workshop"},
 
+        {level:4,     name: "give-support-out",
+                      url: urlx + "/outdoor-3/give-support-out"},
+
 ];
 
 
