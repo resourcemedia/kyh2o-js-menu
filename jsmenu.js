@@ -595,9 +595,9 @@ var linkArray = [
                       url: urlx + "/outdoor-3/conversion-factors-for-water-quality"},
 
     // Outdoor | Get Training
-      {level:3,         name: "get-training-out-intro",                 url: urlx + "/outdoor-2/get-training"},
+      {level:3,       name: "get-training-out-intro",                 url: urlx + "/outdoor-2/get-training"},
 
-        {level:4,     name: "citizen-monitoring-and-training",
+        {level:4,     name: "curriculum-for-educators-students",
                       url: urlx + "/outdoor-3/curriculum-for-educators-students"},
 
 ];
