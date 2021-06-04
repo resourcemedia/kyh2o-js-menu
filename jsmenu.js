@@ -598,7 +598,7 @@ var linkArray = [
       {level:3,         name: "get-training-out-intro",                 url: urlx + "/outdoor-2/get-training"},
 
         {level:4,     name: "citizen-monitoring-and-training",
-                      url: urlx + "/outdoor-3/citizen-monitoring-and-training"},
+                      url: urlx + "/outdoor-3/curriculum-for-educators-students"},
 
 ];
 
