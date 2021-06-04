@@ -87,6 +87,7 @@ else {
       {level:2,       name: "get-informed-out",                 value:"closed",  display:"none", state: "–"},
         {level:3,     name: "watershed",                        value:"closed",  display:"none", state: "–"},
         {level:3,     name: "case-studies-out",                 value:"closed",  display:"none", state: "–"},
+      {level:2,       name: "get-tools-out",                    value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -517,11 +518,11 @@ var linkArray = [
 
   // OUTDOOR
 
-  // Get Informed
+  // Outdoor | Get Informed
 
   {level:3,         name: "get-informed-out-intro",               url: urlx + "/outdoor-2/get-informed"},
 
-    // Get Informed | Watershed
+    // Outdoor | Get Informed | Watershed
     {level:3,       name: "watershed-intro",                      url: urlx + "/outdoor-3/watershed"},
       {level:4,     name: "the-hydrological-cycle",               url: urlx + "/outdoor-4/the-hydrological-cycle"},
       {level:4,     name: "the-hydrological-cycle-water-budgets", url: urlx + "/outdoor-4/the-hydrological-cycle-water-budgets"},
@@ -575,6 +576,10 @@ var linkArray = [
                       url: urlx + "/outdoor-4/crescent-lake-watershed-assessment-project"},
         {level:4,     name: "roamingwood-sewer-and-water-association",
                       url: urlx + "/outdoor-4/roamingwood-sewer-and-water-association"},
+
+    // Outdoor | Get Tools
+    {level:3,         name: "get-tools-out-intro",                 url: urlx + "/outdoor-2/get-tools"},
+      //{level:3,       name: "case-studies-out-intro",              url: urlx + "/outdoor-3/case-studies"},
 
 ];
 
