@@ -579,7 +579,20 @@ var linkArray = [
 
     // Outdoor | Get Tools
     {level:3,         name: "get-tools-out-intro",                 url: urlx + "/outdoor-2/get-tools"},
-      //{level:3,       name: "case-studies-out-intro",              url: urlx + "/outdoor-3/case-studies"},
+        {level:4,     name: "water-quality-index-calculator-for-surface-water",
+                      url: urlx + "/outdoor-4/water-quality-index-calculator-for-surface-water"},
+        {level:4,     name: "water-quality-index-calculator-for-surface-water-guide",
+                      url: urlx + "/outdoor-4/water-quality-index-calculator-for-surface-water-guide"},
+        {level:4,     name: "water-quality-index-calculator-for-surface-water-guide",
+                      url: urlx + "/outdoor-4/water-quality-index-calculator-for-surface-water-guide"},
+        {level:4,     name: "water-quality-index-calculator-for-surface-water-guide",
+                      url: urlx + "/outdoor-4/water-quality-index-calculator-for-surface-water-guide"},
+        {level:4,     name: "global-directory-of-citizen-scientist-teams-conservation-groups-and-watershed-organizations",
+                      url: urlx + "/outdoor-4/global-directory-of-citizen-scientist-teams-conservation-groups-and-watershed-organizations"},
+        {level:4,     name: "unit-conversion-calculators",
+                      url: urlx + "/outdoor-4/unit-conversion-calculators"},
+        {level:4,     name: "conversion-factors-for-water-quality",
+                      url: urlx + "/outdoor-4/conversion-factors-for-water-quality"},
 
 ];
 
