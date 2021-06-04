@@ -86,6 +86,7 @@ else {
     {level:1,         name: "outdoor",                          value:"open",   display:"block", state: "–"},
       {level:2,       name: "get-informed-out",                 value:"closed",  display:"none", state: "–"},
         {level:3,     name: "watershed",                        value:"closed",  display:"none", state: "–"},
+        {level:3,     name: "case-studies-out",                 value:"closed",  display:"none", state: "–"},
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
@@ -519,6 +520,8 @@ var linkArray = [
   // Get Informed
 
   {level:3,         name: "get-informed-out-intro",               url: urlx + "/outdoor-2/get-informed"},
+
+    // Get Informed | Watershed
     {level:3,       name: "watershed-intro",                      url: urlx + "/outdoor-3/watershed"},
       {level:4,     name: "the-hydrological-cycle",               url: urlx + "/outdoor-4/the-hydrological-cycle"},
       {level:4,     name: "the-hydrological-cycle-water-budgets", url: urlx + "/outdoor-4/the-hydrological-cycle-water-budgets"},
@@ -563,6 +566,15 @@ var linkArray = [
                     url: urlx + "/outdoor-4/stormwater-management-and-water-reuse-low-impact-development"},
       {level:4,     name: "stormwater-best-management-practices",
                     url: urlx + "/outdoor-4/stormwater-best-management-practices"},
+
+    // Get Informed | Case Studies
+      {level:3,       name: "case-studies-out-intro",               url: urlx + "/outdoor-3/case-studies"},
+        {level:4,     name: "research-projects-and-consulting-projects-in-hydrogeology",
+                      url: urlx + "/outdoor-4/research-projects-and-consulting-projects-in-hydrogeology"},
+        {level:4,     name: "crescent-lake-watershed-assessment-project",
+                      url: urlx + "/outdoor-4/crescent-lake-watershed-assessment-project"},
+        {level:4,     name: "roamingwood-sewer-and-water-association",
+                      url: urlx + "/outdoor-4/roamingwood-sewer-and-water-association"},
 
 ];
 
