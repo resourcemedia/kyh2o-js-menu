@@ -600,6 +600,18 @@ var linkArray = [
         {level:4,     name: "curriculum-for-educators-students-out",
                       url: urlx + "/outdoor-3/curriculum-for-educators-students"},
 
+        {level:4,     name: "citizen-monitoring-and-training-out",
+                      url: urlx + "/outdoor-3/citizen-monitoring-and-training"},
+
+        {level:4,     name: "classroom-and-field-training-out",
+                      url: urlx + "/outdoor-3/classroom-and-field-training"},
+
+        {level:4,     name: "classroom-and-field-training-out",
+                      url: urlx + "/outdoor-3/classroom-and-field-training"},
+
+        {level:4,     name: "online-education-resources-out",
+                      url: urlx + "/outdoor-3/online-education-resources"},
+
 ];
 
 
