@@ -531,6 +531,8 @@ var linkArray = [
                     url: urlx + "/outdoor-4/streamflow-measurement"},
       {level:4,     name: "streamflow-measurement",
                     url: urlx + "/outdoor-4/streamflow-measurement"},
+      {level:4,     name: "ecosystem-and-lake-productivity-by-chlorophyll-analysis",
+                    url: urlx + "/outdoor-4/ecosystem-and-lake-productivity-by-chlorophyll-analysis"},
       {level:4,     name: "phosphate-in-surface-water-streams-lakes-ponds",
                     url: urlx + "/outdoor-4/phosphate-in-surface-water-streams-lakes-ponds"},
       {level:4,     name: "ph-in-the-environment",
