@@ -615,6 +615,12 @@ var linkArray = [
         {level:4,     name: "become-a-citizen-scientist",
                       url: urlx + "/outdoor-3/become-a-citizen-scientist"},
 
+        {level:4,     name: "share-your-data-out",
+                      url: urlx + "/outdoor-3/share-your-data-out"},
+
+        {level:4,     name: "host-a-workshop",
+                      url: urlx + "/outdoor-3/host-a-workshop"},
+
 ];
 
 
