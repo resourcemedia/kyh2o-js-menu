@@ -1,7 +1,8 @@
 
 var $div_remove_mobile = $('#div_remove_mobile');
 var $div_remove_desktop = $('#div_remove_desktop');
-var $div_remove_desktop = $('#div_old_menu_hide');
+var $div_remove_desktop = $('#div_old_menu_hide_mobile');
+var $div_remove_desktop = $('#div_old_menu_hide_desktop');
 
 
 
