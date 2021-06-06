@@ -1,17 +1,12 @@
 
 var $div_remove_mobile = $('#div_remove_mobile');
 var $div_remove_desktop = $('#div_remove_desktop');
-var $div_remove_desktop = $('#div_old_menu_hide_mobile');
-var $div_remove_desktop = $('#div_old_menu_hide_desktop');
-
 
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
 
-
 window.addEventListener('resize', breakpointDisplay);
-
 
 
 function breakpointDisplay() {
@@ -19,11 +14,15 @@ function breakpointDisplay() {
   var screenWidth = window.innerWidth;
 
   if (screenWidth >= 750) {
+    $('#div_old_menu_hide_mobile').detach()
+    $('#div_old_menu_hide_desktop').detach()
     $('#div_remove_mobile').detach()
     $("#div_nav_menu_desktop").append($div_remove_desktop)
   }
 
   if (screenWidth < 750) {
+    $('#div_old_menu_hide_mobile').detach()
+    $('#div_old_menu_hide_desktop').detach()
     $('#div_remove_desktop').detach()
     $("#Menu2").append($div_remove_mobile)
 
