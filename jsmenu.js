@@ -27,8 +27,7 @@ function breakpointDisplay() {
 
 breakpointDisplay();
 
-/*
-// This swaps out Indoor and Outdoor Menus
+This swaps out Indoor and Outdoor Menus
 
 var inOutUrl = window.location.href;
 var inOutUrlSubString = inOutUrl.substring(33, 39);
@@ -56,7 +55,7 @@ if (inOutUrlSubString === "outdoo") {
 }
 
 inOutSwap ();
-*/
+
 
 
 
