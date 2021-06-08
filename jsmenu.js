@@ -45,13 +45,13 @@ function inOutSwap() {
 
 if (inOutUrlSubString === "indoor") {
   div_outdoor.style.display: "none";
-  div_inddoor.style.display: "block";
+  div_indoor.style.display: "block";
   console.log("Its Indoor");
 }
 
 if (inOutUrlSubString === "outdoo") {
   div_outdoor.style.display: "block";
-  div_inddoor.style.display: "none";
+  div_indoor.style.display: "none";
   console.log("Its Outdoor");
 }
 }
