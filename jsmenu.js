@@ -38,9 +38,9 @@ var inOutUrl = window.location.href;
 var inOutUrlSubString = inOutUrl.substring(33, 39);
 console.log("inOutUrlSubString " + inOutUrlSubString);
 
-function inOutSwap() {
-
 var $div_js_menu = $('#div_js_menu');
+
+function inOutSwap() {
 
 if (inOutUrlSubString === "indoor") {
   $('#div_outdoor').detach()
