@@ -9,6 +9,10 @@ var inOutUrl = window.location.href;
 var inOutUrlSubString = inOutUrl.substring(33, 39);
 console.log("inOutUrlSubString " + inOutUrlSubString);
 
+if (inOutUrlSubString === "indoor") {
+  console.log("Yes Indoor");
+}
+
 
 
 
