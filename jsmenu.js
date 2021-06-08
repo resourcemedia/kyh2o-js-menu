@@ -42,6 +42,9 @@ console.log("inOutUrlSubString " + inOutUrlSubString);
 var div_indoor = document.getElementById("div_indoor");
 var div_outdoor = document.getElementById("div_outdoor");
 
+console.log("div_indoor " + div_indoor);
+console.log("div_outdoor " + div_outdoor);
+
 function inOutSwap() {
 
 if (inOutUrlSubString === "indoor") {
