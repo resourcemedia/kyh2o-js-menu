@@ -38,18 +38,19 @@ var inOutUrl = window.location.href;
 var inOutUrlSubString = inOutUrl.substring(33, 39);
 console.log("inOutUrlSubString " + inOutUrlSubString);
 
-var $div_js_menu = $('#div_js_menu');
+var $div_indoor = $('#div_indoor');
+var $div_outdoor = $('#div_outdoor');
 
 function inOutSwap() {
 
 if (inOutUrlSubString === "indoor") {
   $('#div_outdoor').detach()
-  $("#div_indoor").append($div_js_menu)
+  $("#div_js_menu").append($div_indoor)
 }
 
 if (inOutUrlSubString === "outdoo") {
   $('#div_indoor').detach()
-  $("#div_outdoor").append($div_js_menu)
+  $("#div_js_menu").append($div_outdoor)
 }
 }
 
