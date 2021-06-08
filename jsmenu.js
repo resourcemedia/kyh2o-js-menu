@@ -5,18 +5,6 @@ $('#div_old_menu_hide_mobile').detach()
 $('#div_old_menu_hide_desktop').detach()
 
 
-var inOutUrl = window.location.href;
-var inOutUrlSubString = inOutUrl.substring(33, 39);
-console.log("inOutUrlSubString " + inOutUrlSubString);
-
-if (inOutUrlSubString === "indoor") {
-  console.log("Yes Indoor");
-}
-
-
-
-
-
 
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
@@ -42,6 +30,30 @@ function breakpointDisplay() {
 
 breakpointDisplay();
 
+
+
+
+// This swaps out Indoor and Outdoor Menus
+var inOutUrl = window.location.href;
+var inOutUrlSubString = inOutUrl.substring(33, 39);
+console.log("inOutUrlSubString " + inOutUrlSubString);
+
+function inOutSwap() {
+
+var $div_js_menu = $('#div_js_menu');
+
+if (inOutUrlSubString === "indoor") {
+  $('#div_outdoor').detach()
+  $("#div_indoor").append($div_js_menu)
+}
+
+if (inOutUrlSubString === "outdoo") {
+  $('#div_indoor').detach()
+  $("#div_outdoor").append($div_js_menu)
+}
+}
+
+inOutSwap ();
 
 
 
