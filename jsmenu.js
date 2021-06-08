@@ -1,31 +1,4 @@
-// This swaps out Indoor and Outdoor Menus
 
-var inOutUrl = window.location.href;
-var inOutUrlSubString = inOutUrl.substring(33, 39);
-console.log("inOutUrlSubString " + inOutUrlSubString);
-
-var div_indoor = document.getElementById("div_indoor");
-var div_outdoor = document.getElementById("div_outdoor");
-
-console.log("div_indoor " + div_indoor);
-console.log("div_outdoor " + div_outdoor);
-
-function inOutSwap() {
-
-if (inOutUrlSubString === "indoor") {
-  div_indoor.style.display= "block";
-  div_outdoor.style.display = "none";
-  console.log("Its Indoor");
-}
-
-if (inOutUrlSubString === "outdoo") {
-  div_outdoor.style.display = "block";
-  div_indoor.style.display = "none";
-  console.log("Its Outdoor");
-}
-}
-
-inOutSwap ();
 
 
 
@@ -59,6 +32,35 @@ function breakpointDisplay() {
 }
 
 breakpointDisplay();
+
+// This swaps out Indoor and Outdoor Menus
+
+var inOutUrl = window.location.href;
+var inOutUrlSubString = inOutUrl.substring(33, 39);
+console.log("inOutUrlSubString " + inOutUrlSubString);
+
+var div_indoor = document.getElementById("div_indoor");
+var div_outdoor = document.getElementById("div_outdoor");
+
+console.log("div_indoor " + div_indoor);
+console.log("div_outdoor " + div_outdoor);
+
+function inOutSwap() {
+
+if (inOutUrlSubString === "indoor") {
+  div_indoor.style.display= "block";
+  div_outdoor.style.display = "none";
+  console.log("Its Indoor");
+}
+
+if (inOutUrlSubString === "outdoo") {
+  div_outdoor.style.display = "block";
+  div_indoor.style.display = "none";
+  console.log("Its Outdoor");
+}
+}
+
+inOutSwap ();
 
 
 
