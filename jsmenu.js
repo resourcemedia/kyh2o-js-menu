@@ -2,12 +2,6 @@
 
 
 
-// This Removes the Old Menus
-
-$('#div_old_menu_hide_mobile').detach()
-$('#div_old_menu_hide_desktop').detach()
-
-
 
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
@@ -32,6 +26,7 @@ function breakpointDisplay() {
 }
 
 breakpointDisplay();
+
 
 // This swaps out Indoor and Outdoor Menus
 
