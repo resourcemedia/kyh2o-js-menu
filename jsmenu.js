@@ -18,13 +18,13 @@ function breakpointDisplay() {
   var screenWidth = window.innerWidth;
 
   if (screenWidth >= 750) {
-    $('#div_remove_mobile').detach()
-    $("#div_nav_menu_desktop").append($div_remove_desktop)
+    $('#div_remove_mobile').detach();
+    $("#div_nav_menu_desktop").append($div_remove_desktop);
   }
 
   if (screenWidth < 750) {
-    $('#div_remove_desktop').detach()
-    $("#Menu2").append($div_remove_mobile)
+    $('#div_remove_desktop').detach();
+    $("#Menu2").append($div_remove_mobile);
   }
 }
 
@@ -44,13 +44,15 @@ var $div_outdoor = $('#div_outdoor');
 function inOutSwap() {
 
 if (inOutUrlSubString === "indoor") {
-  $('#div_outdoor').detach()
-  $("#div_js_menu").append($div_indoor)
+  $('#div_outdoor').detach();
+  $("#div_js_menu").append($div_indoor);
+  console.log("Its Indoor");
 }
 
 if (inOutUrlSubString === "outdoo") {
-  $('#div_indoor').detach()
-  $("#div_js_menu").append($div_outdoor)
+  $('#div_indoor').detach();
+  $("#div_js_menu").append($div_outdoor);
+  console.log("Its Outdoor");
 }
 }
 
