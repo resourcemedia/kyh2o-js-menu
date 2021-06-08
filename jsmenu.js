@@ -44,14 +44,14 @@ var $div_outdoor = $('#div_outdoor');
 function inOutSwap() {
 
 if (inOutUrlSubString === "indoor") {
-  $('#div_outdoor').detach();
-  $("#div_js_menu").append($div_indoor);
+  //$('#div_outdoor').detach();
+  //$("#div_js_menu").append($div_indoor);
   console.log("Its Indoor");
 }
 
 if (inOutUrlSubString === "outdoo") {
-  $('#div_indoor').detach();
-  $("#div_js_menu").append($div_outdoor);
+  //$('#div_indoor').detach();
+  //$("#div_js_menu").append($div_outdoor);
   console.log("Its Outdoor");
 }
 }
