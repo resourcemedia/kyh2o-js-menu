@@ -54,8 +54,8 @@ if (inOutUrlSubString === "indoor") {
 }
 
 if (inOutUrlSubString === "outdoo") {
-  div_outdoor.style.display = "block";
   div_indoor.style.display = "none";
+  div_outdoor.style.display = "block";
   console.log("Its Outdoor");
 }
 }
