@@ -16,12 +16,12 @@ function breakpointDisplay() {
 
   if (screenWidth >= 750) {
     $('#div_remove_mobile').detach();
-    $("#div_nav_menu_desktop").append($div_remove_desktop);
+    $('#div_nav_menu_desktop').append($div_remove_desktop);
   }
 
   if (screenWidth < 750) {
     $('#div_remove_desktop').detach();
-    $("#Menu2").append($div_remove_mobile);
+    $('#Menu2').append($div_remove_mobile);
   }
 }
 
