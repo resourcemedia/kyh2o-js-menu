@@ -95,7 +95,6 @@ else {
 
   ];
     sessionStorage.setItem("buttonArray", JSON.stringify(buttonArray));
-    //console.log("ButtonArray Test " + buttonArray);
 }
 
 
@@ -109,14 +108,14 @@ else {
 
 
 var buttonArrayLength = buttonArray.length;
-console.log("buttonArrayLength " + buttonArrayLength);
+//console.log("buttonArrayLength " + buttonArrayLength);
 
 
 for (var i = 0; i < buttonArrayLength ; i++) {
 
   // Get array object property name
   var buttonElementId = buttonArray[i].name;
-  console.log("buttonElementId " + buttonElementId);
+  //console.log("buttonElementId " + buttonElementId);
 
   var buttonElement = document.getElementById(buttonArray[i].name);
 
@@ -126,7 +125,7 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 
   var divDropdownElement = document.getElementById("dropdown-" + buttonElementId);
 
-  console.log("buttonElement " + buttonElement.id);
+  //console.log("buttonElement " + buttonElement.id);
 
   divDropdownElement.style.display = buttonArray[i].display;
 
@@ -135,7 +134,7 @@ for (var i = 0; i < buttonArrayLength ; i++) {
 
   buttonBarElement.setAttribute('data-buttonValue', buttonArray[i].value);
 
-  console.log("buttonArray[i].state " + buttonArray[i].state);
+  //console.log("buttonArray[i].state " + buttonArray[i].state);
 
   buttonElement.innerHTML = buttonArray[i].state;
 
@@ -166,7 +165,7 @@ function openClose() {
     // This removes "bar-" prefext to get root name
     var thisSubString = this.id.substring(4);
 
-    console.log("thisSubString " + thisSubString);
+    //console.log("thisSubString " + thisSubString);
 
     // This searchs the array for the name
     var index = buttonArray.findIndex(x => x.name === thisSubString);
@@ -647,7 +646,7 @@ function expandMenu () {
 
 
       // This lets you know it found one
-      console.log("Yes, Found One");
+      //console.log("Yes, Found One");
 
       var linkElement = document.getElementById("link-" + linkArray[i].name);
 
@@ -656,7 +655,7 @@ function expandMenu () {
 
       var level = linkArray[i].level;
 
-      console.log("level " +  level);
+      //console.log("level " +  level);
 
       //window.scrollBy(0, -235);
       //linkElement.scrollIntoView();
@@ -676,12 +675,12 @@ function expandMenu () {
 
         // This removes "dropdown-" to get the button id
         var parentDropdown1subString = parentDropdown1.id.substring(9);
-        console.log("parentDropdown1subString " + parentDropdown1subString);
+        //console.log("parentDropdown1subString " + parentDropdown1subString);
 
         // This searches the buttonArray to get the index
         var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
 
-        console.log("Button Array Index " + index);
+        //console.log("Button Array Index " + index);
 
 
         // This updates the record in the buttonArray
