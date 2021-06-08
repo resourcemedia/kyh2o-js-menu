@@ -6,7 +6,7 @@ $('#div_old_menu_hide_desktop').detach()
 
 
 var inOutUrl = window.location.href;
-var inOutUrlSubString = inOutUrl.substring(4);
+var inOutUrlSubString = inOutUrl.substring(33, 39);
 console.log("inOutUrlSubString " + inOutUrlSubString);
 
 
