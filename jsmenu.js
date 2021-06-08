@@ -48,14 +48,14 @@ console.log("div_outdoor " + div_outdoor);
 function inOutSwap() {
 
 if (inOutUrlSubString === "indoor") {
-  //div_outdoor.style.display = "none";
-  //div_indoor.style.display= "block";
+  div_outdoor.style.display = "none";
+  div_indoor.style.display= "block";
   console.log("Its Indoor");
 }
 
 if (inOutUrlSubString === "outdoo") {
-  //div_outdoor.style.display = "block";
-  //div_indoor.style.display = "none";
+  div_outdoor.style.display = "block";
+  div_indoor.style.display = "none";
   console.log("Its Outdoor");
 }
 }
