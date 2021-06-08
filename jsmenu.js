@@ -38,20 +38,20 @@ var inOutUrl = window.location.href;
 var inOutUrlSubString = inOutUrl.substring(33, 39);
 console.log("inOutUrlSubString " + inOutUrlSubString);
 
-var $div_indoor = $('#div_indoor');
-var $div_outdoor = $('#div_outdoor');
+var div_indoor = document.getElementById("div_indoor");
+var div_outdoor = document.getElementById("div_outdoor");
 
 function inOutSwap() {
 
 if (inOutUrlSubString === "indoor") {
-  $('#div_outdoor').detach();
-  $("#div_js_menu").append($div_indoor);
+  div_outdoor.style.display: "none";
+  div_inddoor.style.display: "block";
   console.log("Its Indoor");
 }
 
 if (inOutUrlSubString === "outdoo") {
-  $('#div_indoor').detach();
-  $("#div_js_menu").append($div_outdoor);
+  div_outdoor.style.display: "block";
+  div_inddoor.style.display: "none";
   console.log("Its Outdoor");
 }
 }
