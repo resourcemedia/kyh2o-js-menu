@@ -1,10 +1,11 @@
 
 var basicsURL = window.location.href;
+var basicsScreenWidth = window.innerWidth;
 
 var checkBasicsURL = basicsURL.includes("#");
 
-if (checkBasicsURL) {
-  console.log("Yep, It's Basics");
+if (checkBasicsURL && basicsScreenWidth < 750) {
+  console.log("Yep, It's Basics Mobile");
 }
 
 
