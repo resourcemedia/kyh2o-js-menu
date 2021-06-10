@@ -4,13 +4,17 @@ var basicsScreenWidth = window.innerWidth;
 var checkBasicsURL = basicsURL.includes("#");
 var bread2 = document.getElementById("Bread2");
 var bread2no = bread2.offsetHeight;
-window.scrollTo(0, 200);
+
 
 if (checkBasicsURL && basicsScreenWidth < 750) {
   console.log("Yep, It's Basics Mobile");
   window.scroll(0, 200);
 }
 
+function windowScroll() {
+  window.scrollTo(0, 200);
+}
+windowScroll();
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
