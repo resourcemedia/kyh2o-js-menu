@@ -6,10 +6,10 @@ var bread2 = document.getElementById("Bread2");
 var bread2no = bread2.offsetHeight;
 
 
-if (checkBasicsURL && basicsScreenWidth < 750) {
-  console.log("Yep, It's Basics Mobile");
-  window.scroll(0, 200);
-}
+//if (checkBasicsURL && basicsScreenWidth < 750) {
+//  console.log("Yep, It's Basics Mobile");
+//  window.scroll(0, 200);
+//}
 
 window.onload = function windowScroll() {
   window.scrollTo(0, 200);
