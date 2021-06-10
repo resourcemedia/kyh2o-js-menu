@@ -18,7 +18,7 @@ function windowScroll() {
 }
 windowScroll();
 
-window.onload = function windowScroll();
+window.onload = windowScroll();
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
