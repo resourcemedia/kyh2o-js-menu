@@ -13,11 +13,11 @@
 
 
 
-function windowScroll() {
-  document.body.scrollTop = 500;
-}
+function scroll() {
+    document.body.scrollTop = 500;
+};
 
-windowScroll();
+scroll();
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
