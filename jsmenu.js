@@ -14,7 +14,7 @@
 
 
 function scroll() {
-    document.body.scrollTop = 500;
+    document.html.scrollTop = 500;
 };
 
 scroll();
