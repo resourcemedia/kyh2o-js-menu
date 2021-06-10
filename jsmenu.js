@@ -14,9 +14,8 @@ var bread2no = bread2.offsetHeight;
 
 
 function windowScroll() {
-  window.scrollTo(0, 200);
+  window.scrollTo(0, -200);
 }
-windowScroll();
 
 window.onload = windowScroll();
 
