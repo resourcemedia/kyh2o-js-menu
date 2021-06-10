@@ -19,7 +19,7 @@ function scroll() {
 
 scroll();
 
-// This Removes the corresponding mobile or desk menu so there isn't duplicate code. X
+// This Removes the corresponding mobile or desk menu so there isn't duplicate code. 
 
 var $div_remove_mobile = $('#div_remove_mobile');
 var $div_remove_desktop = $('#div_remove_desktop');
