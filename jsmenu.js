@@ -17,7 +17,7 @@ function windowScroll() {
   document.body.scrollTop = 500;
 }
 
-window.onload = windowScroll();
+windowScroll();
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
