@@ -13,13 +13,14 @@
 
 
 
-function scroll() {
-    document.html.scrollTop = 500;
+window.onload = function() {
+    document.body.scrollTop = 500;
 };
 
 scroll();
 
-// This Removes the corresponding mobile or desk menu so there isn't duplicate code. 
+
+// This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
 var $div_remove_mobile = $('#div_remove_mobile');
 var $div_remove_desktop = $('#div_remove_desktop');
