@@ -9,7 +9,7 @@ var bread2no = bread2.offsetHeight;
 if (checkBasicsURL && basicsScreenWidth < 750) {
   window.addEventListener('load', (event) => {
     console.log('page is fully loaded');
-    window.scroll(0, bread2no);
+    window.scrollTo(0, bread2no);
   });
 }
 
