@@ -13,11 +13,10 @@
 
 
 
-function scroll() {
-    document.body.scrollTop = 500;
-};
-
-scroll();
+window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+  window.scroll(0, 500);
+});
 
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
