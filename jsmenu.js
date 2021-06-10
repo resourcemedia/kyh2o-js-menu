@@ -1,11 +1,14 @@
 
 var basicsURL = window.location.href;
 var basicsScreenWidth = window.innerWidth;
-
 var checkBasicsURL = basicsURL.includes("#");
+var bread2 = document.getElementById("Bread2");
+var bread2no = bread2.offsetHeight;
+
 
 if (checkBasicsURL && basicsScreenWidth < 750) {
   console.log("Yep, It's Basics Mobile");
+  window.scrollTo(0, bread2no);
 }
 
 
