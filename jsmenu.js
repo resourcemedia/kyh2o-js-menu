@@ -15,7 +15,8 @@
 
 function scroll() {
   var scrollElement =  document.getElementById("bar-indoor");
-    scrollElement.scrollTop = 500;
+
+    scrollElement.id.scrollTop = 500;
 };
 
 scroll();
