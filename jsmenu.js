@@ -1,9 +1,9 @@
 
-var basicsURL = window.location.href;
-var basicsScreenWidth = window.innerWidth;
-var checkBasicsURL = basicsURL.includes("#");
-var bread2 = document.getElementById("Bread2");
-var bread2no = bread2.offsetHeight;
+//var basicsURL = window.location.href;
+//var basicsScreenWidth = window.innerWidth;
+//var checkBasicsURL = basicsURL.includes("#");
+//var bread2 = document.getElementById("Bread2");
+//var bread2no = bread2.offsetHeight;
 
 
 //if (checkBasicsURL && basicsScreenWidth < 750) {
