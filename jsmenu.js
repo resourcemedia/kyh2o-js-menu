@@ -1,4 +1,5 @@
 
+/*
 var basicsURL = window.location.href;
 var basicsScreenWidth = window.innerWidth;
 var checkBasicsURL = basicsURL.includes("#");
@@ -12,6 +13,7 @@ if (checkBasicsURL && basicsScreenWidth < 750) {
     window.scrollTo(0, bread2no);
   });
 }
+*/
 
 
 
