@@ -4,7 +4,7 @@ var basicsScreenWidth = window.innerWidth;
 var checkBasicsURL = basicsURL.includes("#");
 var bread2 = document.getElementById("Bread2");
 var bread2no = bread2.offsetHeight;
-window.scrollTo(0, 200);
+window.scrollTo(0, -200);
 
 if (checkBasicsURL && basicsScreenWidth < 750) {
   console.log("Yep, It's Basics Mobile");
@@ -683,16 +683,7 @@ function expandMenu () {
 
       var level = linkArray[i].level;
 
-      //console.log("level " +  level);
 
-      //window.scrollBy(0, -235);
-      //linkElement.scrollIntoView();
-      //$("#div-menu-overflow").each( function() {
-      //  var topPos = document.getElementById('inner-element').offsetTop;
-      //document.getElementById('container').scrollTop = topPos-10;
-
-      //scrollTo(document.getElementById('div-menu-overflow'), 0, 30);
-      //$(#id_of_div_with_scroll).scrollTop($("#your_span_id").offset().top);
 
 
       if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
