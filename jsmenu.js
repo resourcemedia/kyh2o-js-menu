@@ -8,7 +8,7 @@ window.scrollTo(0, 200);
 
 if (checkBasicsURL && basicsScreenWidth < 750) {
   console.log("Yep, It's Basics Mobile");
-  window.scrollTo(0, 200);
+  window.scroll(0, 200);
 }
 
 
