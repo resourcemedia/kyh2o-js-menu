@@ -17,7 +17,7 @@ if (checkBasicsURL && basicsScreenWidth < 750) {
 
 var basicsURL = window.location.href;
 var basicId = basicsURL.split('#').pop();
-console.log("basicId" + basicId);
+console.log("basicId: " + basicId);
 
 
 
