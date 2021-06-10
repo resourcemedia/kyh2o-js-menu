@@ -11,7 +11,7 @@ if (checkBasicsURL && basicsScreenWidth < 750) {
   window.scroll(0, 200);
 }
 
-function windowScroll() {
+window.onload = function windowScroll() {
   window.scrollTo(0, 200);
 }
 windowScroll();
