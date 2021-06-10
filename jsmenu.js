@@ -11,10 +11,14 @@ var bread2no = bread2.offsetHeight;
 //  window.scroll(0, 200);
 //}
 
-window.onload = function windowScroll() {
+
+
+function windowScroll() {
   window.scrollTo(0, 200);
 }
 windowScroll();
+
+window.onload = function windowScroll();
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
 
