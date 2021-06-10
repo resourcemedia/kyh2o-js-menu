@@ -1,7 +1,11 @@
 
+var basicsURL = window.location.href;
 
+var checkBasicsURL = basicsURL.includes("#");
 
-
+if (checkBasicsURL) {
+  console.log("Yep, It's Basics");
+}
 
 
 // This Removes the corresponding mobile or desk menu so there isn't duplicate code.
@@ -55,15 +59,6 @@ if (inOutUrlSubString === "outdoo") {
 }
 
 inOutSwap ();
-
-
-
-
-
-
-
-
-
 
 
 
