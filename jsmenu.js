@@ -13,7 +13,7 @@
 
 
 
-window.onload = function() {
+function scroll() {
     document.body.scrollTop = 500;
 };
 
