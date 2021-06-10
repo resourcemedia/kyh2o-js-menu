@@ -1,15 +1,17 @@
 
-//var basicsURL = window.location.href;
-//var basicsScreenWidth = window.innerWidth;
-//var checkBasicsURL = basicsURL.includes("#");
-//var bread2 = document.getElementById("Bread2");
-//var bread2no = bread2.offsetHeight;
+var basicsURL = window.location.href;
+var basicsScreenWidth = window.innerWidth;
+var checkBasicsURL = basicsURL.includes("#");
+var bread2 = document.getElementById("Bread2");
+var bread2no = bread2.offsetHeight;
 
 
-//if (checkBasicsURL && basicsScreenWidth < 750) {
-//  console.log("Yep, It's Basics Mobile");
-//  window.scroll(0, 200);
-//}
+if (checkBasicsURL && basicsScreenWidth < 750) {
+  window.addEventListener('load', (event) => {
+    console.log('page is fully loaded');
+    window.scroll(0, bread2no);
+  });
+}
 
 
 
