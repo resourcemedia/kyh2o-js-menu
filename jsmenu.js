@@ -19,6 +19,10 @@ var basicsURL = window.location.href;
 var basicId = basicsURL.split('#').pop();
 console.log("basicId: " + basicId);
 
+var basicElement = document.getElementById(basicID);
+console.log("basicElement: " + basicElement);
+
+
 
 
 
