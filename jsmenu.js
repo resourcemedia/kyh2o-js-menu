@@ -32,6 +32,8 @@ console.log("basicElement: " + basicElement);
 basicElement.style.position = "relative";
 basicElement.style.top = bread2no ;
 
+console.log("bread2no: " + bread2no);
+
 
 
 }
