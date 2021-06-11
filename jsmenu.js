@@ -28,7 +28,7 @@ var basicElement = document.getElementById(basicId);
 console.log("basicElement: " + basicElement);
 
 basicElement.style.position = "relative";
-basicElement.style.top = "100px";
+basicElement.style.top = "-100px";
 
 
 
