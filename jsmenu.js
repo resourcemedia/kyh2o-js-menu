@@ -27,10 +27,10 @@ console.log("basicId: " + basicId);
 var basicElement = document.getElementById(basicId);
 console.log("basicElement: " + basicElement);
 
-window.addEventListener('load', (event) => {
-  console.log('page is fully loaded');
-  basicElement.scroll(0, 500)
-});
+basicElement.style.position = "relative";
+basicElement.style.top = "100px";
+
+
 
 }
 
