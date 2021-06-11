@@ -15,12 +15,17 @@ if (checkBasicsURL && basicsScreenWidth < 750) {
 }
 */
 
+var checkBasicsURL = basicsURL.includes("#");
+
+if (checkBasicsURL) {
+
 var basicsURL = window.location.href;
 var basicId = basicsURL.split('#').pop();
 console.log("basicId: " + basicId);
 
 var basicElement = document.getElementById(basicID);
 console.log("basicElement: " + basicElement);
+}
 
 
 
