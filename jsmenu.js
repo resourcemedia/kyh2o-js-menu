@@ -23,7 +23,7 @@ if (checkBasicsURL) {
 var basicId = basicsURL.split('#').pop();
 console.log("basicId: " + basicId);
 
-var basicElement = document.getElementById(basicID);
+var basicElement = document.getElementById(basicId);
 console.log("basicElement: " + basicElement);
 }
 
