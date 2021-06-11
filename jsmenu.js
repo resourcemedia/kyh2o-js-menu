@@ -28,6 +28,7 @@ var basicElement = document.getElementById(basicId);
 console.log("basicElement: " + basicElement);
 basicElement.style.backgroundColor = "red";
 basicElement.style.height = "200px";
+basicElement.scrollIntoView();
 }
 
 
