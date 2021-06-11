@@ -30,7 +30,7 @@ var basicElement = document.getElementById(basicId);
 console.log("basicElement: " + basicElement);
 
 basicElement.style.position = "relative";
-basicElement.style.top = bread2no ;
+basicElement.style.top = "-" + bread2no + "px" ;
 
 console.log("bread2no: " + bread2no);
 
