@@ -13,6 +13,7 @@ if (checkBasicsURL && basicsScreenWidth < 750) {
     window.scrollTo(0, bread2no);
   });
 }
+xx
 */
 
 var basicsURL = window.location.href;
