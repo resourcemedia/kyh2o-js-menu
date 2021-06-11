@@ -18,6 +18,8 @@ xxxx
 
 var basicsURL = window.location.href;
 var checkBasicsURL = basicsURL.includes("#");
+var bread2 = document.getElementById("Bread2");
+var bread2no = bread2.offsetHeight;
 
 if (checkBasicsURL) {
 
@@ -28,7 +30,7 @@ var basicElement = document.getElementById(basicId);
 console.log("basicElement: " + basicElement);
 
 basicElement.style.position = "relative";
-basicElement.style.top = "-100px";
+basicElement.style.top = bread2no ;
 
 
 
