@@ -37,6 +37,7 @@ function breakpointDisplay() {
   if (screenWidth >= 750) {
     $('#div_remove_mobile').detach();
     $('#div_nav_menu_desktop').append($div_remove_desktop);
+    console.log("Test Hello");
   }
 
   if (screenWidth < 750) {
