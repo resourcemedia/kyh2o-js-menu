@@ -1,21 +1,7 @@
 
-/*
-var basicsURL = window.location.href;
-var basicsScreenWidth = window.innerWidth;
-var checkBasicsURL = basicsURL.includes("#");
-var bread2 = document.getElementById("Bread2");
-var bread2no = bread2.offsetHeight;
 
 
-if (checkBasicsURL && basicsScreenWidth < 750) {
-  window.addEventListener('load', (event) => {
-    console.log('page is fully loaded');
-    window.scrollTo(0, bread2no);
-  });
-}
-xxxx
-*/
-
+// For the Basics Mobile Outline Menu. This adjusts the top margin so the header doesn't go behind the breadcrumb menu. It moves the absolute positioning of the div used for the hashtag link.
 var basicsURL = window.location.href;
 var checkBasicsURL = basicsURL.includes("#");
 var bread2 = document.getElementById("Bread2");
@@ -34,12 +20,7 @@ basicElement.style.top = "-" + bread2no + "px" ;
 
 console.log("bread2no: " + bread2no);
 
-
-
 }
-
-
-
 
 
 
@@ -585,7 +566,7 @@ var linkArray = [
   {level:3,         name: "get-informed-out-intro",               url: urlx + "/outdoor-2/get-informed"},
 
     // Outdoor | Get Informed | Watershed
-    {level:3,       name: "watershed-intro",                      url: urlx + "/outdoor-3/watershed"},
+    {level:4,       name: "watershed-intro",                      url: urlx + "/outdoor-3/watershed"},
       {level:4,     name: "the-hydrological-cycle",               url: urlx + "/outdoor-4/the-hydrological-cycle"},
       {level:4,     name: "the-hydrological-cycle-water-budgets", url: urlx + "/outdoor-4/the-hydrological-cycle-water-budgets"},
       {level:4,     name: "stream-water-quality",                 url: urlx + "/outdoor-4/stream-water-quality"},
