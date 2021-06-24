@@ -635,7 +635,7 @@ var linkArray = [
         {level:4,     name: "citizen-science-global-surface-water-quality-database-map",
                       url: urlx + "/outdoor-3/citizen-science-global-surface-water-quality-database-map"},
         {level:4,     name: "global-directory-of-citizen-scientist-teams-conservation-groups-and-watershed-organizations",
-                      url: urlx + "/join-group-directory"},
+                      url: urlx + "/outdoor/join-group-directory"},
         {level:4,     name: "unit-conversion-calculators",
                       url: urlx + "/outdoor-3/unit-conversion-calculators"},
         {level:4,     name: "conversion-factors-for-water-quality",
