@@ -479,7 +479,7 @@ var linkArray = [
       {level:5,   name: "arsenic-research-project",   url: urlx + "/indoor-5/arsenic-research-project"},
 
     // Glossary
-    {level:3,       name: "library",                  url: urlx + "/indoor-3/;library"},
+    {level:3,       name: "library",                  url: urlx + "/indoor-3/library"},
 
   // Get Tested
   {level:3,         name: "get-tested-intro",           url: urlx + "/indoor-2/get-tested"},
@@ -612,6 +612,9 @@ var linkArray = [
       {level:4,     name: "stormwater-best-management-practices",
                     url: urlx + "/outdoor-4/stormwater-best-management-practices"},
 
+    // Glossary
+    {level:3,       name: "powerpoint",                  url: urlx + "/outdoor-3/powerpoint"},
+
 
     // Get Informed | Case Studies
       {level:3,       name: "case-studies-out-intro",               url: urlx + "/outdoor-3/case-studies"},
@@ -668,8 +671,6 @@ var linkArray = [
                       url: urlx + "/outdoor-3/give-support-out"},
 
 ];
-
-
 
 
 
