@@ -479,7 +479,7 @@ var linkArray = [
       {level:5,   name: "arsenic-research-project",   url: urlx + "/indoor-5/arsenic-research-project"},
 
     // Glossary
-    {level:3,       name: "library",                  url: urlx + "/indoor-3/library"},
+    {level:3,       name: "library",                  url: urlx + "/indoor/library"},
 
   // Get Tested
   {level:3,         name: "get-tested-intro",           url: urlx + "/indoor-2/get-tested"},
