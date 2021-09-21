@@ -263,7 +263,7 @@ function openClose() {
 
 
 // This creates a prefix so the URL in the buttonArray isn't long - can be swapped with different URL when moved
-var urlx = "https://know-your-h2o.webflow.io";
+var urlx = "https://knowyourh2o.com";
 
 var linkArray = [
   {level:3,         name: "get-informed-intro",           url: urlx + "/indoor-2/get-informed"},
