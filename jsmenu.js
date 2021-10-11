@@ -73,6 +73,13 @@ if (inOutUrlSubString === "outdoo") {
   div_indoor.style.display = "none";
   console.log("Its Outdoor");
 }
+
+if (inOutUrl === "https://www.knowyourh2o.com/home") {
+  div_outdoor.style.display = "none";
+  div_indoor.style.display = "block";
+  console.log("Its Outdoor");
+}
+
 }
 
 inOutSwap ();
