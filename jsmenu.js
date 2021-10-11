@@ -74,7 +74,7 @@ if (inOutUrlSubString === "outdoo") {
   console.log("Its Outdoor");
 }
 
-if (inOutUrl === "https://www.knowyourh2o.com/home") {
+if (inOutUrl === "https://www.knowyourh2o.com") {
   div_outdoor.style.display = "none";
   div_indoor.style.display = "block";
 }
