@@ -445,6 +445,8 @@ var linkArray = [
                       url: urlx + "/indoor-4/giardia-and-waterborne-disease"},
       {level:4,       name: "giardia-cryptosporidium-and-waterborne-disease-2",
                       url: urlx + "/indoor-4/giardia-cryptosporidium-and-waterborne-disease-2"},
+      {level:4,       name: "the-care-and-feeding-of-your-well",
+                      url: urlx + "/indoor-4/the-care-and-feeding-of-your-well"},
       {level:4,       name: "biofouling-of-a-well",
                       url: urlx + "/indoor-4/biofouling-of-a-well"},
       {level:4,       name: "hot-water-heater-hydrogen-sulfide-odor",
