@@ -121,6 +121,7 @@ else {
             {level:5, name: "nConditions",                      value:"closed",  display:"none", state: "+"},
         {level:3,     name: "standards",                        value:"closed",  display:"none", state: "+"},
         {level:3,     name: "water-science-basics",             value:"closed",  display:"none", state: "+"},
+        {level:3,     name: "water-in-the-universe",            value:"closed",  display:"none", state: "+"},
         {level:3,     name: "drinking-water-topics",            value:"closed",  display:"none", state: "+"},
         {level:3,     name: "case-studies",                     value:"closed",  display:"none", state: "+"},
           {level:4,   name: "common-drinking-water-problems",   value:"closed",  display:"none", state: "+"},
@@ -184,8 +185,6 @@ for (var i = 0; i < buttonArrayLength ; i++) {
   //console.log("buttonArray[i].state " + buttonArray[i].state);
 
   buttonElement.innerHTML = buttonArray[i].state;
-
-
 
 
 }
@@ -418,6 +417,11 @@ var linkArray = [
       {level:4,       name: "inorganic-chemistry",                      url: urlx + "/indoor-4/inorganic-chemistry"},
       {level:4,       name: "organic-chemistry",                        url: urlx + "/indoor-4/organic-chemistry"},
       {level:4,       name: "biology",                                  url: urlx + "/indoor-4/biology"},
+
+    // Water In the Universe
+    {level:4,         name: "water-in-the-universe-intro",               url: urlx + "/indoor-3/water-in-the-universe"},
+      {level:4,       name: "part-1",                                  url: urlx + "/water-in-the-universe-part-1"},
+      {level:4,       name: "part-2",                                  url: urlx + "/water-in-the-universe-part-2"},
 
     // Glossary
     {level:3,       name: "glossary",           url: urlx + "/indoor-3/glossary"},
