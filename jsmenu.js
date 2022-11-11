@@ -419,9 +419,10 @@ var linkArray = [
       {level:4,       name: "biology",                                  url: urlx + "/indoor-4/biology"},
 
     // Water In the Universe
-    {level:4,         name: "water-in-the-universe-intro",               url: urlx + "/indoor-3/water-in-the-universe"},
-      {level:4,       name: "part-1",                                  url: urlx + "/indoor-4/water-in-the-universe-part-1"},
-      {level:4,       name: "part-2",                                  url: urlx + "/indoor-4/water-in-the-universe-part-2"},
+    {level:4,         name: "water-in-the-universe-intro",              url: urlx + "/indoor-3/water-in-the-universe"},
+      {level:4,       name: "part-1",                                   url: urlx + "/indoor-4/water-in-the-universe-part-1"},
+      {level:4,       name: "part-2",                                   url: urlx + "/indoor-4/water-in-the-universe-part-2"},
+      {level:4,       name: "part-3",                                   url: urlx + "/indoor-4/water-in-the-universe-part-3"},
 
     // Glossary
     {level:3,       name: "glossary",           url: urlx + "/indoor-3/glossary"},
