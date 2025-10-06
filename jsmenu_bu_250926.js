@@ -625,28 +625,18 @@ var linkArray = [
       {level:4,     name: "stormwater-best-management-practices",
                     url: urlx + "/outdoor-4/stormwater-best-management-practices"},
 
-    // Get Informed | Case Studies
-      {level:3,     name: "case-studies-out-intro",               url: urlx + "/outdoor-3/case-studies"},
-        {level:4,   name: "research-projects-and-consulting-projects-in-hydrogeology",
-                    url: urlx + "/outdoor-4/research-projects-and-consulting-projects-in-hydrogeology"},
-        {level:4,   name: "crescent-lake-watershed-assessment-project",
-                    url: urlx + "/outdoor-4/crescent-lake-watershed-assessment-project"},
-        {level:4,   name: "roamingwood-sewer-and-water-association",
-                    url: urlx + "/outdoor-4/roamingwood-sewer-and-water-association"},
-
     // Powerpoint
-    {level:3,       name: "powerpoint",                  
-                    url: urlx + "/outdoor-3/powerpoint"},
-                    
-
-                     // Get Informed | Guide to Soils
-    {level:3,       name: "guide-to-soils-the-life-giving-layers-beneath-our-feet",
-                    url: urlx + "/outdoor-3/guide-to-soils-the-life-giving-layers-beneath-our-feet"},
+    {level:3,       name: "powerpoint",                  url: urlx + "/outdoor-3/powerpoint"},
 
 
-    
-
-   
+    // Get Informed | Case Studies
+      {level:3,       name: "case-studies-out-intro",               url: urlx + "/outdoor-3/case-studies"},
+        {level:4,     name: "research-projects-and-consulting-projects-in-hydrogeology",
+                      url: urlx + "/outdoor-4/research-projects-and-consulting-projects-in-hydrogeology"},
+        {level:4,     name: "crescent-lake-watershed-assessment-project",
+                      url: urlx + "/outdoor-4/crescent-lake-watershed-assessment-project"},
+        {level:4,     name: "roamingwood-sewer-and-water-association",
+                      url: urlx + "/outdoor-4/roamingwood-sewer-and-water-association"},
 
     // Outdoor | Get Tools
       {level:3,         name: "get-tools-out-intro",                 url: urlx + "/outdoor-2/get-tools"},
@@ -657,12 +647,12 @@ var linkArray = [
                       url: urlx + "/outdoor-3/water-quality-index-calculator-for-surface-water-guide"},
         {level:4,     name: "citizen-science-global-surface-water-quality-database-map",
                       url: urlx + "/outdoor-3/citizen-science-global-surface-water-quality-database-map"},
+        {level:4,     name: "join-group-directory",
+                      url: urlx + "/outdoor/join-group-directory"},
         {level:4,     name: "unit-conversion-calculators",
                       url: urlx + "/outdoor-3/unit-conversion-calculators"},
         {level:4,     name: "conversion-factors-for-water-quality",
                       url: urlx + "/outdoor-3/conversion-factors-for-water-quality"},
-        {level:4,     name: "join-group-directory",
-                      url: urlx + "/outdoor-3/global-directory-of-citizen-scientist-teams-conservation-groups-and-watershed-organizations"},
 
     // Outdoor | Get Training
       {level:3,       name: "get-training-out-intro",                 url: urlx + "/outdoor-2/get-training"},
