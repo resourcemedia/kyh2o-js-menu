@@ -847,7 +847,7 @@ function expandMenu () {
 
         var parentDropdown4 = document.getElementById(parentDropdown3.id).parentElement;
         var parentDropdown4subString = parentDropdown4.id.substring(9);
-        var index = buttonArray.findIndex(x => x.name === parentDropdown3subString);
+        var index = buttonArray.findIndex(x => x.name === parentDropdown4subString);
         buttonArray[index].value = "open";
         buttonArray[index].display = "block";
         var parentDropdown4Div = document.getElementById(parentDropdown4.id);
@@ -882,7 +882,7 @@ function expandMenu () {
 
         var parentDropdown5 = document.getElementById(parentDropdown4.id).parentElement;
         var parentDropdown5subString = parentDropdown5.id.substring(9);
-        var index = buttonArray.findIndex(x => x.name === parentDropdown4subString);
+        var index = buttonArray.findIndex(x => x.name === parentDropdown5subString);
         buttonArray[index].value = "open";
         buttonArray[index].display = "block";
         var parentDropdown5Div = document.getElementById(parentDropdown5.id);
