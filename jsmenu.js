@@ -712,7 +712,7 @@ function expandMenu () {
 
 
       // This lets you know it found one
-      //console.log("Yes, Found One");
+      console.log("Yes, Found One");
 
       var linkElement = document.getElementById("link-" + linkArray[i].name);
 
