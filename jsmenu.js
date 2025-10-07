@@ -732,12 +732,12 @@ function expandMenu () {
 
         // This removes "dropdown-" to get the button id
         var parentDropdown1subString = parentDropdown1.id.substring(9);
-        //console.log("parentDropdown1subString " + parentDropdown1subString);
+        console.log("parentDropdown1subString " + parentDropdown1subString);
 
         // This searches the buttonArray to get the index
         var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
 
-        //console.log("Button Array Index " + index);
+        console.log("Button Array Index " + index);
 
 
         // This updates the record in the buttonArray
