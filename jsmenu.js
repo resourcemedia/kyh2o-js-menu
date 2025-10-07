@@ -699,245 +699,83 @@ var linkArray = [
 
 
 function expandMenu () {
-  var linkArrayLength1 = linkArray.length;
-  var pageURL = window.location.href;
+  // --- helpers ---
+  function normalizePath(u){
+    try{
+      var url = new URL(u, window.location.origin);
+      return url.pathname.replace(/\/+$/, ''); // strip trailing slash
+    }catch(e){
+      return (u || '').replace(window.location.origin, '').replace(/\/+$/, '');
+    }
+  }
 
+  function openNode(name){
+    // Open dropdown in DOM
+    var dd = document.getElementById('dropdown-' + name);
+    if (dd) dd.style.display = 'block';
 
+    // Mark bar state
+    var bar = document.getElementById('bar-' + name);
+    if (bar) bar.setAttribute('data-buttonValue', 'open');
 
-  // This for loop searches the buttonArray for a stored URL that matches the URL of the loaded page
-  for (var i = 0; i < linkArrayLength1; i++) {
+    // Update +/- icon
+    var icon = document.getElementById(name);
+    if (icon) icon.innerHTML = '–';
 
-    // The condition looks for a buttonArray page URL match
-    if (linkArray[i].url === pageURL) {
-
-
-      // This lets you know it found one
-      //console.log("Yes, Found One");
-
-      var linkElement = document.getElementById("link-" + linkArray[i].name);
-
-      linkElement.style.textDecoration = "underline";
-      linkElement.style.fontWeight = "bold";
-
-      var level = linkArray[i].level;
-
-
-
-
-      if (level >= 2) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
-
-        // This gets the Parent Bar element
-        var parentDropdown1 = document.getElementById(linkElement.id).parentElement;
-
-
-        // This removes "dropdown-" to get the button id
-        var parentDropdown1subString = parentDropdown1.id.substring(9);
-        //console.log("parentDropdown1subString " + parentDropdown1subString);
-
-        // This searches the buttonArray to get the index
-        var index = buttonArray.findIndex(x => x.name === parentDropdown1subString);
-
-        //console.log("Button Array Index " + index);
-
-
-        // This updates the record in the buttonArray
-        buttonArray[index].value = "open";
-        buttonArray[index].display = "block";
-
-        // This opens the parent dropdown div
-        var parentDropdown1Div = document.getElementById(parentDropdown1.id);
-        parentDropdown1Div.style.display = "block";
-
-        // Update data-buttonValue
-        //This gets the bar- Id of the element
-        var parentBar1Id = "bar-" + parentDropdown1subString;
-        // This gets the bar- element
-        var parentBar1Element = document.getElementById(parentBar1Id);
-        // This changes the data-buttonVlue
-        parentBar1Element.setAttribute('data-buttonValue', 'open');
-
-        // This updates the Button Icon
-        var parentIcon1Id = parentDropdown1subString;
-        var parentIcon1Element = document.getElementById(parentIcon1Id);
-
-        parentIcon1Element.innerHTML = "–";
-        buttonArray[index].state = "–";
-
-        console.log("✅ Success! Level 2 Works.");
-
-      } // End if
-
-
-      if (level >= 3) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
-
-
-        // This updates the data-ButtonValue of the child
-        var divBarElementChild = document.getElementById(parentDropdown1subString);
-        divBarElementChild.setAttribute('data-buttonValue', 'open');
-
-        // This gets the parent element Id
-        var parentDropdown2 = document.getElementById(parentDropdown1.id).parentElement;
-
-        // This removes "dropdown-" to get the button id
-        var parentDropdown2subString = parentDropdown2.id.substring(9);
-        var index = buttonArray.findIndex(x => x.name === parentDropdown2subString);
-
-        // This searches the buttonArray to get the index
-        buttonArray[index].value = "open";
-        buttonArray[index].display = "block";
-
-        // This opens the parent dropdown div
-        var parentDropdown2Div = document.getElementById(parentDropdown2.id);
-        parentDropdown2Div.style.display = "block";
-
-        // This gets the bar- Id of the element
-        var parentBar2Id = "bar-" + parentDropdown2subString;
-        // This gets the bar- element
-        var parentBar2Element = document.getElementById(parentBar2Id);
-        // This changes the data-buttonVlue
-        parentBar2Element.setAttribute('data-buttonValue', 'open');
-
-        // This updates the Button Icon
-        var parentIcon2Id = parentDropdown2subString;
-        var parentIcon2Element = document.getElementById(parentIcon2Id);
-
-        parentIcon2Element.innerHTML = "–";
-        buttonArray[index].state = "–";
-
-        console.log("✅ Success! Level 3 Works.");
-
-        
+    // Sync to buttonArray (guarded)
+    if (Array.isArray(window.buttonArray)) {
+      var idx = window.buttonArray.findIndex(function(x){ return x.name === name; });
+      if (idx >= 0) {
+        window.buttonArray[idx].value = 'open';
+        window.buttonArray[idx].display = 'block';
+        window.buttonArray[idx].state  = '–';
+        try {
+          sessionStorage.setItem('state','changed');
+          sessionStorage.setItem('buttonArray', JSON.stringify(window.buttonArray));
+        } catch(e){}
       }
+    }
+  }
 
+  // --- main ---
+  var currentPath = normalizePath(window.location.href);
 
-      if (level >= 4) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
+  // If you have a specific sidebar wrapper, prefer it here (e.g., '#left-menu')
+  var sidebarRoot = document.querySelector('.sidebar') || document;
 
-        // 1 This updates the data-ButtonValue of the child
-        var divBarElementChild = document.getElementById(parentDropdown2subString);
-        divBarElementChild.setAttribute('data-buttonValue', 'open');
+  // 1) Find the actual link by href (absolute or relative)
+  var links = sidebarRoot.querySelectorAll('a[href]');
+  var currentLink = null;
+  for (var i=0; i<links.length; i++){
+    var hrefAttr = links[i].getAttribute('href') || '';
+    var hrefPath = normalizePath(hrefAttr);
+    if (hrefPath && hrefPath === currentPath){
+      currentLink = links[i];
+      break;
+    }
+  }
 
-        var parentDropdown3 = document.getElementById(parentDropdown2.id).parentElement;
-        var parentDropdown3subString = parentDropdown3.id.substring(9);
-        var index = buttonArray.findIndex(x => x.name === parentDropdown3subString);
-        buttonArray[index].value = "open";
-        buttonArray[index].display = "block";
-        var parentDropdown3Div = document.getElementById(parentDropdown3.id);
-        parentDropdown3Div.style.display = "block";
+  // 2) If not found, bail gracefully (no crashes)
+  if (!currentLink) {
+    // console.debug('expandMenu: link not found for', currentPath);
+    return;
+  }
 
-        console.log("✅ Success! Level 4.1 Works.");
+  // 3) Mark current link (optional)
+  try {
+    currentLink.style.textDecoration = 'underline';
+    currentLink.style.fontWeight = 'bold';
+    currentLink.classList && currentLink.classList.add('is-current');
+  } catch(e){}
 
-        // 2 This opens the parent dropdown div
-        var parentDropdown3Div = document.getElementById(parentDropdown3.id);
-        parentDropdown3Div.style.display = "block";
-
-        console.log("✅ Success! Level 4.2 Works.");
-
-        // 3 This gets the bar- Id of the element
-        var parentBar3Id = "bar-" + parentDropdown3subString;
-
-        console.log("✅ Success! Level 4.3 Works.");
-
-        // 4 This gets the bar- element
-        var parentBar3Element = document.getElementById(parentBar3Id);
-
-        console.log("✅ Success! Level 4.4 Works.");
-
-        // 5 This changes the data-buttonVlue
-        parentBar3Element.setAttribute('data-buttonValue', 'open');
-
-        console.log("✅ Success! Level 4.5 Works.");
-
-        // 6 This updates the Button Icon
-        var parentIcon3Id = parentDropdown3subString;
-        var parentIcon3Element = document.getElementById(parentIcon3Id);
-
-        parentIcon3Element.innerHTML = "–";
-        buttonArray[index].state = "–";
-
-        console.log("✅ Success! Level 4.6 Works.");
-
-        console.log("✅ Success! Level 4 Works.");
-
-      }
-
-
-      if (level >= 5) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
-
-
-        // 1 This updates the data-ButtonValue of the child
-        var divBarElementChild = document.getElementById(parentDropdown3subString);
-        divBarElementChild.setAttribute('data-buttonValue', 'open');
-
-        var parentDropdown4 = document.getElementById(parentDropdown3.id).parentElement;
-        var parentDropdown4subString = parentDropdown4.id.substring(9);
-        var index = buttonArray.findIndex(x => x.name === parentDropdown4subString);
-        buttonArray[index].value = "open";
-        buttonArray[index].display = "block";
-        var parentDropdown4Div = document.getElementById(parentDropdown4.id);
-        parentDropdown4Div.style.display = "block";
-
-        // 2 This opens the parent dropdown div
-        var parentDropdown4Div = document.getElementById(parentDropdown4.id);
-        parentDropdown4Div.style.display = "block";
-
-        // 3 This gets the bar- Id of the element
-        var parentBar4Id = "bar-" + parentDropdown4subString;
-
-        // 4 This gets the bar- element
-        var parentBar4Element = document.getElementById(parentBar4Id);
-
-        // 5 This changes the data-buttonVlue
-        parentBar4Element.setAttribute('data-buttonValue', 'open');
-
-
-        // 6 This updates the Button Icon
-        var parentIcon4Id = parentDropdown4subString;
-        var parentIcon4Element = document.getElementById(parentIcon4Id);
-
-        parentIcon4Element.innerHTML = "–";
-        buttonArray[index].state = "–";
-
-        console.log("✅ Success! Level 5 Works.");
-
-      }
-
-
-      if (level >= 6) { // - - - - - - - - - - - - -  - - - - - - - - - - - - -
-
-
-        // 1 This updates the data-ButtonValue of the child
-        var divBarElementChild = document.getElementById(parentDropdown4subString);
-        divBarElementChild.setAttribute('data-buttonValue', 'open');
-
-        var parentDropdown5 = document.getElementById(parentDropdown4.id).parentElement;
-        var parentDropdown5subString = parentDropdown5.id.substring(9);
-        var index = buttonArray.findIndex(x => x.name === parentDropdown5subString);
-        buttonArray[index].value = "open";
-        buttonArray[index].display = "block";
-        var parentDropdown5Div = document.getElementById(parentDropdown5.id);
-        parentDropdown5Div.style.display = "block";
-
-        // 2 This opens the parent dropdown div
-        var parentDropdown5Div = document.getElementById(parentDropdown5.id);
-        parentDropdown5Div.style.display = "block";
-
-        // 3 This gets the bar- Id of the element
-        var parentBar5Id = "bar-" + parentDropdown5subString;
-        // 4 This gets the bar- element
-        var parentBar5Element = document.getElementById(parentBar5Id);
-        // 5 This changes the data-buttonVlue
-        parentBar5Element.setAttribute('data-buttonValue', 'open');
-
-        // 6 This updates the Button Icon
-        var parentIcon5Id = parentDropdown5subString;
-        var parentIcon5Element = document.getElementById(parentIcon5Id);
-
-        parentIcon5Element.innerHTML = "–";
-        buttonArray[index].state = "–";
-
-        console.log("✅ Success! Level 6 Works.");
-
-      }
+  // 4) Open all ancestor dropdown-* containers (inner → outer)
+  var dd = currentLink.closest('[id^="dropdown-"]');
+  while (dd){
+    var name = dd.id.slice('dropdown-'.length);
+    if (name) openNode(name);
+    dd = dd.parentElement ? dd.parentElement.closest('[id^="dropdown-"]') : null;
+  }
+}
 
 /*
 
