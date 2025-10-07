@@ -824,16 +824,28 @@ function expandMenu () {
         var parentDropdown3Div = document.getElementById(parentDropdown3.id);
         parentDropdown3Div.style.display = "block";
 
+        console.log("✅ Success! Level 4.1 Works.");
+
         // 2 This opens the parent dropdown div
         var parentDropdown3Div = document.getElementById(parentDropdown3.id);
         parentDropdown3Div.style.display = "block";
 
+        console.log("✅ Success! Level 4.2 Works.");
+
         // 3 This gets the bar- Id of the element
         var parentBar3Id = "bar-" + parentDropdown3subString;
+
+        console.log("✅ Success! Level 4.3 Works.");
+
         // 4 This gets the bar- element
         var parentBar3Element = document.getElementById(parentBar3Id);
+
+        console.log("✅ Success! Level 4.4 Works.");
+
         // 5 This changes the data-buttonVlue
         parentBar3Element.setAttribute('data-buttonValue', 'open');
+
+        console.log("✅ Success! Level 4.5 Works.");
 
         // 6 This updates the Button Icon
         var parentIcon3Id = parentDropdown3subString;
@@ -841,6 +853,8 @@ function expandMenu () {
 
         parentIcon3Element.innerHTML = "–";
         buttonArray[index].state = "–";
+
+        console.log("✅ Success! Level 4.6 Works.");
 
         console.log("✅ Success! Level 4 Works.");
 
@@ -862,28 +876,19 @@ function expandMenu () {
         var parentDropdown4Div = document.getElementById(parentDropdown4.id);
         parentDropdown4Div.style.display = "block";
 
-        console.log("✅ Success! Level 5 - 1 Works");
-
         // 2 This opens the parent dropdown div
         var parentDropdown4Div = document.getElementById(parentDropdown4.id);
         parentDropdown4Div.style.display = "block";
 
-        console.log("✅ Success! Level 5 - 2 Works");
-
         // 3 This gets the bar- Id of the element
         var parentBar4Id = "bar-" + parentDropdown4subString;
-
-        console.log("✅ Success! Level 5 - 3 Works");
 
         // 4 This gets the bar- element
         var parentBar4Element = document.getElementById(parentBar4Id);
 
-        console.log("✅ Success! Level 5 - 4 Works");
-
         // 5 This changes the data-buttonVlue
         parentBar4Element.setAttribute('data-buttonValue', 'open');
 
-         console.log("✅ Success! Level 5 - 5 Works");
 
         // 6 This updates the Button Icon
         var parentIcon4Id = parentDropdown4subString;
@@ -891,8 +896,6 @@ function expandMenu () {
 
         parentIcon4Element.innerHTML = "–";
         buttonArray[index].state = "–";
-
-         console.log("✅ Success! Level 5 - 6 Works");
 
         console.log("✅ Success! Level 5 Works.");
 
