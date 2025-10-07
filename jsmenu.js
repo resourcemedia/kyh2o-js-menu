@@ -812,7 +812,7 @@ function expandMenu () {
 
         var parentDropdown3 = document.getElementById(parentDropdown2.id).parentElement;
         var parentDropdown3subString = parentDropdown3.id.substring(9);
-        var index = buttonArray.findIndex(x => x.name === parentDropdown4subString);
+        var index = buttonArray.findIndex(x => x.name === parentDropdown3subString);
         buttonArray[index].value = "open";
         buttonArray[index].display = "block";
         var parentDropdown3Div = document.getElementById(parentDropdown3.id);
